@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Notebook / test / cache
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Local outputs and large artifacts (excluded by request)
+abm_output/
+input_data/
+papers/
+experiments/FINAL_REPORT.md
+experiments/figures/
+experiments/output/*.json
+
+# Optional local logs and env
+*.log
+.env
