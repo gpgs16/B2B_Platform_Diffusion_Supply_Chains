@@ -1,0 +1,121 @@
+relation_id,source_firm_id,target_firm_id,source_tier,product_name,is_conglomerate_supplier
+372,7673924,4057150,3,CNC machined part,False
+373,4630785,1089535,3,Sheet metal part,False
+374,1412791,7804897,1,Seat,False
+375,9851267,7804897,1,Weatherstrip,False
+376,9129673,4057150,3,Injection molded automotive part,False
+377,8572768,9419981,3,Functional housing,False
+378,1089535,7904754,2,Injection molded automotive part,False
+379,4395918,7904754,2,Window regulator guide rail,False
+380,1743724,2181661,2,Bush,False
+381,2298159,7904754,2,Window regulator,False
+382,6437888,7904754,2,Column switch,False
+383,7845246,4057150,3,Cold forged part,False
+384,4752985,7804897,1,Sheet metal part,False
+385,2248367,7804897,1,Alternator,False
+386,3884841,7804897,1,Relay,False
+387,1865972,1089535,3,Injection molded automotive part,False
+388,6717460,7804897,1,Automatic transmission,True
+389,2673926,7804897,1,Modified polypropylene compound,False
+390,6082223,8201086,2,Brake pad,False
+391,1867445,7904754,2,Intelligent cockpit part,False
+392,5824891,7904754,2,Paint coating,False
+393,7713840,4057150,3,CNC machined part,False
+394,6279934,7804897,1,Bearing,False
+395,3125199,7804897,1,Engine ECU,True
+396,8194129,1089535,3,Die casting mold,False
+397,8303616,4057150,3,Injection molded automotive part,False
+398,1033332,9419981,3,Various actuators,False
+399,9928540,4057150,3,Sheet metal part,False
+400,3600578,4057150,3,Cold forged part,False
+401,6428880,4057150,3,Control cable,False
+402,6435152,9419981,3,Air cleaner element,False
+403,1742953,7904754,2,Door sealing profile,False
+404,5466436,4057150,3,Spring,False
+405,5817882,1089535,3,Cold forged part,False
+406,4057150,7904754,2,Control cable,False
+407,7458675,7804897,1,Brake master cylinder,False
+408,9576531,7904754,2,Sheet metal part,False
+409,8714789,7904754,2,Shock absorber,False
+410,9262877,7804897,1,CNC machined part,False
+411,7161094,1089535,3,Aluminum die cast part,False
+412,8296640,7804897,1,Shock absorber,True
+413,5758799,7904754,2,Bumper fascia,False
+414,1386123,9499232,2,Various instrument switches,False
+415,1771651,7904754,2,Weatherstrip,False
+416,2720604,7804897,1,Wiper motor,False
+417,7047282,7804897,1,Air cleaner element,False
+418,6971035,7804897,1,Headlamp,False
+419,1736500,7904754,2,Door lock parts,False
+420,7904754,7804897,1,Door trim,True
+421,8812321,1089535,3,Shaft,False
+422,4516550,7804897,1,Starter motor,False
+423,9499232,7804897,1,Column switch,False
+424,1866227,7804897,1,Coil spring,False
+425,7145265,7904754,2,Breather vent,False
+426,5739050,7804897,1,Brake disc,False
+427,4292120,7804897,1,Headlamp,False
+428,8822418,2181661,2,Suspension system,False
+429,8201086,7804897,1,Home decoration material,False
+430,9414361,7804897,1,Starter motor,True
+431,4497993,4057150,3,Wire harness,False
+432,5284708,7804897,1,Exhaust manifold,False
+433,2181661,7804897,1,Electric power steering (EPS),False
+434,9419981,7904754,2,Solenoid / Solenoid valve,False
+435,5231724,7804897,1,Car audio,False
+436,3762586,7804897,1,Weatherstrip,False
+437,3339259,9419981,3,Injection molded automotive part,False
+438,7634151,9419981,3,Various casting,False
+439,2843912,4057150,3,Headlamp,False
+440,7318816,4497993,4,Grommet,False
+441,1346523,7904754,2,Interior trim,False
+442,7967790,9419981,3,Wire harness,False
+443,9533693,9419981,3,Sheet metal part,False
+444,2183732,9419981,3,Steering shaft,False
+445,9937835,1089535,3,Bolt / Nut,False
+446,2499988,9419981,3,Moulded rubber part,False
+447,4511941,4057150,3,Bellows,False
+448,8338248,7904754,2,Wiper,False
+449,6924555,4057150,3,Aluminum die cast part,False
+450,4402921,7904754,2,Injection molded automotive part,False
+451,5594728,7904754,2,Injection molded automotive part,False
+452,2061605,7804897,1,Door frame,True
+453,1675786,4057150,3,Injection molded automotive part,False
+454,8199224,9419981,3,Spring,False
+455,5569321,9576531,3,Engine mount bracket,False
+456,8023133,7904754,2,Carbon brush,False
+457,5794464,7804897,1,Timing belt,False
+458,8729443,7804897,1,Electric power steering (EPS),True
+459,6713501,4057150,3,Spring,False
+460,7325914,7804897,1,Catalytic converter,True
+461,3971844,7804897,1,Column switch,False
+462,8921498,1089535,3,Sheet metal part,False
+463,3047389,7804897,1,Body reinforcement parts,True
+464,6464987,9419981,3,Electric connector,False
+465,2977941,7904754,2,Sheet metal part,False
+466,7430236,7904754,2,Fuel line,False
+467,8164849,9499232,2,Fastener,False
+468,5637436,4057150,3,Injection molded automotive part,False
+469,7917549,7804897,1,Shock absorber,False
+470,8638551,4057150,3,Spring,False
+471,9589865,1089535,3,CNC machined part,False
+472,5839446,7804897,1,Radiator,False
+473,5171379,4057150,3,Bellows,False
+474,7151505,7904754,2,Wire harness,False
+475,1412297,7904754,2,Seat control module,False
+476,9372387,4057150,3,Moulded rubber part,False
+477,3303395,9419981,3,Various plastic molding,False
+478,1889586,7904754,2,Door trim,False
+479,7794623,7904754,2,Interior trim,False
+480,6375629,7804897,1,Wire harness,True
+481,9002574,7904754,2,Zinc die cast part,False
+482,3861318,7904754,2,Window regulator,False
+483,6986790,7904754,2,Window regulator,False
+484,5284386,7904754,2,Window glass,False
+485,3964916,9499232,2,Column switch,False
+486,9396182,7804897,1,Halfshaft,False
+487,4499675,7904754,2,Automotive grease,False
+488,1079260,7804897,1,Universal joint,False
+489,8104289,7904754,2,Interior trim,False
+490,1477130,7804897,1,Seat,False
+491,5576699,9419981,3,Injection molded automotive part,False

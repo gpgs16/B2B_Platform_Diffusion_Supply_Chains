@@ -34,14 +34,13 @@ Adoption economics are mainly controlled through `ExperimentConfig` in `abm_plat
 - `experiments/`: experiment runners and analysis scripts
 - `lib/`: bundled frontend JS libs used by dashboard/network rendering
 
-Ignored by design in this repository:
+Large raw-data and output folders are still excluded by design:
 
-- `input_data/`
 - `abm_output/`
 - `papers/`
 - `experiments/FINAL_REPORT.md`
 
-These are intentionally excluded for repository cleanliness and data/output size control.
+The sanitized dataset bundle is included under `input_data/synthetic_data/`.
 
 ## Requirements
 
@@ -56,7 +55,7 @@ Python version:
 1. Clone repository
 2. Create and activate a virtual environment
 3. Install dependencies
-4. Ensure input datasets are present in `input_data/` (not tracked by git)
+4. Use the synthetic bundle in `input_data/synthetic_data/`
 
 Example:
 
@@ -67,157 +66,33 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-## Required Local Data (Not Tracked)
+## Synthetic Data
 
-Place all required data files under `input_data/`.
+The repository now ships with a sanitized bundle under `input_data/synthetic_data/`.
 
-Required files and folders:
+The loader uses that folder automatically when it exists, so you do not need the original source data to run the model or experiments.
 
-- `input_data/china_product_costs.csv`
-- `input_data/Products_limited.csv`
-- `input_data/automotive_cost_framework.xlsx`
-- `input_data/bom_2000682.json`
-- `input_data/bom_2000766.json`
-- `input_data/bom_2000621.json`
-- `input_data/bom_2000772.json`
-- `input_data/oem_subgraphs/oem_2000682_firms.csv`
-- `input_data/oem_subgraphs/oem_2000766_firms.csv`
-- `input_data/oem_subgraphs/oem_2000621_firms.csv`
-- `input_data/oem_subgraphs/oem_2000772_firms.csv`
-- `input_data/oem_subgraphs/oem_2000682_relations.csv`
-- `input_data/oem_subgraphs/oem_2000766_relations.csv`
-- `input_data/oem_subgraphs/oem_2000621_relations.csv`
-- `input_data/oem_subgraphs/oem_2000772_relations.csv`
+Included files:
 
-### Data Format Specification
+- `input_data/synthetic_data/china_product_costs.csv`
+- `input_data/synthetic_data/Products_limited.csv`
+- `input_data/synthetic_data/automotive_cost_framework.xlsx`
+- `input_data/synthetic_data/bom_alpha.json`
+- `input_data/synthetic_data/bom_beta.json`
+- `input_data/synthetic_data/bom_gamma.json`
+- `input_data/synthetic_data/bom_delta.json`
+- `input_data/synthetic_data/oem_subgraphs/oem_alpha_firms.csv`
+- `input_data/synthetic_data/oem_subgraphs/oem_beta_firms.csv`
+- `input_data/synthetic_data/oem_subgraphs/oem_gamma_firms.csv`
+- `input_data/synthetic_data/oem_subgraphs/oem_delta_firms.csv`
+- `input_data/synthetic_data/oem_subgraphs/oem_alpha_relations.csv`
+- `input_data/synthetic_data/oem_subgraphs/oem_beta_relations.csv`
+- `input_data/synthetic_data/oem_subgraphs/oem_gamma_relations.csv`
+- `input_data/synthetic_data/oem_subgraphs/oem_delta_relations.csv`
 
-This section defines the minimum structure expected by `abm_platform/data/loader.py`.
+The bundle is anonymized and trimmed to the columns the current code uses.
 
-#### 1) OEM firm files
-
-File pattern:
-
-- `input_data/oem_subgraphs/oem_<OEM_ID>_firms.csv`
-
-Required columns:
-
-- `firm_id` (int)
-- `firm_name` (str)
-- `nation_name` (str)
-- `latitude` (float)
-- `longitude` (float)
-- `is_oem` (`true`/`false`)
-- `tier_depth` (int)
-- `is_top_supplier` (`true`/`false`)
-- `Certifications` (comma-separated text; e.g., `ISO9001, IATF16949`)
-- `product_catalog_common` (semicolon-separated product names)
-- `group_name` (str)
-
-Notes:
-
-- Duplicate `firm_id` rows across OEM files are ignored after first load.
-- If country/geo is missing for OEM IDs 2000682/2000766/2000621/2000772, defaults are auto-filled.
-
-#### 2) OEM relation files
-
-File pattern:
-
-- `input_data/oem_subgraphs/oem_<OEM_ID>_relations.csv`
-
-Required columns:
-
-- `relation_id` (int)
-- `source_firm_id` (int)
-- `target_firm_id` (int)
-- `source_tier` (int; defaults to 1 if blank)
-- `product_name` (semicolon-separated product names)
-- `is_conglomerate_supplier` (`true`/`false`)
-
-Notes:
-
-- Duplicate `relation_id` rows across files are ignored after first load.
-
-#### 3) BOM files
-
-File pattern:
-
-- `input_data/bom_<OEM_ID>.json`
-
-Top-level structure:
-
-- JSON object with key `bill_of_materials` (array)
-
-Each node in the recursive tree should include:
-
-- `supplier`: object with `firm_id` (int)
-- `product` (str; semicolon-separated values also allowed)
-- `quantity_per_vehicle` (number; optional, defaults to 1.0)
-- `unit` (str; optional, defaults to `piece`)
-- `tier` (int; optional, defaults to 1)
-- `inputs` (array of child nodes; optional)
-
-Minimal example:
-
-```json
-{
-	"bill_of_materials": [
-		{
-			"supplier": {"firm_id": 12345},
-			"product": "Battery Pack",
-			"quantity_per_vehicle": 1,
-			"unit": "piece",
-			"tier": 1,
-			"inputs": []
-		}
-	]
-}
-```
-
-#### 4) China product cost table
-
-File:
-
-- `input_data/china_product_costs.csv`
-
-Required columns:
-
-- `product_name` (str)
-- `cost_low` (float)
-- `cost_high` (float)
-
-Optional columns:
-
-- `min_order_quantity` (int; defaults to 1)
-- `unit` (str; defaults to `piece`)
-
-Behavior:
-
-- If multiple rows exist for the same `product_name`, loader uses median values.
-
-#### 5) Product taxonomy file
-
-File:
-
-- `input_data/Products_limited.csv`
-
-Required columns:
-
-- `product_name` (str)
-- `product_id` (int)
-
-Optional columns:
-
-- `family_name` (str)
-- `group_name` (str)
-- `is_process` (`true`/`false`; defaults to `false`)
-
-#### 6) Automotive cost framework workbook
-
-File:
-
-- `input_data/automotive_cost_framework.xlsx`
-
-Required sheets and layout:
+## Workbook Layout
 
 - Sheet `6. Full Cost Results`
 	- Read with `header=None`
@@ -301,7 +176,7 @@ python experiments/analyze_final.py
 
 ## Common Troubleshooting
 
-- Missing files: verify `input_data/` exists and contains expected CSV/JSON/XLSX files.
+- Missing files: verify `input_data/synthetic_data/` exists and contains the sanitized CSV/JSON/XLSX files.
 - Excel read errors: ensure `openpyxl` is installed.
 - Streamlit import issues: install from `requirements.txt` in the active environment.
 

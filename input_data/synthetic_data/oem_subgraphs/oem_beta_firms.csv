@@ -1,0 +1,123 @@
+firm_id,firm_name,nation_name,latitude,longitude,is_top_supplier,is_oem,tier_depth,product_catalog_common,Certifications
+1190478,Firm_0038,China,25.894989,119.37905,False,False,1,Seat; Roof trim; Interior trim,"IATF16949 (Formerly ISO/TS16949), ISO14001, QS9000"
+5284386,Firm_0322,Germany,49.15241,9.134118,False,False,2,Window glass,IATF16949 (Formerly ISO/TS16949)
+7430236,Firm_0325,Germany,48.039627,10.627961,False,False,2,Fuel piping system; Transmission oil line; Fuel line,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+8104289,Firm_0368,China,43.808754,125.2267,False,False,2,Interior trim; Exterior decorative parts; Outside handle; Various lamps,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+6616323,Firm_0188,China,22.771122,113.74721,False,False,2,Body reinforcement parts; Battery structural part,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+9002574,Firm_0383,Spain,41.311123,1.2694323,False,False,2,Zinc die cast part,IATF16949 (Formerly ISO/TS16949)
+9770063,Firm_0142,China,22.04511,113.37464,False,False,1,Dry clutch; Dual mass flywheel; Torque damper; Wet clutch,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001, QS9000, VDA6.1"
+9050460,Firm_0014,Germany,50.250587,10.967141,True,False,1,Door lock; Door drive; Liftgate drive; Seat frame; Various motors,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+9372387,Firm_0320,India,28.447502,76.99609,False,False,3,Hose; Wire harness; Moulded rubber part,
+7713840,Firm_0299,India,18.520508,73.856766,False,False,3,CNC machined part; Joint; Sheet metal part,ISO9001
+9419981,Firm_0013,India,11.127123,78.65689,False,False,2,Various sensors; Various instrument switches; Solenoid / Solenoid valve; Wire harness,"IATF16949 (Formerly ISO/TS16949), ISO9001, VDA6.1"
+9589865,Firm_0281,India,28.097479,76.58928,False,False,3,CNC machined part,ISO9001
+9576531,Firm_0020,India,28.641012,77.248184,False,False,2,Sheet metal part; Die casting mold,"IATF16949 (Formerly ISO/TS16949), QS9000, VDA6.1"
+6464987,Firm_0310,India,18.596117,73.72307,False,False,3,Joint; Bolt / Nut; Electric connector; Fastener,ISO9001
+2477986,Firm_0086,China,31.170572,121.565254,False,False,1,Automotive AC pipe; AC hose; Valve; Pipe,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+6713501,Firm_0256,India,28.374952,77.30203,False,False,3,Spring,IATF16949 (Formerly ISO/TS16949)
+4395918,Firm_0108,China,30.05542,121.595245,False,False,2,Window regulator guide rail; Sunroof reinforcement part; Sheet metal part,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9002, QS9000"
+8812321,Firm_0234,India,28.891554,76.54496,False,False,3,Stud; Bolt / Nut; Shaft,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+5569321,Firm_0227,India,28.43369,77.002205,False,False,3,Various motors; Engine mount bracket,ISO9001
+1837896,Firm_0066,China,32.04098,118.80538,True,False,2,Brake pad; Brake shoe; Brake disc; Shock absorber; Cylinder block,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+3303395,Firm_0398,India,13.002302,80.01397,False,False,3,Interior trim; Various plastic molding,IATF16949 (Formerly ISO/TS16949)
+3728083,Firm_0220,China,27.676134,120.67689,False,False,1,Window regulator; Central locking controller; Various sensors,
+7794623,Firm_0285,China,31.689425,121.10111,False,False,2,Interior trim,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+1675786,Firm_0312,India,13.024144,77.520454,False,False,3,Injection molded automotive part,IATF16949 (Formerly ISO/TS16949)
+9860599,Firm_0011,China,30.112844,120.21583,True,False,1,ABS; Electronic Stability Control (ESC) system; Electric brake (Brake-by-wire); Brake caliper; Brake disc,"IATF16949 (Formerly ISO/TS16949), ISO14001, QS9000, VDA6.1"
+7151505,Firm_0278,Japan,35.653263,139.75522,False,False,2,Various Electrical / Electronic parts; Wire harness,
+5466436,Firm_0283,India,18.634209,73.82657,False,False,3,Spring; Injection molded automotive part,ISO9001
+7161094,Firm_0289,India,29.962627,78.06046,False,False,3,Aluminum die cast part,"ISO14001, ISO9001"
+6435152,Firm_0237,India,28.759052,77.15079,False,False,3,Air cleaner element; Fuel filter; Oil filter,IATF16949 (Formerly ISO/TS16949)
+4077765,Firm_0358,China,34.20166,108.86716,False,False,2,Fuse / Circuit braker; Relay; BDU (Battery Disconnect Unit),"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+2889324,Firm_0186,China,23.17337,113.63905,False,False,2,Various brake parts; Shift fork,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+2843912,Firm_0386,India,19.287283,73.113365,False,False,3,Headlamp; Turn signal lamp; Various lamps,IATF16949 (Formerly ISO/TS16949)
+6428880,Firm_0230,India,28.585802,77.053696,False,False,3,Control cable; Pipe; Shaft,ISO9001
+9099749,Firm_0069,China,31.08502,121.38291,False,False,1,Shock absorber,IATF16949 (Formerly ISO/TS16949)
+8194129,Firm_0276,India,28.436495,76.99825,False,False,3,Die casting mold; Sheet metal part; Injection molded automotive part,ISO9001
+4511941,Firm_0235,India,19.411617,72.85817,False,False,3,Bellows; Rubber-to-metal bonded part; Gasket; O-ring; Seal; Grommet,ISO9001
+9560368,Firm_0045,China,29.03552,111.66989,False,False,2,Brake pad; Brake lining,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001, ISO9002"
+4898026,Firm_0314,China,36.22768,117.43878,False,False,1,Autonomous logistics vehicle; Smart new energy vehicle,
+7318816,Firm_0298,India,12.997668,80.0972,False,False,4,Vibration / Acoustic insulator; Gasket; Grommet; Rubber-to-metal bonded part; O-ring; Seal,
+3171789,Firm_0163,China,29.810535,120.88834,False,False,2,Brake booster; Electric Parking Brake (EPB),"IATF16949 (Formerly ISO/TS16949), ISO14001"
+1736500,Firm_0395,India,13.246884,77.55364,False,False,2,Fuel injector; Door lock parts; Various sensors,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+9937835,Firm_0260,India,28.966833,76.53375,False,False,3,Bolt / Nut,IATF16949 (Formerly ISO/TS16949)
+5486603,Firm_0338,China,31.20625,121.31499,False,False,1,Intelligent cockpit operating system; AI smart cockpit system,
+6647368,Firm_0330,China,24.330217,102.53713,False,False,2,Lithium-ion battery separator; Lithium-ion battery aluminum-plastic film,"ISO14001, ISO9001"
+7634151,Firm_0229,India,13.016163,80.190544,False,False,3,Flywheel; Various casting,ISO9001
+5001093,Firm_0181,China,30.03013,121.33355,False,False,2,Brake master cylinder; Brake wheel cylinder; Clutch assembly,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+6547289,Firm_0192,China,30.793966,121.253545,False,False,2,Battery cooling water plate; ABS; Aluminum extrusion part,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+1771651,Firm_0048,India,28.363245,76.91389,False,False,2,Hose; O-ring; Gasket; Rubber-to-metal bonded part; Weatherstrip,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+2499988,Firm_0274,India,13.060386,80.24951,False,False,3,Moulded rubber part; Rubber-to-metal bonded part; Bellows,ISO9001
+1110905,Firm_0318,China,31.618635,120.391266,False,False,2,New energy vehicle cable; Wire harness,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+7904754,Firm_0131,USA,42.544918,-83.16842,True,False,1,Instrument panel; Door trim; Door lock; Window regulator; Various actuators; Various motors,
+2263837,Firm_0105,China,30.03003,121.33426,False,False,2,Clutch slave cylinder; Clutch master cylinder / pump,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+8714789,Firm_0064,Korea,35.29831,129.13062,True,False,2,EV motor; Chassis / Frame; Shock absorber,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001, QS9000"
+7673924,Firm_0222,India,12.946116,77.59518,False,False,3,Brake master cylinder; CNC machined part,IATF16949 (Formerly ISO/TS16949)
+8023133,Firm_0195,India,13.1143167,80.1480551,False,False,2,Carbon brush; Brush card assembly; Seal,IATF16949 (Formerly ISO/TS16949)
+4717039,Firm_0356,China,27.805504,120.72572,False,False,1,Cooling fan module; Heater motor assembly,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+1089535,Firm_0060,India,28.524578,77.2089,False,False,2,Air cleaner; Injection molded automotive part; Aluminum die cast part,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+6274822,Firm_0218,China,23.21164,113.1247,False,False,1,Die casting mold; Fastener,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+5594728,Firm_0385,India,18.63767,73.83082,False,False,2,Injection molded automotive part; Sheet metal part; Die casting mold,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+3861318,Firm_0136,India,13.258393,77.55908,False,False,2,Various Electrical / Electronic parts; Window regulator; Door lock; Wire harness; Various motors,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+5272868,Firm_0087,China,31.34314,121.2975,False,False,1,Cooling fan module; Electronic water pump,
+4402921,Firm_0323,Germany,48.504383,9.219447,False,False,2,Injection molded automotive part,ISO9001
+4497993,Firm_0284,India,12.893138,80.084854,False,False,3,Wire harness; ACG assembly,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+5817882,Firm_0300,India,28.34694,77.268394,False,False,3,Cold forged part; Fastener,
+9495793,Firm_0217,China,30.14294,120.19233,False,False,2,Bearing,IATF16949 (Formerly ISO/TS16949)
+9308616,Firm_0216,China,28.228209,112.93881,False,False,2,Brake pad; Brake shoe,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+9198666,Firm_0267,China,43.80488,125.264404,False,False,2,Air spring assembly; ECS controller; Electronic controlled shock absorber,ISO9001
+8466102,Firm_0352,China,31.129938,121.275475,False,False,1,Door trim; Fender / Wheelhouse panel parts; Interior trim,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+4139244,Firm_0221,China,31.41764,118.374405,False,False,1,Car navigation; Various Electrical / Electronic parts,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+9533693,Firm_0258,India,28.337141,77.32238,False,False,3,Sheet metal part,IATF16949 (Formerly ISO/TS16949)
+3247684,Firm_0335,China,22.73122,113.91601,False,False,1,Automotive interior LED component; Automotive exterior LED component,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+1865972,Firm_0271,India,28.377075,76.883,False,False,3,Various casting; Injection molded automotive part,
+6564991,Firm_0375,China,38.740112,117.55262,False,False,2,Lithium hexafluorophosphate; Lithium-ion battery electrolyte,
+5824891,Firm_0327,Germany,49.344555,7.032568,False,False,2,Paint coating; Injection molded automotive part,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+1742953,Firm_0173,Germany,52.013885,10.126287,False,False,2,Window sealing profile; Door sealing profile,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+9928540,Firm_0302,India,28.362558,76.909134,False,False,3,Sheet metal part; CNC machined part,IATF16949 (Formerly ISO/TS16949)
+5235577,Firm_0104,China,29.905302,121.78583,False,False,2,Die cast part; Injection molded automotive part; Die casting mold; CNC machined part,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+4265837,Firm_0099,China,31.112852,121.304146,False,False,1,Air conditioner compressor; Air conditioner condenser; Air conditioner evaporator; HVAC module; AC hose,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+4499675,Firm_0193,USA,41.765255,-88.222305,False,False,2,Automotive grease,
+1033332,Firm_0272,India,12.971235,80.08522,False,False,3,Die casting mold; Door lock parts; Various actuators,ISO9001
+3680366,Firm_0293,China,22.690691,114.33946,False,False,1,Automotive ECU,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+6924555,Firm_0047,India,27.865002,78.02712,False,False,3,Aluminum die cast part; Zinc die cast part; Die casting mold,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+1759224,Firm_0366,China,38.249516,114.9267,False,False,2,Artificial graphite anode material; Silicon-based anode material,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+4630785,Firm_0248,India,30.870146,75.87131,False,False,3,Chassis / Frame; Sheet metal part,ISO9001
+6802005,Firm_0168,China,29.94888,120.173485,False,False,2,Brake lining; Various brake parts,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+2291066,Firm_0265,China,31.794907,117.34451,False,False,2,Battery assembly production line,"ISO14001, ISO9001"
+4745301,Firm_0354,China,30.859667,121.56162,False,False,1,EPP bumper energy absorber; EPP seat foam part,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+9160086,Firm_0184,China,36.413466,115.728478,False,False,1,Tensioner pulley; Bearing; Clutch release bearing,ISO9001
+3600578,Firm_0319,India,28.462904,76.98213,False,False,3,Stud; Cold forged part; Fastener; Bolt / Nut,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+1889586,Firm_0246,China,39.07768,117.65557,False,False,2,Door trim; Outside handle; Instrument panel,IATF16949 (Formerly ISO/TS16949)
+2977941,Firm_0329,Mexico,20.62223,-100.43935,False,False,2,Sheet metal part,ISO14001
+8638551,Firm_0263,India,13.096548,77.38186,False,False,3,Spring; Sheet metal part; Shaft,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+9129673,Firm_0261,India,12.903817,77.62268,False,False,3,Injection molded automotive part; Filter product; Die casting mold,ISO9001
+9313782,Firm_0190,China,24.680716,118.2248,False,False,1,Spring,
+5171379,Firm_0129,India,28.4761986,77.0930715,False,False,3,Bellows; Bush; Rubber engine mount; Seal; Gasket,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+5576699,Firm_0255,India,13.019267,80.202965,False,False,3,Injection molded automotive part,ISO9001
+8303616,Firm_0290,India,18.51194,73.697845,False,False,3,Injection molded automotive part,ISO9001
+6342596,Firm_0201,China,22.780214,113.77506,False,False,2,Insulation film; Thermal insulation pad; Busbar; Battery cooling plate,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+5973258,Firm_0350,China,22.680536,114.07089,False,False,2,Anode materials / plates for lithium-ion battery,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+7967790,Firm_0381,India,12.87326,77.44569,False,False,3,Wire harness,
+3507835,Firm_0277,China,31.77387,117.36306,True,False,1,LFP battery cell; Lithium-ion battery cell; Lithium-ion battery / Lithium-ion battery pack; BMS (Battery Management System); Energy storage system,
+7845246,Firm_0303,India,30.871532,75.8689,False,False,3,Bolt / Nut; Stud; Fastener; Cold forged part,IATF16949 (Formerly ISO/TS16949)
+1346523,Firm_0159,China,31.18158,120.506096,False,False,2,Bearing; Interior trim; Injection molded automotive part; Seat adjustor,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+2298159,Firm_0050,China,32.16576,119.50103,False,False,2,Window regulator; Door lock parts,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+3161253,Firm_0093,China,23.404165,113.220215,False,False,2,Various Electrical / Electronic parts,"IATF16949 (Formerly ISO/TS16949), ISO9001, ISO9002"
+3756916,Firm_0380,China,30.331476,120.11989,False,False,2,Lithium-ion battery electrolyte; Solid-state electrolyte,
+8338248,Firm_0016,Spain,41.517883,1.896882,True,False,2,Wiper; Washer pump; Washer tank; Various motors,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+3339259,Firm_0231,India,18.638918,74.0174,False,False,3,Injection molded automotive part,
+6437888,Firm_0384,Mexico,25.88542,-97.57428,False,False,2,Column switch; Seat control module; Steering wheel switch,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+7145265,Firm_0125,China,31.26216,121.4911,False,False,2,Breather vent; Sensor filter,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+1412297,Firm_0382,Spain,41.386623,2.006978,False,False,2,Column switch; Seat control module; Steering wheel switch,
+5637436,Firm_0297,India,12.843009,77.68322,False,False,3,Injection molded automotive part,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+8199224,Firm_0137,India,13.105462,80.17012,False,False,3,Spring,IATF16949 (Formerly ISO/TS16949)
+8921498,Firm_0296,India,0.0,0.0,False,False,3,Sheet metal part; Pipe; Chassis / Frame,IATF16949 (Formerly ISO/TS16949)
+5758799,Firm_0015,Germany,49.29201,7.082895,False,False,2,Bumper fascia; Body panel; Trunk lid,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+8572768,Firm_0254,India,18.988825,72.82419,False,False,3,Injection molded automotive part; Functional housing,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+4057150,Firm_0021,India,12.815922,77.66842,False,False,2,Control cable,"IATF16949 (Formerly ISO/TS16949), ISO9002"
+2183732,Firm_0061,India,28.468817,77.30444,False,False,3,Steering gear; Steering shaft,ISO9001
+6986790,Firm_0324,China,30.166622,120.497696,False,False,2,Precision plastic gear; Window regulator; Various Electrical / Electronic parts,
+2105778,Firm_0191,China,22.948498,113.88574,False,False,2,Artificial graphite anode material; Silicon-based anode material,"ISO14001, ISO9001"
+1867445,Firm_0157,China,30.01924,121.12347,False,False,2,Intelligent cockpit part; Optical reflector; Body reinforcement parts,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+5536914,Firm_0401,,,,,True,0,,

@@ -1,0 +1,122 @@
+relation_id,source_firm_id,target_firm_id,source_tier,product_name,is_conglomerate_supplier
+251,6847587,4585183,4,Shaft,False
+252,7472756,8606597,1,Sheet metal part,False
+253,5463186,8606597,1,Intake valve,False
+254,2051176,8606597,1,Motorcycle foot peg,False
+255,8525788,8606597,1,Headlamp,False
+256,2109335,8606597,1,Fuel injector,True
+257,6423831,4585183,4,Flywheel,False
+258,6289784,8606597,1,Motorcycle frame assembly,False
+259,5245485,8606597,1,Bearing,False
+260,1232929,7960384,2,Coil spring,False
+261,4404667,9092287,3,Gear,False
+262,6650427,9092287,3,Sheet metal part,False
+263,7892767,4585183,4,Bearing,False
+264,6528072,8606597,1,Cylinder block,False
+265,4159645,8606597,1,Headlamp bulb,False
+266,7685230,4585183,4,Differential gear,False
+267,3399259,8606597,1,Clutch disc,False
+268,8470716,8606597,1,Drive chain,False
+269,9190864,8606597,1,Motorcycle frame assembly,True
+270,9004520,9092287,3,CNC machined part,False
+271,2161326,8606597,1,Cylinder block,False
+272,9319056,8606597,1,Crankcase,False
+273,9222494,8606597,1,Carburetor,False
+274,2379105,7960384,2,Engine mount bracket,False
+275,3418175,7960384,2,Die casting mold,False
+276,3066640,4585183,4,Steel bar,False
+277,5535353,4585183,4,Shaft,False
+278,3521750,8606597,1,Piston ring,False
+279,3399387,4585183,4,Gear,False
+280,9092287,7960384,2,Seat adjustor,False
+281,3020912,8606597,1,Instrument cluster,False
+282,1745697,8606597,1,Speedometer,False
+283,2381320,8606597,1,Piston,False
+284,1233779,4585183,4,Heat treatment fixture,False
+285,3638530,8606597,1,Bearing,False
+286,9171296,4585183,4,Clutch disc,False
+287,9720710,4585183,4,Transmission gear,False
+288,1624114,8606597,1,Oil seal,False
+289,4831565,8606597,1,Seal,False
+290,5166889,4585183,4,Crankshaft,False
+291,6081432,8606597,1,Catalytic converter,False
+292,2540816,8606597,1,Motorcycle battery,False
+293,3801395,8606597,1,Seat cushion,False
+294,1589409,4585183,4,Crown gear,False
+295,5404649,8606597,1,Differential case,False
+296,1647183,8606597,1,Road wheel,False
+297,4127677,8606597,1,Various sensors,False
+298,4602371,8606597,1,Fuel tank,False
+299,4239478,8606597,1,One-way clutch,False
+300,2330211,8606597,1,Transmission gear,False
+301,9310371,8606597,1,One-way clutch,False
+302,4807980,8606597,1,Instrument cluster,False
+303,3206302,8606597,1,Motorcycle frame assembly,False
+304,5341979,8606597,1,Key cylinder,False
+305,2170980,8606597,1,Exhaust pipe,False
+306,7947017,8606597,1,Relay,False
+307,2372532,8606597,1,Brake master cylinder,False
+308,6705113,8606597,1,Carburetor,False
+309,2223173,8606597,1,Voltage regulator,False
+310,8624593,8606597,1,Valve spring,False
+311,6766759,8606597,1,Shaft,False
+312,7818005,8606597,1,Transmission gear,False
+313,7992204,4585183,4,Crankshaft,False
+314,4186501,8606597,1,Ignition coil,False
+315,7839793,4585183,4,Gear,False
+316,6283079,8606597,1,Engine mount bracket,False
+317,6832175,4585183,4,CNC machined part,False
+318,1129814,4585183,4,Gear,False
+319,1745231,8606597,1,Camshaft,False
+320,5450899,4585183,4,Shaft,False
+321,7581273,8606597,1,Motorcycle engine cover,False
+322,1767317,8606597,1,Crankshaft,False
+323,9910587,4585183,4,Gear,False
+324,7224135,4585183,4,Rear axle shaft,False
+325,9116605,8606597,1,Oil pump,False
+326,5626901,4585183,4,Heat treatment fixture,False
+327,1529354,4585183,4,Transmission gear,False
+328,4829371,8606597,1,Ignition coil,False
+329,6557742,8606597,1,Gasket,False
+330,7224793,7960384,2,Seat,False
+331,6678275,8606597,1,Connecting rod,False
+332,4772345,8606597,1,Steel pipe,False
+333,3406578,7960384,2,Sheet metal part,False
+334,2286399,8606597,1,Brake pipe,False
+335,9619867,4585183,4,Special purpose machine,False
+336,9678634,8606597,1,Headlamp,False
+337,9362984,4585183,4,Cold forged part,False
+338,4788227,8606597,1,Piston,False
+339,8909263,7960384,2,Bush,False
+340,7007925,8606597,1,Camshaft,False
+341,1633701,4585183,4,Wiper blade,False
+342,7441038,9092287,3,Shift fork,False
+343,6790596,8606597,1,Horn,False
+344,2837675,9092287,3,Shaft,False
+345,4415380,8606597,1,Crankshaft,False
+346,1209379,8606597,1,Piston ring,False
+347,3490338,4585183,4,Injection molded automotive part,False
+348,4619104,8606597,1,Engine mount bracket,False
+349,6777032,8606597,1,Electric connector,False
+350,8450020,8606597,1,Clutch assembly,False
+351,4694425,8606597,1,Starter motor,False
+352,2969233,8606597,1,Road wheel,False
+353,3364159,8606597,1,Shock absorber,False
+354,8163749,4585183,4,Differential case,False
+355,7960384,8606597,1,Seat,False
+356,3831604,8606597,1,Shift fork,False
+357,4348319,8606597,1,Manual transmission,True
+358,8345589,7960384,2,Engine mount bracket,False
+359,5539505,8606597,1,Intake valve,False
+360,5628456,4585183,4,Ring gear,False
+361,6477166,8606597,1,Transmission gear,False
+362,7705241,8606597,1,Piston ring,False
+363,2916291,8606597,1,Drive motor,False
+364,5264211,4585183,4,Synchronizer ring,False
+365,8439345,8606597,1,Final drive gear,False
+366,7049846,4585183,4,Gear,False
+367,1563125,8606597,1,Chain sprocket,False
+368,7822883,8606597,1,Bush,False
+369,7633573,8606597,1,Ignition coil,False
+370,6859662,9092287,3,Heat treatment fixture,False
+371,4585183,9092287,3,Ring gear,False

@@ -432,6 +432,10 @@ class ExperimentConfig:
     platform_a_community_seed_pct: float = 1.0
     platform_b_community_seed_pct: float = 1.0
 
+    # Fixed seed for Louvain community detection so community IDs stay
+    # stable across Monte Carlo runs and are decoupled from experiment seed.
+    community_detection_seed: int = 42
+
     # OEM annual volumes (can override defaults)
     annual_volume: dict = field(default_factory=lambda: dict(DEFAULT_ANNUAL_VOLUME))
 

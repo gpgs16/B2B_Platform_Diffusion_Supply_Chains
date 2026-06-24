@@ -1,0 +1,347 @@
+product_id,product_name,family_name,group_name,is_process
+664,Solenoid / Solenoid valve,Electrical / Electronic parts,Electrical parts,false
+746,Seat frame,Interior parts,Seat,false
+660,Carbon brush,Electrical / Electronic parts,Electrical parts,false
+997,Washer tank,Body parts,Window washer,false
+677,Various Electrical / Electronic parts,Electrical / Electronic parts,Various Electrical / Electronic parts,false
+220,Oil pan,ICE Powertrain,Engine structural parts,false
+411,Clutch assembly,ICE Powertrain,Clutch,false
+344,Oil cooler,ICE Powertrain,Engine lubrication components,false
+1035,Bellows,General parts,Bush / Seal,false
+413,Clutch cover,ICE Powertrain,Clutch,false
+162,Lithium-ion battery electrolyte,Electric Powertrain,Lithium-ion battery,false
+818,Weatherstrip,Exterior parts,Exterior parts,false
+838,Brake disc,Chassis parts,Brake,false
+1020,Valve,General parts,Component parts,false
+184,BMS (Battery Management System),Electric Powertrain,Battery related parts,false
+297,Air cleaner,ICE Powertrain,Air intake and exhaust systems,false
+741,Seat,Interior parts,Seat,false
+951,Body reinforcement parts,Body parts,Body reinforcement and protector,false
+665,Various actuators,Electrical / Electronic parts,Electrical parts,false
+842,Brake booster,Chassis parts,Brake,false
+666,Fuse / Circuit braker,Electrical / Electronic parts,Electrical parts,false
+1008,Fastener,General parts,Fastener / Connector,false
+423,Shift fork,ICE Powertrain,Transmission parts,false
+161,Lithium-ion battery separator,Electric Powertrain,Lithium-ion battery,false
+1079,Various plastic molding,"Process type (Stamping, Plastic injection molding etc.)",Plastic molding,true
+160,Anode materials / plates for lithium-ion battery,Electric Powertrain,Lithium-ion battery,false
+283,Fuel filter,ICE Powertrain,Fuel supply system,false
+747,Seat adjustor,Interior parts,Seat,false
+1025,Hose,General parts,Pipe / Hose,false
+835,Brake shoe,Chassis parts,Brake,false
+683,Air conditioner evaporator,Climate Control,Air conditioner,false
+1059,Various casting,"Process type (Stamping, Plastic injection molding etc.)",Casting,true
+865,Steering wheel,Chassis parts,Steering,false
+991,Wiper,Body parts,Wiper,false
+854,Electric Parking Brake (EPB),Chassis parts,Sub-brake,false
+920,Electronic controlled shock absorber,Chassis parts,Suspension,false
+843,Vacuum pump,Chassis parts,Brake,false
+732,Airbag module,Interior parts,Airbag,false
+578,Various instrument switches,Electrical / Electronic parts,Interior switch,false
+804,Various lamps,Exterior parts,Lighting,false
+257,Fuel injector,ICE Powertrain,Fuel supply system,false
+202,Other electrification parts,Electric Powertrain,Other electrification parts,false
+1037,Grommet,General parts,Bush / Seal,false
+514,Keyless entry system,AD / ADAS / Telematics,Security,false
+164,Lithium-ion battery anode current collector,Electric Powertrain,Lithium-ion battery,false
+158,Lithium-ion battery cell,Electric Powertrain,Lithium-ion battery,false
+1032,Gasket,General parts,Bush / Seal,false
+924,Tire,Chassis parts,Tire & wheel,false
+1021,Control cable,General parts,Component parts,false
+236,Engine mount bracket,ICE Powertrain,Engine structural parts,false
+1084,Paint coating,"Process type (Stamping, Plastic injection molding etc.)",Surface treatment,true
+840,Brake caliper,Chassis parts,Brake,false
+998,Washer pump,Body parts,Window washer,false
+196,Battery cooling plate,Electric Powertrain,EV cooling system,false
+932,Body panel,Body parts,Body panel / Frame,false
+679,HVAC module,Climate Control,HVAC module,false
+342,Oil filter,ICE Powertrain,Engine lubrication components,false
+754,Seat belt,Interior parts,Seat belt,false
+533,Body control module (Body ECU),Electrical / Electronic parts,ECU,false
+135,Motor core for drive motor,Electric Powertrain,Drive motor,false
+949,Chassis / Frame,Body parts,Body panel / Frame,false
+560,Various motors,Electrical / Electronic parts,Motor,false
+633,Various sensors,Electrical / Electronic parts,Sensor,false
+1018,Shaft,General parts,Component parts,false
+156,Lithium-ion battery / Lithium-ion battery pack,Electric Powertrain,Lithium-ion battery,false
+774,Interior trim,Interior parts,Interior trim,false
+662,Relay,Electrical / Electronic parts,Electrical parts,false
+979,Trunk lid,Body parts,Trunk lid,false
+204,Cylinder block,ICE Powertrain,Engine structural parts,false
+1010,Stud,General parts,Fastener / Connector,false
+359,Water pump,ICE Powertrain,Engine cooling system,false
+715,Instrument panel,Interior parts,Instrument panel,false
+424,Transmission case,ICE Powertrain,Transmission parts,false
+965,Window regulator,Body parts,Door,false
+675,Terminal,Electrical / Electronic parts,Cable / Connector,false
+970,Door lock parts,Body parts,Door,false
+657,Transformer,Electrical / Electronic parts,Electrical parts,false
+1015,Spring,General parts,Component parts,false
+1027,Bush,General parts,Bush / Seal,false
+671,Wire harness,Electrical / Electronic parts,Cable / Connector,false
+235,Rubber engine mount,ICE Powertrain,Engine structural parts,false
+1029,Vibration / Acoustic insulator,General parts,Bush / Seal,false
+876,Steering gear,Chassis parts,Steering,false
+917,Shock absorber,Chassis parts,Suspension,false
+836,Brake wheel cylinder,Chassis parts,Brake,false
+298,Air cleaner element,ICE Powertrain,Air intake and exhaust systems,false
+845,Brake lining,Chassis parts,Brake,false
+668,Junction box,Electrical / Electronic parts,Electrical parts,false
+681,Air conditioner compressor,Climate Control,Air conditioner,false
+349,Cooling fan module,ICE Powertrain,Engine cooling system,false
+185,Battery case,Electric Powertrain,Battery related parts,false
+797,Turn signal lamp,Exterior parts,Lighting,false
+844,Brake master cylinder,Chassis parts,Brake,false
+969,Door lock,Body parts,Door,false
+229,Flywheel,ICE Powertrain,Engine structural parts,false
+418,Clutch master cylinder / pump,ICE Powertrain,Clutch,false
+810,Window glass,Exterior parts,Window glass,false
+765,Door trim,Interior parts,Interior trim,false
+967,Outside handle,Body parts,Door,false
+131,Drive motor,Electric Powertrain,Drive motor,false
+1031,Seal,General parts,Bush / Seal,false
+682,Air conditioner condenser,Climate Control,Air conditioner,false
+857,ABS,Chassis parts,ABS / TCS / ESC,false
+141,Drive motor housing,Electric Powertrain,Drive motor,false
+221,Crankcase,ICE Powertrain,Engine structural parts,false
+570,Power window switch,Electrical / Electronic parts,Interior switch,false
+490,Car navigation,AD / ADAS / Telematics,Telematics / Car navigation,false
+1016,Bearing,General parts,Component parts,false
+1017,Gear,General parts,Component parts,false
+1014,Joint,General parts,Fastener / Connector,false
+807,Bumper fascia,Exterior parts,Bumper,false
+822,Exterior decorative parts,Exterior parts,Exterior parts,false
+870,Steering shaft,Chassis parts,Steering,false
+862,Electronic Stability Control (ESC) system,Chassis parts,ABS / TCS / ESC,false
+1009,Bolt / Nut,General parts,Fastener / Connector,false
+941,Fender / Wheelhouse panel parts,Body parts,Body panel / Frame,false
+1033,O-ring,General parts,Bush / Seal,false
+850,Electric brake (Brake-by-wire),Chassis parts,Brake,false
+674,Electric connector,Electrical / Electronic parts,Cable / Connector,false
+766,Roof trim,Interior parts,Interior trim,false
+1024,Pipe,General parts,Pipe / Hose,false
+794,Headlamp,Exterior parts,Lighting,false
+186,Busbar,Electric Powertrain,Battery related parts,false
+839,Brake pad,Chassis parts,Brake,false
+1094,Cylindrical lithium-ion cell,Electric Powertrain,Lithium-ion battery,false
+1095,LFP battery cell,Electric Powertrain,Lithium-ion battery,false
+1096,LFP cathode material,Electric Powertrain,Lithium-ion battery,false
+1097,NCM cathode material,Electric Powertrain,Lithium-ion battery,false
+1098,LMFP cathode material,Electric Powertrain,Lithium-ion battery,false
+1099,High-nickel cathode material,Electric Powertrain,Lithium-ion battery,false
+1100,Lithium manganese oxide cathode material,Electric Powertrain,Lithium-ion battery,false
+1101,Artificial graphite anode material,Electric Powertrain,Lithium-ion battery,false
+1102,Silicon-based anode material,Electric Powertrain,Lithium-ion battery,false
+1103,Graphite anode material,Electric Powertrain,Lithium-ion battery,false
+1104,Lithium-ion battery aluminum-plastic film,Electric Powertrain,Lithium-ion battery,false
+1105,Lithium battery tab,Electric Powertrain,Lithium-ion battery,false
+1106,Electrolyte additive,Electric Powertrain,Lithium-ion battery,false
+1107,Lithium carbonate,Electric Powertrain,Lithium-ion battery,false
+1108,Battery-grade lithium hydroxide,Electric Powertrain,Lithium-ion battery,false
+1109,Electrolytic manganese dioxide,Electric Powertrain,Lithium-ion battery,false
+1110,Solid-state electrolyte,Electric Powertrain,Lithium-ion battery,false
+1111,Lithium hexafluorophosphate,Electric Powertrain,Lithium-ion battery,false
+1112,Wet separator,Electric Powertrain,Lithium-ion battery,false
+1113,Dry separator,Electric Powertrain,Lithium-ion battery,false
+1114,Coating separator,Electric Powertrain,Lithium-ion battery,false
+1115,EV battery system,Electric Powertrain,Battery related parts,false
+1116,Battery tray,Electric Powertrain,Battery related parts,false
+1117,Battery structural part,Electric Powertrain,Battery related parts,false
+1118,Battery thermal insulation material,Electric Powertrain,Battery related parts,false
+1119,Battery fireproofing material,Electric Powertrain,Battery related parts,false
+1120,Battery insert molding part,Electric Powertrain,Battery related parts,false
+1121,Battery can and cap assembly,Electric Powertrain,Battery related parts,false
+1122,BDU (Battery Disconnect Unit),Electrical / Electronic parts,Electrical parts,false
+1123,Integrated electric drive system,Electric Powertrain,Electric powertrain system,false
+1124,Electric oil pump,ICE Powertrain,Engine lubrication components,false
+1125,Energy storage system,Electric Powertrain,Various batteries,false
+1126,PCS inverter,Electric Powertrain,Electric powertrain system parts,false
+1127,EV power battery,Electric Powertrain,Lithium-ion battery,false
+1128,Connected vehicle platform,AD / ADAS / Telematics,Telematics / Car navigation,false
+1129,V2X terminal,AD / ADAS / Telematics,Telematics / Car navigation,false
+1130,5G T-BOX unit,AD / ADAS / Telematics,Telematics / Car navigation,false
+1131,AI smart cockpit system,Interior parts,Cockpit,false
+1132,Intelligent cockpit operating system,Interior parts,Cockpit,false
+1133,Central locking controller,AD / ADAS / Telematics,Security,false
+1134,Automotive ECU,Electrical / Electronic parts,ECU,false
+1135,EC rearview mirror,Exterior parts,Outside mirror,false
+1136,Streaming media mirror,Exterior parts,Outside mirror,false
+1137,Automotive interior LED component,Exterior parts,Lighting,false
+1138,Automotive exterior LED component,Exterior parts,Lighting,false
+1139,Body domain controller,Electrical / Electronic parts,ECU,false
+1140,New energy vehicle cable,Electrical / Electronic parts,Cable / Connector,false
+1141,Automotive wire,Electrical / Electronic parts,Cable / Connector,false
+1142,Cable tie,Electrical / Electronic parts,Electrical parts,false
+1143,Heat shrink tubing,Electrical / Electronic parts,Electrical parts,false
+1144,Cable management accessory,Electrical / Electronic parts,Electrical parts,false
+1145,Column switch,Electrical / Electronic parts,Interior switch,false
+1146,Seat control module,Electrical / Electronic parts,ECU,false
+1147,Steering wheel switch,Electrical / Electronic parts,Interior switch,false
+1148,Sensor interface IC,Electrical / Electronic parts,Semiconductor device,false
+1149,Motor driver IC,Electrical / Electronic parts,Semiconductor device,false
+1150,Gate driver IC,Electrical / Electronic parts,Semiconductor device,false
+1151,Connector housing,Electrical / Electronic parts,Cable / Connector,false
+1152,Wafer,Electrical / Electronic parts,Semiconductor device,false
+1153,Sheath assembly,Electrical / Electronic parts,Cable / Connector,false
+1155,Thermal silicone pad,General parts,Component parts,false
+1156,Thermal gel,General parts,Component parts,false
+1157,Thermal management hose,General parts,Pipe / Hose,false
+1158,Heating tube,Climate Control,Heater,false
+1159,Electric heating element,Climate Control,Heater,false
+1160,Heat sink,General parts,Component parts,false
+1161,Insulation film,Electrical / Electronic parts,Various Electrical / Electronic parts,false
+1162,Thermal insulation pad,General parts,Component parts,false
+1163,Heat exchanger,ICE Powertrain,Engine cooling system,false
+1164,Cooling module,ICE Powertrain,Engine cooling system,false
+1165,Air spring assembly,Chassis parts,Suspension,false
+1166,ECS controller,Chassis parts,Suspension,false
+1167,EPP bumper energy absorber,Exterior parts,Bumper,false
+1168,EPP seat foam part,Interior parts,Seat,false
+1169,Door drive,Body parts,Door,false
+1170,Liftgate drive,Body parts,Trunk lid,false
+1171,Window regulator guide rail,Body parts,Door,false
+1172,Window sealing profile,Exterior parts,Exterior parts,false
+1173,Door sealing profile,Exterior parts,Exterior parts,false
+1174,Sunroof reinforcement part,Body parts,Sunroof,false
+1175,Clutch slave cylinder,ICE Powertrain,Clutch,false
+1176,Clutch release bearing,ICE Powertrain,Clutch,false
+1177,Dry clutch,ICE Powertrain,Clutch,false
+1178,Wet clutch,ICE Powertrain,Clutch,false
+1179,Dual mass flywheel,ICE Powertrain,Engine structural parts,false
+1180,Torque damper,ICE Powertrain,Engine structural parts,false
+1181,Tensioner pulley,ICE Powertrain,Valvetrain,false
+1182,Fuel piping system,ICE Powertrain,Fuel supply system,false
+1183,Transmission oil line,ICE Powertrain,Transmission parts,false
+1184,Fuel line,ICE Powertrain,Fuel supply system,false
+1185,Automotive AC pipe,Climate Control,Air conditioner,false
+1186,AC hose,Climate Control,Air conditioner,false
+1187,Electronic water pump,ICE Powertrain,Engine cooling system,false
+1188,Battery assembly production line,"Process type (Stamping, Plastic injection molding etc.)",Various processes,true
+1189,Metal heat treatment service,"Process type (Stamping, Plastic injection molding etc.)",Surface treatment,true
+1190,Flexible PU foam,"Process type (Stamping, Plastic injection molding etc.)",Various processes,true
+1191,Die casting mold,"Process type (Stamping, Plastic injection molding etc.)",Die casting,true
+1192,Automotive grease,"Process type (Stamping, Plastic injection molding etc.)",Various processes,true
+1193,Aluminum die cast part,"Process type (Stamping, Plastic injection molding etc.)",Die casting,true
+1195,Zinc die cast part,"Process type (Stamping, Plastic injection molding etc.)",Die casting,true
+1196,Die cast part,"Process type (Stamping, Plastic injection molding etc.)",Die casting,true
+1197,CNC machined part,"Process type (Stamping, Plastic injection molding etc.)",Machining,true
+1198,Sheet metal part,"Process type (Stamping, Plastic injection molding etc.)",Stamping,true
+1199,Injection molded automotive part,"Process type (Stamping, Plastic injection molding etc.)",Plastic molding,true
+1200,Cold forged part,"Process type (Stamping, Plastic injection molding etc.)",Forging,true
+1201,Moulded rubber part,"Process type (Stamping, Plastic injection molding etc.)",Rubber processing,true
+1202,Rubber-to-metal bonded part,"Process type (Stamping, Plastic injection molding etc.)",Rubber processing,true
+1203,Intelligent cockpit part,Interior parts,Cockpit,false
+1204,Optical reflector,Exterior parts,Lighting,false
+1205,Autonomous logistics vehicle,"Process type (Stamping, Plastic injection molding etc.)",Various processes,false
+1206,Smart new energy vehicle,"Process type (Stamping, Plastic injection molding etc.)",Various processes,false
+1207,Breather vent,General parts,Component parts,false
+1208,Sensor filter,Electrical / Electronic parts,Sensor,false
+1209,Precision plastic gear,General parts,Component parts,false
+1210,Heater motor assembly,Electrical / Electronic parts,Motor,false
+1211,Various brake parts,Chassis parts,Brake,false
+1214,Ultra-high-purity reagent,Electrical / Electronic parts,Various Electrical / Electronic parts,false
+1215,Lithium battery material,Electric Powertrain,Lithium-ion battery,false
+1216,New energy passenger vehicle,"Process type (Stamping, Plastic injection molding etc.)",Various processes,false
+1217,Connector case,Electrical / Electronic parts,Cable / Connector,false
+1218,Transmission piston,ICE Powertrain,Transmission parts,false
+1219,ECU case,Electrical / Electronic parts,ECU,false
+1221,EV battery cover,Electric Powertrain,Battery related parts,false
+1222,Battery pack sidewall,Electric Powertrain,Battery related parts,false
+1223,Die casting machine spare part,"Process type (Stamping, Plastic injection molding etc.)",Die casting,true
+1224,Aluminum casting prototype,"Process type (Stamping, Plastic injection molding etc.)",Casting,true
+1225,Aluminum cast part,"Process type (Stamping, Plastic injection molding etc.)",Casting,true
+1226,Precision machined aluminum part,"Process type (Stamping, Plastic injection molding etc.)",Machining,true
+1227,Precision machined part,"Process type (Stamping, Plastic injection molding etc.)",Machining,true
+1228,CNC machined aluminum part,"Process type (Stamping, Plastic injection molding etc.)",Machining,true
+1229,Automotive cast part,"Process type (Stamping, Plastic injection molding etc.)",Casting,true
+1230,Aluminum/zinc die cast automotive part,"Process type (Stamping, Plastic injection molding etc.)",Die casting,true
+1231,Aluminum die cast automotive part,"Process type (Stamping, Plastic injection molding etc.)",Die casting,true
+1232,Aluminum die cast engine block,"Process type (Stamping, Plastic injection molding etc.)",Die casting,true
+1233,Transmission machined part,"Process type (Stamping, Plastic injection molding etc.)",Machining,true
+1234,HVAC pipe,General parts,Pipe / Hose,false
+1235,Die cast machined part,"Process type (Stamping, Plastic injection molding etc.)",Machining,true
+1236,Bent pipe joint,General parts,Pipe / Hose,false
+1237,Precision nut,General parts,Fastener / Connector,false
+1238,Aluminum connector,Electrical / Electronic parts,Cable / Connector,false
+1239,Aluminium die-casting alloy,"Process type (Stamping, Plastic injection molding etc.)",Die casting,true
+1240,Aluminium alloy ingot,"Process type (Stamping, Plastic injection molding etc.)",Die casting,true
+1241,Heat shield cover,General parts,Bush / Seal,false
+1242,Trimming mold,"Process type (Stamping, Plastic injection molding etc.)",Die casting,true
+1243,Prototype part,"Process type (Stamping, Plastic injection molding etc.)",Casting,true
+1244,Pipe part,General parts,Pipe / Hose,false
+1245,Automotive rubber sealing part,General parts,Bush / Seal,false
+1246,Vibration damping system,General parts,Bush / Seal,false
+1250,Battery cooling water plate,Electric Powertrain,EV cooling system,false
+1251,Aluminum extrusion part,"Process type (Stamping, Plastic injection molding etc.)",Aluminum extrusion processing,true
+1252,DC filter capacitor,Electrical / Electronic parts,Electronic device,false
+1253,AC filter capacitor,Electrical / Electronic parts,Electronic device,false
+1256,New energy vehicle die cast part,"Process type (Stamping, Plastic injection molding etc.)",Die casting,true
+1268,Magnesium die cast automotive part,"Process type (Stamping, Plastic injection molding etc.)",Die casting,true
+1269,Automotive powertrain part,ICE Powertrain,Transmission parts,false
+1280,ACG assembly,Electrical / Electronic parts,Cable / Connector,false
+1281,Brush card assembly,Electrical / Electronic parts,Electrical parts,false
+1282,EV motor,Electric Powertrain,Drive motor,false
+1284,Functional housing,General parts,Component parts,false
+1285,Filter product,ICE Powertrain,Air intake and exhaust systems,false
+366,Alternator,ICE Powertrain,Engine electrical parts,false
+1338,Automatic transmission,ICE Powertrain,Transmission parts,false
+1315,Brake pipe,Chassis parts,Brake,false
+249,Camshaft,ICE Powertrain,Valvetrain,false
+500,Car audio,AD / ADAS / Telematics,Entertainment / Audio,false
+301,Carburetor,ICE Powertrain,Air intake and exhaust systems,false
+311,Catalytic converter,ICE Powertrain,Air intake and exhaust systems,false
+1300,Chain sprocket,ICE Powertrain,Valvetrain,false
+416,Clutch disc,ICE Powertrain,Clutch,false
+904,Coil spring,Chassis parts,Suspension,false
+213,Connecting rod,ICE Powertrain,Engine structural parts,false
+216,Crankshaft,ICE Powertrain,Engine structural parts,false
+1303,Crown gear,Driveline parts,LSD (Limited Slip Differential),false
+428,Differential case,Driveline parts,Differential,false
+429,Differential gear,Driveline parts,Differential,false
+1322,Door frame,Body parts,Door,false
+1301,Drive chain,ICE Powertrain,Valvetrain,false
+889,Electric power steering (EPS),Chassis parts,Steering,false
+518,Engine ECU,Electrical / Electronic parts,ECU,false
+307,Exhaust manifold,ICE Powertrain,Air intake and exhaust systems,false
+308,Exhaust pipe,ICE Powertrain,Air intake and exhaust systems,false
+1304,Final drive gear,Driveline parts,Final drive,false
+1001,Fuel tank,Body parts,Fuel tank,false
+1335,Halfshaft,Driveline parts,Final drive,false
+1314,Headlamp bulb,Exterior parts,Lighting,false
+1328,Heat treatment fixture,"Process type (Stamping, Plastic injection molding etc.)",Various processes,true
+1331,Home decoration material,"Process type (Stamping, Plastic injection molding etc.)",Various processes,false
+1007,Horn,Body parts,Horn,false
+334,Ignition coil,ICE Powertrain,Ignition system,false
+1313,Instrument cluster,Electrical / Electronic parts,Meter,false
+239,Intake valve,ICE Powertrain,Valvetrain,false
+1337,Key cylinder,AD / ADAS / Telematics,Security,false
+1339,Manual transmission,ICE Powertrain,Transmission parts,false
+1330,Modified polypropylene compound,"Process type (Stamping, Plastic injection molding etc.)",Various processes,false
+1289,Motorcycle battery,Electric Powertrain,Various batteries,false
+1288,Motorcycle engine cover,ICE Powertrain,Engine structural parts,false
+1286,Motorcycle foot peg,General parts,Component parts,false
+1297,Motorcycle frame assembly,Body parts,Body panel / Frame,false
+341,Oil pump,ICE Powertrain,Engine lubrication components,false
+345,Oil seal,ICE Powertrain,Engine lubrication components,false
+1305,One-way clutch,ICE Powertrain,Clutch,false
+210,Piston,ICE Powertrain,Engine structural parts,false
+211,Piston ring,ICE Powertrain,Engine structural parts,false
+351,Radiator,ICE Powertrain,Engine cooling system,false
+1334,Rear axle shaft,Driveline parts,Final drive,false
+1302,Ring gear,Driveline parts,LSD (Limited Slip Differential),false
+1321,Road wheel,Chassis parts,Tire & wheel,false
+1324,Seat cushion,Interior parts,Seat,false
+1329,Special purpose machine,"Process type (Stamping, Plastic injection molding etc.)",Various processes,true
+719,Speedometer,Interior parts,Instrument panel,false
+365,Starter motor,ICE Powertrain,Engine electrical parts,false
+1327,Steel bar,General parts,Component parts,false
+1326,Steel pipe,General parts,Pipe / Hose,false
+893,Suspension system,Chassis parts,Suspension,false
+408,Synchronizer ring,ICE Powertrain,Manual Transmission,false
+1340,Timing belt,ICE Powertrain,Valvetrain,false
+406,Transmission gear,ICE Powertrain,Manual Transmission,false
+456,Universal joint,Driveline parts,Axle,false
+241,Valve spring,ICE Powertrain,Valvetrain,false
+1311,Voltage regulator,Electrical / Electronic parts,Electrical parts,false
+993,Wiper blade,Body parts,Wiper,false
+545,Wiper motor,Electrical / Electronic parts,Motor,false

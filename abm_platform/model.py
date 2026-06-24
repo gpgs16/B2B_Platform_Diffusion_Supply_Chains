@@ -410,7 +410,10 @@ class SupplyChainModel(Model):
         from networkx.algorithms.community import louvain_communities
 
         undirected = self.supply_graph.to_undirected()
-        partitions = louvain_communities(undirected, seed=self.config.seed)
+        partitions = louvain_communities(
+            undirected,
+            seed=self.config.community_detection_seed,
+        )
         self.communities: dict[int, set[int]] = {}
         for idx, comm in enumerate(partitions):
             self.communities[idx] = comm

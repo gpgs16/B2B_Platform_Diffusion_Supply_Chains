@@ -4,7 +4,7 @@ Unified experiment runner for final report.
 Phases:
   Phase 1 — Bilateral cost diagnostic (per-firm ROI at Q5)
   Phase 2 — Sensitivity analysis (18 OFAT experiments, 100 seeds each)
-  Phase 3 — Hypothesis experiments (H1 coexistence, H2 lock-in, H3 disruption)
+  Phase 3 — Hypothesis experiments (H1 coexistence, generalized H2 lock-in, H3 disruption)
 
 Usage:
   python run_final.py                # run everything
@@ -43,7 +43,8 @@ os.makedirs(OUT_DIR, exist_ok=True)
 N_SEEDS = 100
 N_QUARTERS = 40
 SEEDS = list(range(1, N_SEEDS + 1))
-MAX_WORKERS = min(os.cpu_count() or 4, 10)
+# Use at least 10 workers on larger machines to keep the batch runs moving.
+MAX_WORKERS = max(10, min(os.cpu_count() or 4, 12))
 
 # ── Baseline overrides ────────────────────────────────────────────────
 # Cost %: uniform 30% across all categories
@@ -677,13 +678,14 @@ def run_sensitivity():
 # PHASE 3: HYPOTHESIS EXPERIMENTS
 # ══════════════════════════════════════════════════════════════════════
 
-H2_TARGET_COMMUNITIES = [11, 5, 4]
-H2_SEEDING_FRACTIONS = [0.01, 0.02, 0.05, 0.10, 0.15]
-H2_COST_GAPS_PP = [0.00, 0.01, 0.02, 0.03, 0.05]
+H2_EXCLUDED_COMMUNITIES = {0, 2, 12}
+H2_TARGET_COMMUNITIES = [cid for cid in range(13) if cid not in H2_EXCLUDED_COMMUNITIES]
+H2_SEEDING_FRACTIONS = [0.05, 0.10, 0.15, 0.20]
+H2_COST_GAPS_PP = [0.05]
 
 
 def run_hypothesis_experiments():
-    """Run H1, H2, H3."""
+    """Run H1, generalized H2, H3."""
     print("\n" + "█" * 60)
     print("  PHASE 3: Hypothesis Experiments")
     print("█" * 60)
@@ -709,70 +711,35 @@ def run_hypothesis_experiments():
               f"B={np.mean(ab):.3f}±{np.std(ab):.3f}  "
               f"HHI={np.mean(hhi):.3f}±{np.std(hhi):.3f}")
 
-    # --- H2a: Strategic Seeding Lock-In — Seeding Sweep ---
-    # B has fixed 2pp cost advantage; vary seeding fraction
-    print("\n--- H2a: Seeding Sweep ---")
-    h2a_results = {}
-    for target_cid in H2_TARGET_COMMUNITIES:
-        for seed_pct in H2_SEEDING_FRACTIONS:
-            treatment = f"C{target_cid}_pct{int(seed_pct*100)}"
-            configs = []
-            for seed in SEEDS:
-                configs.append(_make_config_dict(
-                    n_quarters=N_QUARTERS, seed=seed,
-                    community_seeding=True,
-                    platform_a_seed_community=target_cid,
-                    platform_a_community_seed_pct=seed_pct,
-                    platform_b_seed_community=-1,
-                    platform_b_community_seed_pct=1.0,
-                    disruption_enabled=False,
-                    # B gets 2pp cost advantage on all categories
-                    platform_search_pct_b=0.28,
-                    platform_po_pct_b=0.28,
-                    platform_invoice_pct_b=0.28,
-                    platform_mgmt_pct_b=0.28,
-                    platform_negotiation_pct_b=0.28,
-                ))
-            h2a_results[treatment] = run_batch(configs, f"H2a: {treatment}")
-
-    save_json(h2a_results, "h2a_seeding_sweep.json")
-
-    for t, results in h2a_results.items():
-        valid = [r for r in results if "error" not in r]
-        if valid:
-            aa = [r["final_adoption_a"] for r in valid]
-            ab = [r["final_adoption_b"] for r in valid]
-            print(f"  {t}: A={np.mean(aa):.3f}  B={np.mean(ab):.3f}")
-
-    # --- H2b: Strategic Seeding Lock-In — Cost Gap Sweep ---
-    # Fixed high seeding (15%); vary cost gap
-    print("\n--- H2b: Cost Gap Sweep ---")
-    h2b_results = {}
-    for target_cid in H2_TARGET_COMMUNITIES:
+    # --- H2: Generalized lock-in sweep across non-bilateral communities ---
+    print("\n--- H2: Generalized Lock-In Sweep ---")
+    h2_results = {}
+    for seed_pct in H2_SEEDING_FRACTIONS:
         for gap_pp in H2_COST_GAPS_PP:
-            treatment = f"C{target_cid}_gap{int(gap_pp*100)}pp"
-            configs = []
-            b_pct = 0.30 - gap_pp  # B's cost advantage
-            for seed in SEEDS:
-                configs.append(_make_config_dict(
-                    n_quarters=N_QUARTERS, seed=seed,
-                    community_seeding=True,
-                    platform_a_seed_community=target_cid,
-                    platform_a_community_seed_pct=0.15,
-                    platform_b_seed_community=-1,
-                    platform_b_community_seed_pct=1.0,
-                    disruption_enabled=False,
-                    platform_search_pct_b=b_pct,
-                    platform_po_pct_b=b_pct,
-                    platform_invoice_pct_b=b_pct,
-                    platform_mgmt_pct_b=b_pct,
-                    platform_negotiation_pct_b=b_pct,
-                ))
-            h2b_results[treatment] = run_batch(configs, f"H2b: {treatment}")
+            for target_cid in H2_TARGET_COMMUNITIES:
+                treatment = f"C{target_cid}_pct{int(seed_pct*100)}_gap{int(gap_pp*100)}pp"
+                configs = []
+                b_pct = 0.30 - gap_pp  # B's cost advantage
+                for seed in SEEDS:
+                    configs.append(_make_config_dict(
+                        n_quarters=N_QUARTERS, seed=seed,
+                        community_seeding=True,
+                        platform_a_seed_community=target_cid,
+                        platform_a_community_seed_pct=seed_pct,
+                        platform_b_seed_community=-1,
+                        platform_b_community_seed_pct=1.0,
+                        disruption_enabled=False,
+                        platform_search_pct_b=b_pct,
+                        platform_po_pct_b=b_pct,
+                        platform_invoice_pct_b=b_pct,
+                        platform_mgmt_pct_b=b_pct,
+                        platform_negotiation_pct_b=b_pct,
+                    ))
+                h2_results[treatment] = run_batch(configs, f"H2: {treatment}")
 
-    save_json(h2b_results, "h2b_cost_gap_sweep.json")
+    save_json(h2_results, "h2_generalized.json")
 
-    for t, results in h2b_results.items():
+    for t, results in h2_results.items():
         valid = [r for r in results if "error" not in r]
         if valid:
             aa = [r["final_adoption_a"] for r in valid]
@@ -807,7 +774,7 @@ def run_hypothesis_experiments():
             total = [r["final_adoption_a"] + r["final_adoption_b"] for r in valid]
             print(f"  {name}: total adoption = {np.mean(total):.3f} ± {np.std(total):.3f}")
 
-    return h1_results, h2a_results, h2b_results, h3_results
+    return h1_results, h2_results, h3_results
 
 
 # ══════════════════════════════════════════════════════════════════════

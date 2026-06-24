@@ -17,8 +17,37 @@ from abm_platform.config import (
 )
 
 BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-DATA_DIR = os.path.join(BASE, "input_data")
+DEFAULT_DATA_DIR = os.path.join(BASE, "input_data")
+SYNTHETIC_DATA_DIR = os.path.join(DEFAULT_DATA_DIR, "synthetic_data")
+DATA_DIR = SYNTHETIC_DATA_DIR if os.path.isdir(SYNTHETIC_DATA_DIR) else DEFAULT_DATA_DIR
 OEM_DIR = os.path.join(DATA_DIR, "oem_subgraphs")
+USE_SYNTHETIC_DATA = DATA_DIR == SYNTHETIC_DATA_DIR
+
+OEM_FILE_MAP = {
+    2000682: ("oem_2000682_firms.csv", "oem_alpha_firms.csv"),
+    2000766: ("oem_2000766_firms.csv", "oem_beta_firms.csv"),
+    2000621: ("oem_2000621_firms.csv", "oem_gamma_firms.csv"),
+    2000772: ("oem_2000772_firms.csv", "oem_delta_firms.csv"),
+}
+
+RELATION_FILE_MAP = {
+    2000682: ("oem_2000682_relations.csv", "oem_alpha_relations.csv"),
+    2000766: ("oem_2000766_relations.csv", "oem_beta_relations.csv"),
+    2000621: ("oem_2000621_relations.csv", "oem_gamma_relations.csv"),
+    2000772: ("oem_2000772_relations.csv", "oem_delta_relations.csv"),
+}
+
+BOM_FILE_MAP = {
+    2000682: ("bom_2000682.json", "bom_alpha.json"),
+    2000766: ("bom_2000766.json", "bom_beta.json"),
+    2000621: ("bom_2000621.json", "bom_gamma.json"),
+    2000772: ("bom_2000772.json", "bom_delta.json"),
+}
+
+
+def _data_file(original_name: str, synthetic_name: str | None = None) -> str:
+    name = synthetic_name if USE_SYNTHETIC_DATA and synthetic_name else original_name
+    return os.path.join(DATA_DIR, name)
 
 
 # ── Data classes for loaded records ──────────────────────────────────
@@ -149,12 +178,9 @@ def _derive_defect_rate(certs: list[str], is_top: bool) -> float:
 def load_firms() -> dict[int, FirmRecord]:
     """Load & merge firm records from both OEM firm files."""
     firms: dict[int, FirmRecord] = {}
-    for fn in [
-        os.path.join(OEM_DIR, "oem_2000682_firms.csv"),
-        os.path.join(OEM_DIR, "oem_2000766_firms.csv"),
-        os.path.join(OEM_DIR, "oem_2000621_firms.csv"),
-        os.path.join(OEM_DIR, "oem_2000772_firms.csv"),
-    ]:
+    for oem_id in [2000682, 2000766, 2000621, 2000772]:
+        original_name, synthetic_name = OEM_FILE_MAP[oem_id]
+        fn = _data_file(os.path.join("oem_subgraphs", original_name), os.path.join("oem_subgraphs", synthetic_name))
         with open(fn, newline="", encoding="utf-8") as f:
             for row in csv.DictReader(f):
                 fid = int(row["firm_id"])
@@ -202,12 +228,9 @@ def load_relations() -> list[RelationRecord]:
     """Load supplier relations from both OEM relation files."""
     rels: list[RelationRecord] = []
     seen_ids: set[int] = set()
-    for fn in [
-        os.path.join(OEM_DIR, "oem_2000682_relations.csv"),
-        os.path.join(OEM_DIR, "oem_2000766_relations.csv"),
-        os.path.join(OEM_DIR, "oem_2000621_relations.csv"),
-        os.path.join(OEM_DIR, "oem_2000772_relations.csv"),
-    ]:
+    for oem_id in [2000682, 2000766, 2000621, 2000772]:
+        original_name, synthetic_name = RELATION_FILE_MAP[oem_id]
+        fn = _data_file(os.path.join("oem_subgraphs", original_name), os.path.join("oem_subgraphs", synthetic_name))
         with open(fn, newline="", encoding="utf-8") as f:
             for row in csv.DictReader(f):
                 rid = int(row["relation_id"])
@@ -229,7 +252,8 @@ def load_relations() -> list[RelationRecord]:
 
 def load_bom(oem_id: int) -> list[BOMEntry]:
     """Flatten the recursive BOM JSON into a list of BOMEntry."""
-    fn = os.path.join(DATA_DIR, f"bom_{oem_id}.json")
+    original_name, synthetic_name = BOM_FILE_MAP[oem_id]
+    fn = _data_file(original_name, synthetic_name)
     with open(fn, encoding="utf-8") as f:
         data = json.load(f)
 

@@ -1,0 +1,124 @@
+firm_id,firm_name,nation_name,latitude,longitude,is_top_supplier,is_oem,tier_depth,product_catalog_common,Certifications
+7045546,Firm_0025,Japan,35.78817,139.34744,False,False,3,Sheet metal part; Pipe part,"ISO14001, ISO9001"
+1190478,Firm_0038,China,25.894989,119.37905,False,False,1,Seat; Roof trim; Interior trim,"IATF16949 (Formerly ISO/TS16949), ISO14001, QS9000"
+6364519,Firm_0244,China,22.630835,114.4194,False,False,1,Cylindrical lithium-ion cell,
+4265813,Firm_0079,Japan,38.47037,140.38834,False,False,3,Precision machined aluminum part,
+3881613,Firm_0084,Japan,38.18238,140.1091,False,False,3,Aluminum die cast engine block; Transmission case; Other electrification parts,ISO9001
+6616323,Firm_0188,China,22.771122,113.74721,False,False,2,Body reinforcement parts; Battery structural part,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+3555979,Firm_0070,China,23.222942,113.57105,False,False,2,Body reinforcement parts; Other electrification parts,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+2610341,Firm_0275,China,31.371119,120.443245,False,False,1,Motor core for drive motor,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+5632543,Firm_0094,Japan,32.87966,130.91026,False,False,3,Aluminum cast part,ISO9001
+2522849,Firm_0362,China,22.664043,114.03567,False,False,2,Lithium-ion battery separator,"ISO14001, ISO9001"
+3730540,Firm_0308,China,27.97153,112.86139,False,False,2,LFP cathode material; NCM cathode material,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+1310189,Firm_0377,China,27.851444,114.41497,False,False,2,Lithium carbonate; Battery-grade lithium hydroxide,
+8413252,Firm_0117,China,31.60288,120.39566,False,False,1,Power window switch; Body control module (Body ECU); Various sensors; Relay,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+9520617,Firm_0081,Japan,34.837715,136.5358,False,False,3,CNC machined aluminum part,
+7931817,Firm_0394,China,32.278503,118.380005,False,False,2,Battery cooling plate,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+7877162,Firm_0164,China,30.286116,121.20257,False,False,2,Battery insert molding part; Electric connector; Busbar,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+9328608,Firm_0161,China,40.176613,117.14219,False,False,1,Electric oil pump; Vacuum pump; Water pump,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+2897606,Firm_0282,India,18.494526,73.837006,False,False,3,Die casting machine spare part,
+6838851,Firm_0359,China,32.378677,119.508865,False,False,2,New energy vehicle cable; Automotive wire,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+6846635,Firm_0054,Japan,36.534122,140.63374,False,False,3,Aluminum/zinc die cast automotive part,ISO9001
+8710752,Firm_0072,Japan,35.697777,139.67685,False,False,3,Bolt / Nut; Fastener; Aluminum connector; Aluminum die cast part,ISO9001
+4694531,Firm_0390,Mexico,26.006142,-100.304146,False,False,2,Oil cooler; Cooling module; Heat exchanger,
+1421427,Firm_0334,China,31.332405,120.532074,False,False,1,Electric oil pump; Vacuum pump; Water pump,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+6206468,Firm_0023,Japan,34.71602,137.4613,True,False,2,Aluminum die cast engine block; Transmission case; Battery case,"ISO14001, ISO9001"
+4282387,Firm_0291,Japan,34.75727,137.73944,False,False,3,Oil pan; Junction box,"ISO14001, ISO9001"
+5554112,Firm_0078,Japan,35.79942,139.50888,False,False,3,Aluminum cast part,"ISO14001, ISO9001"
+6443972,Firm_0304,India,28.458712,77.30596,False,False,3,Aluminium die-casting alloy; Aluminium alloy ingot,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+4747993,Firm_0266,China,27.840494,120.836624,False,False,1,LFP battery cell; Lithium-ion battery cell; Lithium-ion battery / Lithium-ion battery pack; Energy storage system,
+8100425,Firm_0153,Japan,35.01068,137.11183,False,False,3,Transmission piston; ECU case,ISO14001
+4077765,Firm_0358,China,34.20166,108.86716,False,False,2,Fuse / Circuit braker; Relay; BDU (Battery Disconnect Unit),"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+5567018,Firm_0331,China,31.29202,120.77512,False,False,2,Sensor interface IC; Motor driver IC; Gate driver IC,ISO9001
+6886339,Firm_0114,China,28.06248,121.00123,False,False,3,Electric connector; Sheath assembly; Wire harness,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+6286178,Firm_0321,China,25.488592,119.15703,False,False,1,EV battery system; BMS (Battery Management System),
+2899561,Firm_0055,Japan,36.0132086,138.1096664,False,False,3,Heat sink; Connector case; Drive motor housing,ISO9001
+5171331,Firm_0252,China,22.739595,113.937035,False,False,1,Lithium-ion battery / Lithium-ion battery pack; BMS (Battery Management System); Body domain controller,ISO14001
+5412544,Firm_0238,China,31.72303,117.33814,False,False,1,Integrated electric drive system; Drive motor,
+1015722,Firm_0155,Japan,38.172626,140.09732,False,False,3,Precision machined part,
+3193547,Firm_0372,China,32.688465,116.90251,False,False,2,Lithium-ion battery electrolyte; Solid-state electrolyte,
+9465603,Firm_0200,China,26.709415,119.59669,True,False,1,Lithium-ion battery cell; Lithium-ion battery / Lithium-ion battery pack; Energy storage system,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+2549022,Firm_0056,China,24.488947,118.04412,False,False,1,EC rearview mirror; Streaming media mirror; AI smart cockpit system; Seat control module,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+7536042,Firm_0049,Malaysia,3.01142,101.61898,False,False,3,Various Electrical / Electronic parts; Sheet metal part; Injection molded automotive part; Moulded rubber part; Suspension system,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+7072099,Firm_0370,China,39.72119,116.91147,False,False,2,Lithium-ion battery electrolyte; Solid-state electrolyte,
+2150375,Firm_0393,China,23.30589,112.85267,False,False,2,Integrated electric drive system,
+4706438,Firm_0073,Japan,34.860107,137.01749,False,False,3,Automotive cast part,ISO9001
+9454994,Firm_0345,China,32.765785,120.17469,False,False,2,Heating tube; Various sensors; Electric heating element,ISO9001
+2965123,Firm_0346,China,40.055195,116.20759,False,False,1,Connected vehicle platform; V2X terminal; 5G T-BOX unit; Various Electrical / Electronic parts,
+6647368,Firm_0330,China,24.330217,102.53713,False,False,2,Lithium-ion battery separator; Lithium-ion battery aluminum-plastic film,"ISO14001, ISO9001"
+8191378,Firm_0376,China,32.779743,110.82741,False,False,2,LFP cathode material; LMFP cathode material,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+9327549,Firm_0148,Japan,34.719105,137.54327,False,False,3,Transmission machined part,"ISO14001, ISO9001"
+1110905,Firm_0318,China,31.618635,120.391266,False,False,2,New energy vehicle cable; Wire harness,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+1178531,Firm_0028,Japan,35.771812,139.70139,False,False,3,Aluminum casting prototype,ISO9001
+9829772,Firm_0092,China,23.013174,113.74307,False,False,3,Connector housing; Terminal; Wafer,ISO9001
+7036411,Firm_0392,China,22.89901,108.3266,False,False,2,Battery tray; CNC machined part; Die cast part,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+5032173,Firm_0391,China,22.807919,113.8803,False,False,2,Graphite anode material,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+9542865,Firm_0333,China,31.379719,118.42543,False,False,2,Automotive powertrain part; Magnesium die cast automotive part,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+2308210,Firm_0224,China,22.76829,114.16373,False,False,1,Cylindrical lithium-ion cell; Energy storage system; Lithium-ion battery / Lithium-ion battery pack,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+9613314,Firm_0367,China,27.97223,112.863556,False,False,2,Electrolytic manganese dioxide; Lithium manganese oxide cathode material,"ISO14001, ISO9001"
+2754708,Firm_0387,China,39.983425,116.50526,False,False,1,Transformer; Various sensors,ISO9001
+8968192,Firm_0091,China,31.535624,120.37551,False,False,2,Cable tie; Pipe; Heat shrink tubing; Cable management accessory; Fastener,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001, ISO9002, QS9000"
+1224158,Firm_0027,Japan,35.969482,139.35776,False,False,3,Bent pipe joint; Pipe; Precision nut; Bolt / Nut; CNC machined part,"ISO14001, ISO9001"
+8675613,Firm_0156,Japan,34.801376,137.74847,False,False,3,Die casting mold; Trimming mold; Prototype part,ISO9001
+5675242,Firm_0251,Japan,34.78151,138.03705,False,False,3,Metal heat treatment service,"ISO14001, ISO9001"
+2005357,Firm_0132,China,30.648409,119.014534,True,False,2,Automotive rubber sealing part; Vibration damping system,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+3479957,Firm_0373,China,29.960165,121.567375,False,False,2,AC filter capacitor; DC filter capacitor,IATF16949 (Formerly ISO/TS16949)
+2693942,Firm_0074,Japan,33.875732,130.77718,False,False,3,Magnesium die cast automotive part,"ISO14001, ISO9001"
+3623869,Firm_0336,China,30.029678,121.17334,False,False,2,NCM cathode material; LMFP cathode material,
+7154068,Firm_0053,China,31.281046,120.59271,False,False,1,Electric brake (Brake-by-wire); Electric Parking Brake (EPB); Brake caliper; Electric power steering (EPS); Shock absorber,"IATF16949 (Formerly ISO/TS16949), ISO14001, QS9000"
+4606830,Firm_0378,China,27.898382,114.43337,False,False,2,LFP cathode material,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+3067064,Firm_0008,China,34.11854,118.76843,False,False,2,New energy passenger vehicle,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+4791944,Firm_0026,Japan,35.11057,135.445,False,False,3,Gear,"ISO14001, ISO9001"
+6908273,Firm_0332,China,31.035954,121.27696,False,False,1,Body domain controller; Various actuators; Various Electrical / Electronic parts; Various sensors; Keyless entry system,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+4052293,Firm_0247,China,31.341362,121.18746,False,False,1,Integrated electric drive system; Drive motor,
+6500636,Firm_0030,Thailand,13.580849,100.990875,False,False,4,Flexible PU foam,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+1558277,Firm_0337,China,22.56426,113.89602,False,False,2,Thermal silicone pad; Thermal gel; Insulation film,
+3242727,Firm_0203,China,22.391863,113.5585,False,False,1,Drive motor; Integrated electric drive system,ISO9001
+4791841,Firm_0024,Japan,35.96662,139.55551,False,False,3,Gasket; Heat shield cover; O-ring,"ISO14001, ISO9001"
+6690574,Firm_0189,China,35.776844,114.31709,False,False,2,Electric connector; Wire harness; Seal; Body control module (Body ECU),"IATF16949 (Formerly ISO/TS16949), ISO14001"
+5289395,Firm_0361,China,22.56996,114.493645,False,False,2,Lithium-ion battery separator; Coating separator,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+8166527,Firm_0379,China,31.33379,120.543816,False,False,2,Energy storage system; BMS (Battery Management System); PCS inverter,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+1759224,Firm_0366,China,38.249516,114.9267,False,False,2,Artificial graphite anode material; Silicon-based anode material,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+3729235,Firm_0126,China,31.76811,117.25001,False,False,1,Tire,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001, QS9000"
+8140492,Firm_0389,China,31.0126,120.79186,False,False,2,Battery thermal insulation material; Battery fireproofing material; Thermal silicone pad,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+8256283,Firm_0349,China,31.027454,121.72278,False,False,2,Lithium-ion battery separator; Lithium-ion battery aluminum-plastic film,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+1681671,Firm_0150,Japan,38.17868,140.05496,False,False,3,Aluminum die cast part,
+2578885,Firm_0355,China,22.588564,113.99437,False,False,2,LFP cathode material; LMFP cathode material,ISO9001
+2291066,Firm_0265,China,31.794907,117.34451,False,False,2,Battery assembly production line,"ISO14001, ISO9001"
+4158142,Firm_0301,Japan,34.732292,137.75319,False,False,3,Brake caliper; Crankcase,"ISO14001, ISO9001"
+3407265,Firm_0353,China,36.872562,117.77269,False,False,2,Drive motor housing; Battery pack sidewall,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+6483410,Firm_0360,Japan,36.304424,140.4333,False,False,3,Die cast part,"ISO14001, ISO9001"
+1093576,Firm_0075,Japan,36.4147,139.60338,False,False,3,Precision machined aluminum part,ISO9001
+9453182,Firm_0363,China,27.76638,112.04225,False,False,2,Lithium-ion battery separator,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+3500533,Firm_0158,China,31.462416,120.58227,False,False,1,Airbag module; Steering wheel; Steering wheel switch,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+5698545,Firm_0012,China,29.113771,121.049965,False,False,2,Oil cooler; Cooling module; Heat exchanger,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+2083700,Firm_0365,China,30.702583,104.56279,False,False,2,High-nickel cathode material; NCM cathode material,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+5075574,Firm_0340,Korea,37.0074,127.751945,False,False,2,Lithium-ion battery electrolyte; Electrolyte additive,"ISO14001, ISO9001"
+7813650,Firm_0133,Japan,36.352432,139.40688,False,False,3,HVAC pipe; Die cast machined part,"ISO14001, ISO9001"
+5252436,Firm_0076,Japan,35.075066,138.93852,False,False,3,Aluminum die cast part,"ISO14001, ISO9001"
+6342596,Firm_0201,China,22.780214,113.77506,False,False,2,Insulation film; Thermal insulation pad; Busbar; Battery cooling plate,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+3945921,Firm_0309,China,39.967995,119.62768,False,False,2,Battery case; Thermal management hose; Aluminum extrusion part,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+1622439,Firm_0343,China,31.200466,120.673195,False,False,2,Ultra-high-purity reagent; Lithium battery material,
+5454052,Firm_0371,China,30.814459,119.8722,False,False,2,Lithium-ion battery electrolyte; Electrolyte additive,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+5973258,Firm_0350,China,22.680536,114.07089,False,False,2,Anode materials / plates for lithium-ion battery,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+9268524,Firm_0029,Korea,37.32058,126.76326,False,False,3,Clutch cover; Transmission case,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+6957776,Firm_0202,China,31.37928,118.47518,False,False,1,Airbag module; Seat belt; Steering wheel,IATF16949 (Formerly ISO/TS16949)
+8527272,Firm_0364,Japan,34.806633,137.93712,False,False,3,Aluminum die cast automotive part,
+8722898,Firm_0326,China,22.67787,113.8028,False,False,2,EV battery cover; Busbar,
+7144634,Firm_0348,China,26.717413,119.57544,False,False,2,Battery structural part; Sheet metal part,
+8677366,Firm_0077,Japan,35.08967,138.92105,False,False,3,Aluminum die cast part; Zinc die cast part,"ISO14001, ISO9001"
+1010539,Firm_0374,China,28.195253,116.57993,False,False,2,Lithium-ion battery electrolyte; Various Electrical / Electronic parts,
+5967774,Firm_0369,China,32.364998,119.93079,False,False,2,Thermal management hose; Hose; AC hose; Fuel line; Weatherstrip,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+3093873,Firm_0215,China,31.752241,117.25027,False,False,1,EV battery system; BMS (Battery Management System); Energy storage system,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+1437924,Firm_0134,China,23.124783,113.542114,False,False,2,Lithium-ion battery electrolyte; LFP cathode material; Various Electrical / Electronic parts,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+8309303,Firm_0328,China,28.719902,105.14725,False,False,2,Battery-grade lithium hydroxide,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+1064374,Firm_0344,China,24.395226,116.29636,False,False,2,,"ISO14001, ISO9001"
+3009451,Firm_0351,China,31.732706,119.83059,False,False,2,Lithium-ion battery aluminum-plastic film; Lithium battery tab,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+3249563,Firm_0204,China,22.707294,113.97381,False,False,1,EV power battery; CNC machined part,"ISO14001, ISO9001"
+2581698,Firm_0347,China,22.539612,113.95062,False,False,1,AI smart cockpit system; Connected vehicle platform,
+5306722,Firm_0397,China,28.79641,104.72326,False,False,2,Electric connector; Various sensors; Wire harness; Busbar,
+4109305,Firm_0342,Korea,37.222725,126.723145,False,False,2,Wet separator; Dry separator; Coating separator; Battery can and cap assembly,"ISO14001, ISO9001"
+2777413,Firm_0149,China,23.116007,114.50392,False,False,2,New energy vehicle die cast part,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+1986777,Firm_0080,Japan,36.3305124,140.0380617,False,False,3,Magnesium die cast automotive part; Aluminum die cast part,
+2105778,Firm_0191,China,22.948498,113.88574,False,False,2,Artificial graphite anode material; Silicon-based anode material,"ISO14001, ISO9001"
+1550011,Firm_0400,,,,,True,0,,

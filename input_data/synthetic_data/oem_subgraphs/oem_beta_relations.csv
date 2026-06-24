@@ -1,0 +1,122 @@
+relation_id,source_firm_id,target_firm_id,source_tier,product_name,is_conglomerate_supplier
+130,2263837,9860599,2,Clutch slave cylinder; Clutch master cylinder / pump,False
+131,7673924,4057150,3,Brake master cylinder; CNC machined part,False
+132,4630785,1089535,3,Chassis / Frame; Sheet metal part,False
+133,9160086,5536914,1,Tensioner pulley; Bearing; Clutch release bearing,False
+134,9129673,4057150,3,Injection molded automotive part; Filter product,False
+135,8572768,9419981,3,Injection molded automotive part; Functional housing,False
+136,1089535,7904754,2,Air cleaner; Injection molded automotive part,False
+137,4395918,7904754,2,Window regulator guide rail; Sunroof reinforcement part,False
+138,2298159,7904754,2,Window regulator; Door lock parts,False
+139,6437888,7904754,2,Column switch; Seat control module; Steering wheel switch,False
+140,7845246,4057150,3,Bolt / Nut; Bolt / Nut; Stud; Bolt / Nut,False
+141,1865972,1089535,3,Various casting; Injection molded automotive part,False
+142,9770063,5536914,1,Dry clutch; Wet clutch; Dual mass flywheel; Torque damper,False
+143,2477986,5536914,1,Automotive AC pipe; AC hose; Valve; Pipe,False
+144,4139244,5536914,1,Car navigation; Various Electrical / Electronic parts; Various Electrical / Electronic parts,False
+145,9560368,9860599,2,Brake pad; Brake lining,False
+146,1867445,7904754,2,Intelligent cockpit part; Optical reflector; Body reinforcement parts,False
+147,5824891,7904754,2,Paint coating; Injection molded automotive part,False
+148,7713840,4057150,3,CNC machined part; CNC machined part,False
+149,9495793,9860599,2,Bearing,False
+150,8194129,1089535,3,Die casting mold; Die casting mold; Die casting mold,False
+151,8303616,4057150,3,Injection molded automotive part,False
+152,1033332,9419981,3,Die casting mold; Door lock parts; Various actuators,False
+153,9928540,4057150,3,Sheet metal part; Sheet metal part; CNC machined part,False
+154,5973258,3507835,2,Anode materials / plates for lithium-ion battery,False
+155,3600578,4057150,3,Stud; Cold forged part; Fastener,False
+156,5001093,9860599,2,Brake master cylinder; Brake wheel cylinder; Clutch assembly,False
+157,2105778,3507835,2,Artificial graphite anode material; Silicon-based anode material,False
+158,6428880,4057150,3,Control cable; Pipe; Control cable; Shaft,False
+159,6435152,9419981,3,Air cleaner element; Fuel filter; Oil filter,False
+160,1742953,7904754,2,Window sealing profile; Door sealing profile,False
+161,5466436,4057150,3,Spring; Spring; Spring; Spring,False
+162,6647368,3507835,2,Lithium-ion battery separator,False
+163,5817882,1089535,3,Cold forged part; Fastener,False
+164,4057150,7904754,2,Control cable,False
+165,5272868,5536914,1,Cooling fan module; Cooling fan module; Electronic water pump,False
+166,9860599,5536914,1,ABS; Electronic Stability Control (ESC) system; Electric brake (Brake-by-wire); Brake caliper; Brake disc,False
+167,9050460,5536914,1,Door drive; Liftgate drive; Seat frame; Various motors,False
+168,9576531,7904754,2,Sheet metal part; Die casting mold; Die casting mold,False
+169,8714789,7904754,2,EV motor; Shock absorber,False
+170,9099749,5536914,1,Shock absorber; Shock absorber,False
+171,7161094,1089535,3,Aluminum die cast part,False
+172,5758799,7904754,2,Bumper fascia; Body panel; Trunk lid,False
+173,4077765,3507835,2,Fuse / Circuit braker; Relay; BDU (Battery Disconnect Unit),False
+174,1190478,5536914,1,Seat; Roof trim; Interior trim,False
+175,1771651,7904754,2,O-ring; Gasket; Weatherstrip,False
+176,1736500,7904754,2,Fuel injector; Door lock parts; Various sensors,False
+177,8812321,1089535,3,Stud; Bolt / Nut; Bolt / Nut; Shaft,False
+178,4745301,5536914,1,EPP bumper energy absorber; EPP seat foam part,False
+179,7145265,7904754,2,Breather vent; Sensor filter,False
+180,6274822,5536914,1,Various Electrical / Electronic parts; Die casting mold; Fastener,False
+181,4717039,5536914,1,Cooling fan module; Heater motor assembly,False
+182,3161253,9860599,2,Various Electrical / Electronic parts; Various Electrical / Electronic parts,
+183,4497993,4057150,3,Wire harness; ACG assembly,False
+184,9419981,7904754,2,Various sensors; Various instrument switches; Solenoid / Solenoid valve; Wire harness,False
+185,3339259,9419981,3,Injection molded automotive part; Injection molded automotive part,False
+186,7634151,9419981,3,Flywheel; Various casting,False
+187,2843912,4057150,3,Headlamp; Turn signal lamp; Various lamps,False
+188,7318816,4497993,4,Vibration / Acoustic insulator; Gasket; Grommet; O-ring; Seal,False
+189,1346523,7904754,2,Bearing; Interior trim; Seat adjustor,False
+190,7967790,9419981,3,Wire harness; Wire harness,False
+191,6802005,9860599,2,Brake lining; Various brake parts,False
+192,3728083,5536914,1,Window regulator; Various sensors; Central locking controller,False
+193,8466102,5536914,1,Door trim; Fender / Wheelhouse panel parts; Interior trim,False
+194,9533693,9419981,3,Sheet metal part,False
+195,2183732,9419981,3,Steering gear; Steering shaft,False
+196,9937835,1089535,3,Bolt / Nut; Bolt / Nut,False
+197,2499988,9419981,3,Moulded rubber part; Rubber-to-metal bonded part,False
+198,4511941,4057150,3,Bellows; Gasket; O-ring; Seal; Grommet,False
+199,1837896,9860599,2,Brake pad; Brake shoe; Brake disc; Cylinder block,False
+200,8338248,7904754,2,Wiper; Various motors; Washer pump; Washer tank,False
+201,6924555,4057150,3,Aluminum die cast part; Zinc die cast part,False
+202,4402921,7904754,2,Injection molded automotive part,False
+203,5594728,7904754,2,Injection molded automotive part; Sheet metal part; Injection molded automotive part,False
+204,3171789,9860599,2,Brake booster; Electric Parking Brake (EPB),False
+205,1675786,4057150,3,Injection molded automotive part,False
+206,8199224,9419981,3,Spring; Spring; Spring; Spring,False
+207,5569321,9576531,3,Various motors; Engine mount bracket,False
+208,8023133,7904754,2,Carbon brush; Brush card assembly; Seal,False
+209,6713501,4057150,3,Spring; Spring; Spring; Spring,False
+210,4898026,5536914,1,Autonomous logistics vehicle; Smart new energy vehicle,False
+211,2291066,3507835,2,Battery assembly production line,False
+212,8921498,1089535,3,Sheet metal part; Pipe; Chassis / Frame,False
+213,6464987,9419981,3,Joint; Bolt / Nut; Fastener,False
+214,6547289,9860599,2,ABS; Battery cooling water plate; Aluminum extrusion part,False
+215,2977941,7904754,2,Sheet metal part; Sheet metal part,False
+216,7430236,7904754,2,Fuel piping system; Transmission oil line; Fuel line,False
+217,3507835,5536914,1,LFP battery cell; Lithium-ion battery / Lithium-ion battery pack; BMS (Battery Management System),False
+218,5637436,4057150,3,Injection molded automotive part,False
+219,8638551,4057150,3,Spring; Spring; Sheet metal part; Shaft,False
+220,1110905,3507835,2,New energy vehicle cable; Wire harness,False
+221,7904754,5536914,1,Instrument panel; Door trim; Door lock; Window regulator,True
+222,9589865,1089535,3,CNC machined part; CNC machined part,False
+223,3247684,5536914,1,Automotive interior LED component; Automotive exterior LED component,True
+224,5171379,4057150,3,Bellows; Bush; Rubber engine mount; Bush; Seal,False
+225,7151505,7904754,2,Various Electrical / Electronic parts; Wire harness; Various Electrical / Electronic parts,False
+226,9308616,9860599,2,Brake pad; Brake pad; Brake shoe,False
+227,1412297,7904754,2,Column switch; Seat control module; Steering wheel switch,False
+228,9198666,9860599,2,Air spring assembly; ECS controller; Electronic controlled shock absorber,False
+229,3756916,3507835,2,Lithium-ion battery electrolyte; Solid-state electrolyte,False
+230,1759224,3507835,2,Artificial graphite anode material,False
+231,5235577,3507835,2,Die cast part; Injection molded automotive part; Die casting mold,False
+232,9372387,4057150,3,Hose; Wire harness; Moulded rubber part; Moulded rubber part,False
+233,3303395,9419981,3,Interior trim; Various plastic molding,False
+234,1889586,7904754,2,Door trim; Outside handle; Instrument panel,False
+235,7794623,7904754,2,Interior trim; Interior trim; Interior trim,False
+236,3680366,5536914,1,Automotive ECU; Automotive ECU,False
+237,6616323,3507835,2,Battery structural part,False
+238,6342596,3507835,2,Insulation film; Thermal insulation pad,False
+239,9002574,7904754,2,Zinc die cast part,False
+240,3861318,7904754,2,Various Electrical / Electronic parts; Window regulator; Door lock; Wire harness,False
+241,6986790,7904754,2,Precision plastic gear; Window regulator; Various Electrical / Electronic parts,False
+242,5284386,7904754,2,Window glass; Window glass; Window glass,False
+243,6564991,3507835,2,Lithium hexafluorophosphate; Lithium-ion battery electrolyte,False
+244,9313782,5536914,1,Spring; Spring; Spring; Spring,False
+245,5486603,5536914,1,Intelligent cockpit operating system; AI smart cockpit system,False
+246,4499675,7904754,2,Automotive grease; Automotive grease; Automotive grease,False
+247,4265837,5536914,1,Air conditioner compressor; Air conditioner condenser; Air conditioner evaporator; HVAC module,False
+248,2889324,9860599,2,Various brake parts; Shift fork,False
+249,8104289,7904754,2,Interior trim; Exterior decorative parts; Outside handle; Various lamps,False
+250,5576699,9419981,3,Injection molded automotive part,False

@@ -1,0 +1,1232 @@
+{
+  "bill_of_materials": [
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 2581698,
+        "firm_name": "Firm_0347"
+      },
+      "product": "AI smart cockpit system",
+      "quantity_per_vehicle": 1,
+      "unit": "system (head unit + display + OS)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 6957776,
+        "firm_name": "Firm_0202"
+      },
+      "product": "Airbag module; Seat belt; Steering wheel",
+      "quantity_per_vehicle": 1,
+      "unit": "set (6 airbag modules + seatbelts + steering wheel)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 3500533,
+        "firm_name": "Firm_0158"
+      },
+      "product": "Airbag module; Steering wheel",
+      "quantity_per_vehicle": 1,
+      "unit": "set (6 airbag modules + seatbelts + steering wheel)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 6908273,
+        "firm_name": "Firm_0332"
+      },
+      "product": "Body domain controller; Keyless entry system; Various sensors",
+      "quantity_per_vehicle": 1,
+      "unit": "unit (body domain controller + PEPS system)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 2965123,
+        "firm_name": "Firm_0346"
+      },
+      "product": "Connected vehicle platform; V2X terminal; 5G T-BOX unit",
+      "quantity_per_vehicle": 1,
+      "unit": "unit (T-BOX / V2X terminal)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 6364519,
+        "firm_name": "Firm_0244"
+      },
+      "product": "Cylindrical lithium-ion cell",
+      "quantity_per_vehicle": 1,
+      "unit": "pack-equivalent (38.5 kWh)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 2308210,
+        "firm_name": "Firm_0224"
+      },
+      "product": "Cylindrical lithium-ion cell",
+      "quantity_per_vehicle": 1,
+      "unit": "pack-equivalent (38.5 kWh)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 3242727,
+        "firm_name": "Firm_0203"
+      },
+      "product": "Drive motor",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 2549022,
+        "firm_name": "Firm_0056"
+      },
+      "product": "EC rearview mirror; Streaming media mirror; AI smart cockpit system",
+      "quantity_per_vehicle": 1,
+      "unit": "system (head unit + display + OS)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 3093873,
+        "firm_name": "Firm_0215"
+      },
+      "product": "EV battery system",
+      "quantity_per_vehicle": 1,
+      "unit": "system (38.5 kWh)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 6286178,
+        "firm_name": "Firm_0321"
+      },
+      "product": "EV battery system",
+      "quantity_per_vehicle": 1,
+      "unit": "system (38.5 kWh)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 3249563,
+        "firm_name": "Firm_0204"
+      },
+      "product": "EV power battery",
+      "quantity_per_vehicle": 1,
+      "unit": "pack (38.5 kWh)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 7154068,
+        "firm_name": "Firm_0053"
+      },
+      "product": "Electric brake (Brake-by-wire)",
+      "quantity_per_vehicle": 1,
+      "unit": "system (4-wheel)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 1421427,
+        "firm_name": "Firm_0334"
+      },
+      "product": "Electric oil pump; Vacuum pump; Water pump",
+      "quantity_per_vehicle": 3,
+      "unit": "units (oil + vacuum + water pumps)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 9328608,
+        "firm_name": "Firm_0161"
+      },
+      "product": "Electric oil pump; Vacuum pump; Water pump",
+      "quantity_per_vehicle": 3,
+      "unit": "units (oil + vacuum + water pumps)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 5412544,
+        "firm_name": "Firm_0238"
+      },
+      "product": "Integrated electric drive system",
+      "quantity_per_vehicle": 1,
+      "unit": "unit (motor + controller + reducer)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 4052293,
+        "firm_name": "Firm_0247"
+      },
+      "product": "Integrated electric drive system",
+      "quantity_per_vehicle": 1,
+      "unit": "unit (motor + controller + reducer)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 4747993,
+        "firm_name": "Firm_0266"
+      },
+      "product": "LFP battery cell",
+      "quantity_per_vehicle": 1,
+      "unit": "pack (38.5 kWh)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 5171331,
+        "firm_name": "Firm_0252"
+      },
+      "product": "Lithium-ion battery / Lithium-ion battery pack; BMS (Battery Management System)",
+      "quantity_per_vehicle": 1,
+      "unit": "pack (38.5 kWh)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 9465603,
+        "firm_name": "Firm_0200"
+      },
+      "product": "Lithium-ion battery cell; Lithium-ion battery / Lithium-ion battery pack",
+      "quantity_per_vehicle": 1,
+      "unit": "pack (38.5 kWh)",
+      "inputs": [
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 5973258,
+            "firm_name": "Firm_0350"
+          },
+          "product": "Anode materials / plates for lithium-ion battery",
+          "quantity_per_vehicle": 41.8,
+          "unit": "kg"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 1759224,
+            "firm_name": "Firm_0366"
+          },
+          "product": "Artificial graphite anode material",
+          "quantity_per_vehicle": 41.8,
+          "unit": "kg"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 2105778,
+            "firm_name": "Firm_0191"
+          },
+          "product": "Artificial graphite anode material; Silicon-based anode material",
+          "quantity_per_vehicle": 41.8,
+          "unit": "kg"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 9542865,
+            "firm_name": "Firm_0333"
+          },
+          "product": "Automotive powertrain part; Magnesium die cast automotive part",
+          "quantity_per_vehicle": 1,
+          "unit": "set"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 2005357,
+            "firm_name": "Firm_0132"
+          },
+          "product": "Automotive rubber sealing part; Vibration damping system",
+          "quantity_per_vehicle": 1,
+          "unit": "set"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 2291066,
+            "firm_name": "Firm_0265"
+          },
+          "product": "Battery assembly production line",
+          "quantity_per_vehicle": null,
+          "unit": "n/a — capital equipment (amortized over production run)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 6206468,
+            "firm_name": "Firm_0023"
+          },
+          "product": "Battery case",
+          "quantity_per_vehicle": 77.0,
+          "unit": "kg (aluminum enclosure + structural parts)",
+          "inputs": [
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 6443972,
+                "firm_name": "Firm_0304"
+              },
+              "product": "Aluminium die-casting alloy; Aluminium alloy ingot",
+              "quantity_per_vehicle": 80.9,
+              "unit": "kg (including ~5 % casting scrap)"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 5554112,
+                "firm_name": "Firm_0078"
+              },
+              "product": "Aluminum cast part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 5632543,
+                "firm_name": "Firm_0094"
+              },
+              "product": "Aluminum cast part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 1178531,
+                "firm_name": "Firm_0028"
+              },
+              "product": "Aluminum casting prototype",
+              "quantity_per_vehicle": null,
+              "unit": "n/a — mold / die (capital tooling, amortized)"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 8527272,
+                "firm_name": "Firm_0364"
+              },
+              "product": "Aluminum die cast automotive part",
+              "quantity_per_vehicle": 1,
+              "unit": "set (sub-cast components)"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 3881613,
+                "firm_name": "Firm_0084"
+              },
+              "product": "Aluminum die cast engine block",
+              "quantity_per_vehicle": 1,
+              "unit": "unit (cylinder block + head + crankcase)"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 8677366,
+                "firm_name": "Firm_0077"
+              },
+              "product": "Aluminum die cast part",
+              "quantity_per_vehicle": 1,
+              "unit": "set (sub-cast components)"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 1681671,
+                "firm_name": "Firm_0150"
+              },
+              "product": "Aluminum die cast part",
+              "quantity_per_vehicle": 1,
+              "unit": "set (sub-cast components)"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 5252436,
+                "firm_name": "Firm_0076"
+              },
+              "product": "Aluminum die cast part",
+              "quantity_per_vehicle": 1,
+              "unit": "set (sub-cast components)"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 6846635,
+                "firm_name": "Firm_0054"
+              },
+              "product": "Aluminum/zinc die cast automotive part",
+              "quantity_per_vehicle": 1,
+              "unit": "set (sub-cast components)"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 4706438,
+                "firm_name": "Firm_0073"
+              },
+              "product": "Automotive cast part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 1224158,
+                "firm_name": "Firm_0027"
+              },
+              "product": "Bent pipe joint; Precision nut",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 8710752,
+                "firm_name": "Firm_0072"
+              },
+              "product": "Bolt / Nut; Bolt / Nut; Aluminum connector",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 9520617,
+                "firm_name": "Firm_0081"
+              },
+              "product": "CNC machined aluminum part",
+              "quantity_per_vehicle": null,
+              "unit": "n/a — CNC finishing (service, amortized per unit)"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 9268524,
+                "firm_name": "Firm_0029"
+              },
+              "product": "Clutch cover; Transmission case",
+              "quantity_per_vehicle": 1,
+              "unit": "set (clutch + DMF)"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 4158142,
+                "firm_name": "Firm_0301"
+              },
+              "product": "Crankcase",
+              "quantity_per_vehicle": 1,
+              "unit": "unit (cylinder block + head + crankcase)"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 6483410,
+                "firm_name": "Firm_0360"
+              },
+              "product": "Die cast part",
+              "quantity_per_vehicle": 1,
+              "unit": "set (sub-cast components)"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 2897606,
+                "firm_name": "Firm_0282"
+              },
+              "product": "Die casting machine spare part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 8675613,
+                "firm_name": "Firm_0156"
+              },
+              "product": "Die casting mold; Trimming mold; Prototype part",
+              "quantity_per_vehicle": null,
+              "unit": "n/a — mold / die (capital tooling, amortized)"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 4791841,
+                "firm_name": "Firm_0024"
+              },
+              "product": "Gasket; Heat shield cover; Gasket",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 4791944,
+                "firm_name": "Firm_0026"
+              },
+              "product": "Gear",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 7813650,
+                "firm_name": "Firm_0133"
+              },
+              "product": "HVAC pipe; Die cast machined part",
+              "quantity_per_vehicle": 1,
+              "unit": "system (compressor + condenser + evaporator + HVAC box)"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 2899561,
+                "firm_name": "Firm_0055"
+              },
+              "product": "Heat sink; Connector case",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 2693942,
+                "firm_name": "Firm_0074"
+              },
+              "product": "Magnesium die cast automotive part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 1986777,
+                "firm_name": "Firm_0080"
+              },
+              "product": "Magnesium die cast automotive part; Aluminum die cast part",
+              "quantity_per_vehicle": 1,
+              "unit": "set (sub-cast components)",
+              "inputs": [
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 6500636,
+                    "firm_name": "Firm_0030"
+                  },
+                  "product": "Flexible PU foam",
+                  "quantity_per_vehicle": 1,
+                  "unit": "set"
+                }
+              ]
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 5675242,
+                "firm_name": "Firm_0251"
+              },
+              "product": "Metal heat treatment service",
+              "quantity_per_vehicle": null,
+              "unit": "n/a — heat treatment service (per-unit post-process)"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 4282387,
+                "firm_name": "Firm_0291"
+              },
+              "product": "Oil pan; Junction box",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 1093576,
+                "firm_name": "Firm_0075"
+              },
+              "product": "Precision machined aluminum part",
+              "quantity_per_vehicle": null,
+              "unit": "n/a — CNC finishing (service, amortized per unit)"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 4265813,
+                "firm_name": "Firm_0079"
+              },
+              "product": "Precision machined aluminum part",
+              "quantity_per_vehicle": null,
+              "unit": "n/a — CNC finishing (service, amortized per unit)"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 1015722,
+                "firm_name": "Firm_0155"
+              },
+              "product": "Precision machined part",
+              "quantity_per_vehicle": null,
+              "unit": "n/a — CNC finishing (service, amortized per unit)"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 7536042,
+                "firm_name": "Firm_0049"
+              },
+              "product": "Sheet metal part; Injection molded automotive part; Moulded rubber part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 7045546,
+                "firm_name": "Firm_0025"
+              },
+              "product": "Sheet metal part; Pipe part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 9327549,
+                "firm_name": "Firm_0148"
+              },
+              "product": "Transmission machined part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 8100425,
+                "firm_name": "Firm_0153"
+              },
+              "product": "Transmission piston; ECU case",
+              "quantity_per_vehicle": 4,
+              "unit": "units"
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 3945921,
+            "firm_name": "Firm_0309"
+          },
+          "product": "Battery case; Aluminum extrusion part",
+          "quantity_per_vehicle": 77.0,
+          "unit": "kg (aluminum enclosure + structural parts)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 7931817,
+            "firm_name": "Firm_0394"
+          },
+          "product": "Battery cooling plate",
+          "quantity_per_vehicle": 1,
+          "unit": "set (liquid cooling plates + manifolds)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 7877162,
+            "firm_name": "Firm_0164"
+          },
+          "product": "Battery insert molding part; Busbar; Electric connector",
+          "quantity_per_vehicle": 1,
+          "unit": "set (busbars + insert-molded connectors)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 6616323,
+            "firm_name": "Firm_0188"
+          },
+          "product": "Battery structural part",
+          "quantity_per_vehicle": 77.0,
+          "unit": "kg (aluminum enclosure + structural parts)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 7144634,
+            "firm_name": "Firm_0348"
+          },
+          "product": "Battery structural part; Sheet metal part",
+          "quantity_per_vehicle": 77.0,
+          "unit": "kg (aluminum enclosure + structural parts)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 8140492,
+            "firm_name": "Firm_0389"
+          },
+          "product": "Battery thermal insulation material; Battery fireproofing material",
+          "quantity_per_vehicle": 7.7,
+          "unit": "kg (insulation / fireproofing material)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 7036411,
+            "firm_name": "Firm_0392"
+          },
+          "product": "Battery tray",
+          "quantity_per_vehicle": 77.0,
+          "unit": "kg (aluminum enclosure + structural parts)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 8309303,
+            "firm_name": "Firm_0328"
+          },
+          "product": "Battery-grade lithium hydroxide",
+          "quantity_per_vehicle": 3.7,
+          "unit": "kg Li-equivalent"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 8968192,
+            "firm_name": "Firm_0091"
+          },
+          "product": "Cable tie; Cable management accessory; Heat shrink tubing",
+          "quantity_per_vehicle": 1,
+          "unit": "set (cable ties + routing accessories)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 3479957,
+            "firm_name": "Firm_0373"
+          },
+          "product": "DC filter capacitor; AC filter capacitor",
+          "quantity_per_vehicle": 2,
+          "unit": "units (DC filter + AC filter capacitors)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 3407265,
+            "firm_name": "Firm_0353"
+          },
+          "product": "Drive motor housing; Battery pack sidewall",
+          "quantity_per_vehicle": 77.0,
+          "unit": "kg (aluminum enclosure + structural parts)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 8722898,
+            "firm_name": "Firm_0326"
+          },
+          "product": "EV battery cover; Busbar",
+          "quantity_per_vehicle": 77.0,
+          "unit": "kg (aluminum enclosure + structural parts)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 5306722,
+            "firm_name": "Firm_0397"
+          },
+          "product": "Electric connector; Various sensors; Wire harness",
+          "quantity_per_vehicle": 1,
+          "unit": "set (body + engine + chassis harnesses)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 6690574,
+            "firm_name": "Firm_0189"
+          },
+          "product": "Electric connector; Wire harness",
+          "quantity_per_vehicle": 1,
+          "unit": "set (body + engine + chassis harnesses)",
+          "inputs": [
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 9829772,
+                "firm_name": "Firm_0092"
+              },
+              "product": "Connector housing; Terminal; Wafer",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 6886339,
+                "firm_name": "Firm_0114"
+              },
+              "product": "Electric connector; Sheath assembly",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 9613314,
+            "firm_name": "Firm_0367"
+          },
+          "product": "Electrolytic manganese dioxide; Lithium manganese oxide cathode material",
+          "quantity_per_vehicle": 83.2,
+          "unit": "kg"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 8166527,
+            "firm_name": "Firm_0379"
+          },
+          "product": "Energy storage system; BMS (Battery Management System); PCS inverter",
+          "quantity_per_vehicle": 1,
+          "unit": "pack (38.5 kWh)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 4077765,
+            "firm_name": "Firm_0358"
+          },
+          "product": "Fuse / Circuit braker; Relay; BDU (Battery Disconnect Unit)",
+          "quantity_per_vehicle": 1,
+          "unit": "set (BDU + fuses + relays + current sensors)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 5032173,
+            "firm_name": "Firm_0391"
+          },
+          "product": "Graphite anode material",
+          "quantity_per_vehicle": 41.8,
+          "unit": "kg"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 5698545,
+            "firm_name": "Firm_0012"
+          },
+          "product": "Heat exchanger; Cooling module",
+          "quantity_per_vehicle": 1,
+          "unit": "unit (for battery thermal circuit)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 9454994,
+            "firm_name": "Firm_0345"
+          },
+          "product": "Heating tube; Electric heating element",
+          "quantity_per_vehicle": 1,
+          "unit": "set (PTC or resistive heaters for cold-start)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 2083700,
+            "firm_name": "Firm_0365"
+          },
+          "product": "High-nickel cathode material; NCM cathode material",
+          "quantity_per_vehicle": 83.2,
+          "unit": "kg"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 6342596,
+            "firm_name": "Firm_0201"
+          },
+          "product": "Insulation film; Thermal insulation pad",
+          "quantity_per_vehicle": 7.7,
+          "unit": "kg (insulation / fireproofing material)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 2150375,
+            "firm_name": "Firm_0393"
+          },
+          "product": "Integrated electric drive system",
+          "quantity_per_vehicle": 1,
+          "unit": "unit (motor + controller + reducer)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 4606830,
+            "firm_name": "Firm_0378"
+          },
+          "product": "LFP cathode material",
+          "quantity_per_vehicle": 83.2,
+          "unit": "kg"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 8191378,
+            "firm_name": "Firm_0376"
+          },
+          "product": "LFP cathode material",
+          "quantity_per_vehicle": 83.2,
+          "unit": "kg"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 2578885,
+            "firm_name": "Firm_0355"
+          },
+          "product": "LFP cathode material; LMFP cathode material",
+          "quantity_per_vehicle": 83.2,
+          "unit": "kg"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 3730540,
+            "firm_name": "Firm_0308"
+          },
+          "product": "LFP cathode material; NCM cathode material",
+          "quantity_per_vehicle": 83.2,
+          "unit": "kg"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 1310189,
+            "firm_name": "Firm_0377"
+          },
+          "product": "Lithium carbonate; Battery-grade lithium hydroxide",
+          "quantity_per_vehicle": 3.7,
+          "unit": "kg Li-equivalent"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 3009451,
+            "firm_name": "Firm_0351"
+          },
+          "product": "Lithium-ion battery aluminum-plastic film; Lithium battery tab",
+          "quantity_per_vehicle": 3.9,
+          "unit": "kg (aluminum-plastic film + tabs)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 1064374,
+            "firm_name": "Firm_0344"
+          },
+          "product": "Lithium-ion battery anode current collector",
+          "quantity_per_vehicle": 11.5,
+          "unit": "kg copper foil"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 1010539,
+            "firm_name": "Firm_0374"
+          },
+          "product": "Lithium-ion battery electrolyte",
+          "quantity_per_vehicle": 38.5,
+          "unit": "kg"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 5454052,
+            "firm_name": "Firm_0371"
+          },
+          "product": "Lithium-ion battery electrolyte",
+          "quantity_per_vehicle": 38.5,
+          "unit": "kg"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 7072099,
+            "firm_name": "Firm_0370"
+          },
+          "product": "Lithium-ion battery electrolyte",
+          "quantity_per_vehicle": 38.5,
+          "unit": "kg"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 3193547,
+            "firm_name": "Firm_0372"
+          },
+          "product": "Lithium-ion battery electrolyte",
+          "quantity_per_vehicle": 38.5,
+          "unit": "kg"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 5075574,
+            "firm_name": "Firm_0340"
+          },
+          "product": "Lithium-ion battery electrolyte; Electrolyte additive",
+          "quantity_per_vehicle": 38.5,
+          "unit": "kg"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 1437924,
+            "firm_name": "Firm_0134"
+          },
+          "product": "Lithium-ion battery electrolyte; LFP cathode material",
+          "quantity_per_vehicle": 83.2,
+          "unit": "kg"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 5289395,
+            "firm_name": "Firm_0361"
+          },
+          "product": "Lithium-ion battery separator",
+          "quantity_per_vehicle": 19.2,
+          "unit": "kg"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 9453182,
+            "firm_name": "Firm_0363"
+          },
+          "product": "Lithium-ion battery separator",
+          "quantity_per_vehicle": 19.2,
+          "unit": "kg"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 6647368,
+            "firm_name": "Firm_0330"
+          },
+          "product": "Lithium-ion battery separator",
+          "quantity_per_vehicle": 19.2,
+          "unit": "kg"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 2522849,
+            "firm_name": "Firm_0362"
+          },
+          "product": "Lithium-ion battery separator",
+          "quantity_per_vehicle": 19.2,
+          "unit": "kg"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 8256283,
+            "firm_name": "Firm_0349"
+          },
+          "product": "Lithium-ion battery separator; Lithium-ion battery aluminum-plastic film",
+          "quantity_per_vehicle": 19.2,
+          "unit": "kg"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 3623869,
+            "firm_name": "Firm_0336"
+          },
+          "product": "NCM cathode material",
+          "quantity_per_vehicle": 83.2,
+          "unit": "kg"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 3067064,
+            "firm_name": "Firm_0008"
+          },
+          "product": "New energy passenger vehicle",
+          "quantity_per_vehicle": 1,
+          "unit": "set"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 6838851,
+            "firm_name": "Firm_0359"
+          },
+          "product": "New energy vehicle cable; Automotive wire",
+          "quantity_per_vehicle": 1,
+          "unit": "set (HV cables + signal wiring)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 1110905,
+            "firm_name": "Firm_0318"
+          },
+          "product": "New energy vehicle cable; Wire harness",
+          "quantity_per_vehicle": 1,
+          "unit": "set (body + engine + chassis harnesses)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 2777413,
+            "firm_name": "Firm_0149"
+          },
+          "product": "New energy vehicle die cast part",
+          "quantity_per_vehicle": 1,
+          "unit": "set (die cast structural / housing components)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 4694531,
+            "firm_name": "Firm_0390"
+          },
+          "product": "Oil cooler; Heat exchanger",
+          "quantity_per_vehicle": 1,
+          "unit": "unit (for battery thermal circuit)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 3555979,
+            "firm_name": "Firm_0070"
+          },
+          "product": "Other electrification parts",
+          "quantity_per_vehicle": 1,
+          "unit": "set"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 5567018,
+            "firm_name": "Firm_0331"
+          },
+          "product": "Sensor interface IC; Motor driver IC; Gate driver IC",
+          "quantity_per_vehicle": 1,
+          "unit": "set (sensor + motor driver + gate driver ICs)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 5967774,
+            "firm_name": "Firm_0369"
+          },
+          "product": "Thermal management hose; Weatherstrip",
+          "quantity_per_vehicle": 1,
+          "unit": "set (all door/window/trunk seals)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 1558277,
+            "firm_name": "Firm_0337"
+          },
+          "product": "Thermal silicone pad; Thermal gel",
+          "quantity_per_vehicle": 7.7,
+          "unit": "kg (insulation / fireproofing material)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 1622439,
+            "firm_name": "Firm_0343"
+          },
+          "product": "Ultra-high-purity reagent; Lithium battery material",
+          "quantity_per_vehicle": 3.7,
+          "unit": "kg Li-equivalent"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 4109305,
+            "firm_name": "Firm_0342"
+          },
+          "product": "Wet separator; Dry separator; Coating separator; Battery can and cap assembly",
+          "quantity_per_vehicle": 19.2,
+          "unit": "kg"
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 2610341,
+        "firm_name": "Firm_0275"
+      },
+      "product": "Motor core for drive motor",
+      "quantity_per_vehicle": 1,
+      "unit": "set (stator + rotor lamination stacks)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 8413252,
+        "firm_name": "Firm_0117"
+      },
+      "product": "Power window switch; Body control module (Body ECU); Various sensors",
+      "quantity_per_vehicle": 1,
+      "unit": "set (switches + BCM)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 1190478,
+        "firm_name": "Firm_0038"
+      },
+      "product": "Seat",
+      "quantity_per_vehicle": 5,
+      "unit": "positions (2 front + 1 rear bench = 5 seats)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 3729235,
+        "firm_name": "Firm_0126"
+      },
+      "product": "Tire; Tire",
+      "quantity_per_vehicle": 4,
+      "unit": "tires"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 2754708,
+        "firm_name": "Firm_0387"
+      },
+      "product": "Transformer; Various sensors",
+      "quantity_per_vehicle": 1,
+      "unit": "set"
+    }
+  ]
+}

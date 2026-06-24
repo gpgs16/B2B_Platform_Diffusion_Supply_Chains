@@ -1,0 +1,1222 @@
+{
+  "bill_of_materials": [
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 7047282,
+        "firm_name": "Firm_0033"
+      },
+      "product": "Air cleaner element",
+      "quantity_per_vehicle": 1,
+      "unit": "unit (housing + element)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 2248367,
+        "firm_name": "Firm_0043"
+      },
+      "product": "Alternator",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 6717460,
+        "firm_name": "Firm_0128"
+      },
+      "product": "Automatic transmission",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 6279934,
+        "firm_name": "Firm_0009"
+      },
+      "product": "Bearing",
+      "quantity_per_vehicle": 1,
+      "unit": "set"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 3047389,
+        "firm_name": "Firm_0040"
+      },
+      "product": "Body reinforcement parts",
+      "quantity_per_vehicle": 1,
+      "unit": "set (structural reinforcement panels)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 5739050,
+        "firm_name": "Firm_0213"
+      },
+      "product": "Brake disc",
+      "quantity_per_vehicle": 1,
+      "unit": "system (4-wheel)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 7458675,
+        "firm_name": "Firm_0044"
+      },
+      "product": "Brake master cylinder",
+      "quantity_per_vehicle": 1,
+      "unit": "set"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 9262877,
+        "firm_name": "Firm_0112"
+      },
+      "product": "CNC machined part",
+      "quantity_per_vehicle": null,
+      "unit": "n/a — CNC machining service"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 5231724,
+        "firm_name": "Firm_0010"
+      },
+      "product": "Car audio",
+      "quantity_per_vehicle": 1,
+      "unit": "system (head unit + speakers)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 7325914,
+        "firm_name": "Firm_0022"
+      },
+      "product": "Catalytic converter",
+      "quantity_per_vehicle": 1,
+      "unit": "unit (TWC)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 1866227,
+        "firm_name": "Firm_0067"
+      },
+      "product": "Coil spring",
+      "quantity_per_vehicle": 1,
+      "unit": "set (various springs)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 9499232,
+        "firm_name": "Firm_0063"
+      },
+      "product": "Column switch",
+      "quantity_per_vehicle": 1,
+      "unit": "set (turn signal + wiper + headlamp switches)",
+      "inputs": [
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 3964916,
+            "firm_name": "Firm_0001"
+          },
+          "product": "Column switch",
+          "quantity_per_vehicle": 1,
+          "unit": "set (turn signal + wiper + headlamp switches)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 8164849,
+            "firm_name": "Firm_0151"
+          },
+          "product": "Fastener",
+          "quantity_per_vehicle": 1,
+          "unit": "set"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 1386123,
+            "firm_name": "Firm_0357"
+          },
+          "product": "Various instrument switches",
+          "quantity_per_vehicle": 1,
+          "unit": "set"
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 3971844,
+        "firm_name": "Firm_0107"
+      },
+      "product": "Column switch",
+      "quantity_per_vehicle": 1,
+      "unit": "set (turn signal + wiper + headlamp switches)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 2061605,
+        "firm_name": "Firm_0062"
+      },
+      "product": "Door frame",
+      "quantity_per_vehicle": 4,
+      "unit": "frames"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 7904754,
+        "firm_name": "Firm_0131"
+      },
+      "product": "Door trim",
+      "quantity_per_vehicle": 1,
+      "unit": "set (all interior trim pieces per vehicle)",
+      "inputs": [
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 4499675,
+            "firm_name": "Firm_0193"
+          },
+          "product": "Automotive grease",
+          "quantity_per_vehicle": 0.2,
+          "unit": "kg"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 7145265,
+            "firm_name": "Firm_0125"
+          },
+          "product": "Breather vent",
+          "quantity_per_vehicle": 1,
+          "unit": "set"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 5758799,
+            "firm_name": "Firm_0015"
+          },
+          "product": "Bumper fascia",
+          "quantity_per_vehicle": 2,
+          "unit": "units (front + rear bumper fascia)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 8023133,
+            "firm_name": "Firm_0195"
+          },
+          "product": "Carbon brush",
+          "quantity_per_vehicle": 1,
+          "unit": "set"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 6437888,
+            "firm_name": "Firm_0384"
+          },
+          "product": "Column switch",
+          "quantity_per_vehicle": 1,
+          "unit": "set (turn signal + wiper + headlamp switches)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 4057150,
+            "firm_name": "Firm_0021"
+          },
+          "product": "Control cable",
+          "quantity_per_vehicle": 1,
+          "unit": "set",
+          "inputs": [
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 6924555,
+                "firm_name": "Firm_0047"
+              },
+              "product": "Aluminum die cast part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 4511941,
+                "firm_name": "Firm_0235"
+              },
+              "product": "Bellows",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 5171379,
+                "firm_name": "Firm_0129"
+              },
+              "product": "Bellows",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 7673924,
+                "firm_name": "Firm_0222"
+              },
+              "product": "CNC machined part",
+              "quantity_per_vehicle": null,
+              "unit": "n/a — CNC machining service"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 7713840,
+                "firm_name": "Firm_0299"
+              },
+              "product": "CNC machined part",
+              "quantity_per_vehicle": null,
+              "unit": "n/a — CNC machining service"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 7845246,
+                "firm_name": "Firm_0303"
+              },
+              "product": "Cold forged part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 3600578,
+                "firm_name": "Firm_0319"
+              },
+              "product": "Cold forged part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 6428880,
+                "firm_name": "Firm_0230"
+              },
+              "product": "Control cable",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 2843912,
+                "firm_name": "Firm_0386"
+              },
+              "product": "Headlamp",
+              "quantity_per_vehicle": 1,
+              "unit": "set (headlamp + tail lamp + turn signals)"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 9129673,
+                "firm_name": "Firm_0261"
+              },
+              "product": "Injection molded automotive part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 8303616,
+                "firm_name": "Firm_0290"
+              },
+              "product": "Injection molded automotive part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 1675786,
+                "firm_name": "Firm_0312"
+              },
+              "product": "Injection molded automotive part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 5637436,
+                "firm_name": "Firm_0297"
+              },
+              "product": "Injection molded automotive part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 9372387,
+                "firm_name": "Firm_0320"
+              },
+              "product": "Moulded rubber part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 9928540,
+                "firm_name": "Firm_0302"
+              },
+              "product": "Sheet metal part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 5466436,
+                "firm_name": "Firm_0283"
+              },
+              "product": "Spring",
+              "quantity_per_vehicle": 1,
+              "unit": "set (various springs)"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 6713501,
+                "firm_name": "Firm_0256"
+              },
+              "product": "Spring",
+              "quantity_per_vehicle": 1,
+              "unit": "set (various springs)"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 8638551,
+                "firm_name": "Firm_0263"
+              },
+              "product": "Spring",
+              "quantity_per_vehicle": 1,
+              "unit": "set (various springs)"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 4497993,
+                "firm_name": "Firm_0284"
+              },
+              "product": "Wire harness",
+              "quantity_per_vehicle": 1,
+              "unit": "set (body + engine + chassis harnesses)",
+              "inputs": [
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 7318816,
+                    "firm_name": "Firm_0298"
+                  },
+                  "product": "Grommet",
+                  "quantity_per_vehicle": 1,
+                  "unit": "set"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 1736500,
+            "firm_name": "Firm_0395"
+          },
+          "product": "Door lock parts",
+          "quantity_per_vehicle": 4,
+          "unit": "units"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 1742953,
+            "firm_name": "Firm_0173"
+          },
+          "product": "Door sealing profile",
+          "quantity_per_vehicle": 1,
+          "unit": "set"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 1889586,
+            "firm_name": "Firm_0246"
+          },
+          "product": "Door trim",
+          "quantity_per_vehicle": 1,
+          "unit": "set (all interior trim pieces per vehicle)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 7430236,
+            "firm_name": "Firm_0325"
+          },
+          "product": "Fuel line",
+          "quantity_per_vehicle": 1,
+          "unit": "set"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 1089535,
+            "firm_name": "Firm_0060"
+          },
+          "product": "Injection molded automotive part",
+          "quantity_per_vehicle": 1,
+          "unit": "set",
+          "inputs": [
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 7161094,
+                "firm_name": "Firm_0289"
+              },
+              "product": "Aluminum die cast part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 9937835,
+                "firm_name": "Firm_0260"
+              },
+              "product": "Bolt / Nut",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 9589865,
+                "firm_name": "Firm_0281"
+              },
+              "product": "CNC machined part",
+              "quantity_per_vehicle": null,
+              "unit": "n/a — CNC machining service"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 5817882,
+                "firm_name": "Firm_0300"
+              },
+              "product": "Cold forged part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 8194129,
+                "firm_name": "Firm_0276"
+              },
+              "product": "Die casting mold",
+              "quantity_per_vehicle": null,
+              "unit": "n/a — tooling (capital, amortized)"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 1865972,
+                "firm_name": "Firm_0271"
+              },
+              "product": "Injection molded automotive part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 8812321,
+                "firm_name": "Firm_0234"
+              },
+              "product": "Shaft",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 4630785,
+                "firm_name": "Firm_0248"
+              },
+              "product": "Sheet metal part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 8921498,
+                "firm_name": "Firm_0296"
+              },
+              "product": "Sheet metal part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 4402921,
+            "firm_name": "Firm_0323"
+          },
+          "product": "Injection molded automotive part",
+          "quantity_per_vehicle": 1,
+          "unit": "set"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 5594728,
+            "firm_name": "Firm_0385"
+          },
+          "product": "Injection molded automotive part",
+          "quantity_per_vehicle": 1,
+          "unit": "set"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 1867445,
+            "firm_name": "Firm_0157"
+          },
+          "product": "Intelligent cockpit part",
+          "quantity_per_vehicle": 1,
+          "unit": "system (head unit + display + OS)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 1346523,
+            "firm_name": "Firm_0159"
+          },
+          "product": "Interior trim",
+          "quantity_per_vehicle": 1,
+          "unit": "set (all interior trim pieces per vehicle)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 7794623,
+            "firm_name": "Firm_0285"
+          },
+          "product": "Interior trim",
+          "quantity_per_vehicle": 1,
+          "unit": "set (all interior trim pieces per vehicle)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 8104289,
+            "firm_name": "Firm_0368"
+          },
+          "product": "Interior trim",
+          "quantity_per_vehicle": 1,
+          "unit": "set (all interior trim pieces per vehicle)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 5824891,
+            "firm_name": "Firm_0327"
+          },
+          "product": "Paint coating",
+          "quantity_per_vehicle": 1,
+          "unit": "set (primer + base + clear coat)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 1412297,
+            "firm_name": "Firm_0382"
+          },
+          "product": "Seat control module",
+          "quantity_per_vehicle": 1,
+          "unit": "set (column switches + seat control + steering switches)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 9576531,
+            "firm_name": "Firm_0020"
+          },
+          "product": "Sheet metal part",
+          "quantity_per_vehicle": 1,
+          "unit": "set",
+          "inputs": [
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 5569321,
+                "firm_name": "Firm_0227"
+              },
+              "product": "Engine mount bracket",
+              "quantity_per_vehicle": 3,
+              "unit": "units (2 engine + 1 transmission mount)"
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 2977941,
+            "firm_name": "Firm_0329"
+          },
+          "product": "Sheet metal part",
+          "quantity_per_vehicle": 1,
+          "unit": "set"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 8714789,
+            "firm_name": "Firm_0064"
+          },
+          "product": "Shock absorber",
+          "quantity_per_vehicle": 4,
+          "unit": "units (one per corner)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 9419981,
+            "firm_name": "Firm_0013"
+          },
+          "product": "Solenoid / Solenoid valve",
+          "quantity_per_vehicle": 1,
+          "unit": "set",
+          "inputs": [
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 6435152,
+                "firm_name": "Firm_0237"
+              },
+              "product": "Air cleaner element",
+              "quantity_per_vehicle": 1,
+              "unit": "unit (housing + element)"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 6464987,
+                "firm_name": "Firm_0310"
+              },
+              "product": "Electric connector",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 8572768,
+                "firm_name": "Firm_0254"
+              },
+              "product": "Functional housing",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 3339259,
+                "firm_name": "Firm_0231"
+              },
+              "product": "Injection molded automotive part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 5576699,
+                "firm_name": "Firm_0255"
+              },
+              "product": "Injection molded automotive part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 2499988,
+                "firm_name": "Firm_0274"
+              },
+              "product": "Moulded rubber part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 9533693,
+                "firm_name": "Firm_0258"
+              },
+              "product": "Sheet metal part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 8199224,
+                "firm_name": "Firm_0137"
+              },
+              "product": "Spring",
+              "quantity_per_vehicle": 1,
+              "unit": "set (various springs)"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 2183732,
+                "firm_name": "Firm_0061"
+              },
+              "product": "Steering shaft",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 1033332,
+                "firm_name": "Firm_0272"
+              },
+              "product": "Various actuators",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 7634151,
+                "firm_name": "Firm_0229"
+              },
+              "product": "Various casting",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 3303395,
+                "firm_name": "Firm_0398"
+              },
+              "product": "Various plastic molding",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 7967790,
+                "firm_name": "Firm_0381"
+              },
+              "product": "Wire harness",
+              "quantity_per_vehicle": 1,
+              "unit": "set (body + engine + chassis harnesses)"
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 1771651,
+            "firm_name": "Firm_0048"
+          },
+          "product": "Weatherstrip",
+          "quantity_per_vehicle": 1,
+          "unit": "set (all door/window/trunk seals)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 5284386,
+            "firm_name": "Firm_0322"
+          },
+          "product": "Window glass",
+          "quantity_per_vehicle": 6,
+          "unit": "panes (windshield + rear + 4 side)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 2298159,
+            "firm_name": "Firm_0050"
+          },
+          "product": "Window regulator",
+          "quantity_per_vehicle": 4,
+          "unit": "units"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 3861318,
+            "firm_name": "Firm_0136"
+          },
+          "product": "Window regulator",
+          "quantity_per_vehicle": 4,
+          "unit": "units"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 6986790,
+            "firm_name": "Firm_0324"
+          },
+          "product": "Window regulator",
+          "quantity_per_vehicle": 4,
+          "unit": "units"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 4395918,
+            "firm_name": "Firm_0108"
+          },
+          "product": "Window regulator guide rail",
+          "quantity_per_vehicle": 4,
+          "unit": "units"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 8338248,
+            "firm_name": "Firm_0016"
+          },
+          "product": "Wiper",
+          "quantity_per_vehicle": 1,
+          "unit": "set (front + rear wiper system)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 7151505,
+            "firm_name": "Firm_0278"
+          },
+          "product": "Wire harness",
+          "quantity_per_vehicle": 1,
+          "unit": "set (body + engine + chassis harnesses)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 9002574,
+            "firm_name": "Firm_0383"
+          },
+          "product": "Zinc die cast part",
+          "quantity_per_vehicle": 1,
+          "unit": "set"
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 2181661,
+        "firm_name": "Firm_0130"
+      },
+      "product": "Electric power steering (EPS)",
+      "quantity_per_vehicle": 1,
+      "unit": "column assembly (EPS motor + column + rack)",
+      "inputs": [
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 1743724,
+            "firm_name": "Firm_0286"
+          },
+          "product": "Bush",
+          "quantity_per_vehicle": 1,
+          "unit": "set"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 8822418,
+            "firm_name": "Firm_0071"
+          },
+          "product": "Suspension system",
+          "quantity_per_vehicle": 1,
+          "unit": "system"
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 8729443,
+        "firm_name": "Firm_0178"
+      },
+      "product": "Electric power steering (EPS)",
+      "quantity_per_vehicle": 1,
+      "unit": "column assembly (EPS motor + column + rack)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 3125199,
+        "firm_name": "Firm_0082"
+      },
+      "product": "Engine ECU",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 5284708,
+        "firm_name": "Firm_0068"
+      },
+      "product": "Exhaust manifold",
+      "quantity_per_vehicle": 1,
+      "unit": "system (manifold + pipe + muffler)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 9396182,
+        "firm_name": "Firm_0004"
+      },
+      "product": "Halfshaft",
+      "quantity_per_vehicle": 2,
+      "unit": "halfshafts (front-wheel drive)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 6971035,
+        "firm_name": "Firm_0197"
+      },
+      "product": "Headlamp",
+      "quantity_per_vehicle": 1,
+      "unit": "set (headlamp + tail lamp + turn signals)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 4292120,
+        "firm_name": "Firm_0095"
+      },
+      "product": "Headlamp",
+      "quantity_per_vehicle": 1,
+      "unit": "set (headlamp + tail lamp + turn signals)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 8201086,
+        "firm_name": "Firm_0032"
+      },
+      "product": "Home decoration material",
+      "quantity_per_vehicle": 1,
+      "unit": "set",
+      "inputs": [
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 6082223,
+            "firm_name": "Firm_0226"
+          },
+          "product": "Brake pad",
+          "quantity_per_vehicle": 1,
+          "unit": "set"
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 2673926,
+        "firm_name": "Firm_0006"
+      },
+      "product": "Modified polypropylene compound",
+      "quantity_per_vehicle": 1,
+      "unit": "set (modified PP for interior/exterior parts)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 5839446,
+        "firm_name": "Firm_0031"
+      },
+      "product": "Radiator",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 3884841,
+        "firm_name": "Firm_0160"
+      },
+      "product": "Relay",
+      "quantity_per_vehicle": 1,
+      "unit": "set"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 1412791,
+        "firm_name": "Firm_0090"
+      },
+      "product": "Seat",
+      "quantity_per_vehicle": 5,
+      "unit": "positions (2 front + 1 rear bench = 5 seats)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 1477130,
+        "firm_name": "Firm_0037"
+      },
+      "product": "Seat",
+      "quantity_per_vehicle": 5,
+      "unit": "positions (2 front + 1 rear bench = 5 seats)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 4752985,
+        "firm_name": "Firm_0059"
+      },
+      "product": "Sheet metal part",
+      "quantity_per_vehicle": 1,
+      "unit": "set"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 8296640,
+        "firm_name": "Firm_0003"
+      },
+      "product": "Shock absorber",
+      "quantity_per_vehicle": 4,
+      "unit": "units (one per corner)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 7917549,
+        "firm_name": "Firm_0005"
+      },
+      "product": "Shock absorber",
+      "quantity_per_vehicle": 4,
+      "unit": "units (one per corner)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 4516550,
+        "firm_name": "Firm_0088"
+      },
+      "product": "Starter motor",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 9414361,
+        "firm_name": "Firm_0147"
+      },
+      "product": "Starter motor",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 5794464,
+        "firm_name": "Firm_0007"
+      },
+      "product": "Timing belt",
+      "quantity_per_vehicle": 1,
+      "unit": "set (belt/chain + tensioner + guides)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 1079260,
+        "firm_name": "Firm_0135"
+      },
+      "product": "Universal joint",
+      "quantity_per_vehicle": 2,
+      "unit": "joints"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 9851267,
+        "firm_name": "Firm_0341"
+      },
+      "product": "Weatherstrip",
+      "quantity_per_vehicle": 1,
+      "unit": "set (all door/window/trunk seals)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 3762586,
+        "firm_name": "Firm_0034"
+      },
+      "product": "Weatherstrip",
+      "quantity_per_vehicle": 1,
+      "unit": "set (all door/window/trunk seals)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 2720604,
+        "firm_name": "Firm_0162"
+      },
+      "product": "Wiper motor",
+      "quantity_per_vehicle": 1,
+      "unit": "set"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 6375629,
+        "firm_name": "Firm_0118"
+      },
+      "product": "Wire harness",
+      "quantity_per_vehicle": 1,
+      "unit": "set (body + engine + chassis harnesses)"
+    }
+  ]
+}

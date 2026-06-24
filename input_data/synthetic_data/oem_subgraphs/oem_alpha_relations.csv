@@ -1,0 +1,130 @@
+relation_id,source_firm_id,target_firm_id,source_tier,product_name,is_conglomerate_supplier
+1,9520617,6206468,3,CNC machined aluminum part,False
+2,1622439,9465603,2,Ultra-high-purity reagent; Lithium battery material,False
+3,6690574,9465603,2,Electric connector; Wire harness,False
+4,5032173,9465603,2,Graphite anode material,False
+5,2150375,9465603,2,Integrated electric drive system,False
+6,4109305,9465603,2,Wet separator; Dry separator; Coating separator; Battery can and cap assembly,False
+7,7036411,9465603,2,Battery tray,False
+8,1010539,9465603,2,Lithium-ion battery electrolyte,False
+9,6364519,1550011,1,Cylindrical lithium-ion cell,False
+10,8677366,6206468,3,Aluminum die cast part,False
+11,2610341,1550011,1,Motor core for drive motor,False
+12,3093873,1550011,1,EV battery system,False
+13,3093873,1550011,1,EV battery system,False
+14,3093873,1550011,1,EV battery system,False
+15,3093873,1550011,1,EV battery system,False
+16,3093873,1550011,1,EV battery system,False
+17,3093873,1550011,1,EV battery system,False
+18,3093873,1550011,1,EV battery system,False
+19,1681671,6206468,3,Aluminum die cast part,False
+20,1224158,6206468,3,Bent pipe joint; Precision nut,False
+21,5412544,1550011,1,Integrated electric drive system,False
+22,6443972,6206468,3,Aluminium die-casting alloy; Aluminium alloy ingot,False
+23,5554112,6206468,3,Aluminum cast part,False
+24,6342596,9465603,2,Insulation film; Thermal insulation pad,False
+25,8968192,9465603,2,Cable tie; Cable management accessory; Heat shrink tubing,False
+26,8675613,6206468,3,Die casting mold; Trimming mold; Prototype part,False
+27,1178531,6206468,3,Aluminum casting prototype,False
+28,6616323,9465603,2,Battery structural part,False
+29,6206468,9465603,2,Battery case,False
+30,4791841,6206468,3,Gasket; Heat shield cover; Gasket,False
+31,3242727,1550011,1,Drive motor,False
+32,5567018,9465603,2,Sensor interface IC; Motor driver IC; Gate driver IC,False
+33,9268524,6206468,3,Clutch cover; Transmission case,False
+34,2083700,9465603,2,High-nickel cathode material; NCM cathode material,False
+35,4158142,6206468,3,Crankcase,False
+36,5632543,6206468,3,Aluminum cast part,False
+37,2965123,1550011,1,Connected vehicle platform; V2X terminal; 5G T-BOX unit,False
+38,1093576,6206468,3,Precision machined aluminum part,False
+39,5454052,9465603,2,Lithium-ion battery electrolyte,False
+40,5967774,9465603,2,Thermal management hose; Weatherstrip,False
+41,3009451,9465603,2,Lithium-ion battery aluminum-plastic film; Lithium battery tab,False
+42,5252436,6206468,3,Aluminum die cast part,False
+43,7045546,6206468,3,Sheet metal part; Pipe part,False
+44,3479957,9465603,2,DC filter capacitor; AC filter capacitor,False
+45,6886339,6690574,3,Electric connector; Sheath assembly,False
+46,8140492,9465603,2,Battery thermal insulation material; Battery fireproofing material,False
+47,3729235,1550011,1,Tire; Tire,False
+48,8100425,6206468,3,Transmission piston; ECU case,False
+49,3945921,9465603,2,Battery case; Aluminum extrusion part,False
+50,8722898,9465603,2,EV battery cover; Busbar,False
+51,7931817,9465603,2,Battery cooling plate,False
+52,7877162,9465603,2,Battery insert molding part; Busbar; Electric connector,False
+53,3555979,9465603,2,Other electrification parts,False
+54,1110905,9465603,2,New energy vehicle cable; Wire harness,False
+55,1558277,9465603,2,Thermal silicone pad; Thermal gel,False
+56,1015722,6206468,3,Precision machined part,False
+57,5289395,9465603,2,Lithium-ion battery separator,False
+58,4706438,6206468,3,Automotive cast part,False
+59,6838851,9465603,2,New energy vehicle cable; Automotive wire,False
+60,3500533,1550011,1,Airbag module; Steering wheel,False
+61,2291066,9465603,2,Battery assembly production line,False
+62,9465603,1550011,1,Lithium-ion battery cell; Lithium-ion battery / Lithium-ion battery pack,False
+63,4265813,6206468,3,Precision machined aluminum part,False
+64,5675242,6206468,3,Metal heat treatment service,False
+65,2754708,1550011,1,Transformer; Various sensors,False
+66,9327549,6206468,3,Transmission machined part,False
+67,9613314,9465603,2,Electrolytic manganese dioxide; Lithium manganese oxide cathode material,False
+68,3881613,6206468,3,Aluminum die cast engine block,False
+69,4282387,6206468,3,Oil pan; Junction box,False
+70,5698545,9465603,2,Heat exchanger; Cooling module,False
+71,7154068,1550011,1,Electric brake (Brake-by-wire),True
+72,4747993,1550011,1,LFP battery cell,False
+73,6483410,6206468,3,Die cast part,False
+74,8309303,9465603,2,Battery-grade lithium hydroxide,False
+75,6500636,1986777,4,Flexible PU foam,False
+76,7536042,6206468,3,Sheet metal part; Injection molded automotive part; Moulded rubber part,False
+77,2581698,1550011,1,AI smart cockpit system,False
+78,5075574,9465603,2,Lithium-ion battery electrolyte; Electrolyte additive,False
+79,8413252,1550011,1,Power window switch; Body control module (Body ECU); Various sensors,True
+80,4694531,9465603,2,Oil cooler; Heat exchanger,False
+81,5973258,9465603,2,Anode materials / plates for lithium-ion battery,False
+82,9453182,9465603,2,Lithium-ion battery separator,False
+83,9542865,9465603,2,Automotive powertrain part; Magnesium die cast automotive part,False
+84,8710752,6206468,3,Bolt / Nut; Bolt / Nut; Aluminum connector,False
+85,2578885,9465603,2,LFP cathode material; LMFP cathode material,False
+86,1759224,9465603,2,Artificial graphite anode material,False
+87,5306722,9465603,2,Electric connector; Various sensors; Wire harness,False
+88,4052293,1550011,1,Integrated electric drive system,False
+89,6908273,1550011,1,Body domain controller; Keyless entry system; Various sensors,False
+90,2005357,9465603,2,Automotive rubber sealing part; Vibration damping system,False
+91,6846635,6206468,3,Aluminum/zinc die cast automotive part,False
+92,6286178,1550011,1,EV battery system,False
+93,6286178,1550011,1,EV battery system,False
+94,7144634,9465603,2,Battery structural part; Sheet metal part,False
+95,9829772,6690574,3,Connector housing; Terminal; Wafer,False
+96,7072099,9465603,2,Lithium-ion battery electrolyte,False
+97,6647368,9465603,2,Lithium-ion battery separator,False
+98,4077765,9465603,2,Fuse / Circuit braker; Relay; BDU (Battery Disconnect Unit),False
+99,2693942,6206468,3,Magnesium die cast automotive part,False
+100,1310189,9465603,2,Lithium carbonate; Battery-grade lithium hydroxide,False
+101,3249563,1550011,1,EV power battery,False
+102,1064374,9465603,2,Lithium-ion battery anode current collector,False
+103,3730540,9465603,2,LFP cathode material; NCM cathode material,False
+104,4606830,9465603,2,LFP cathode material,False
+105,8256283,9465603,2,Lithium-ion battery separator; Lithium-ion battery aluminum-plastic film,False
+106,1986777,6206468,3,Magnesium die cast automotive part; Aluminum die cast part,False
+107,6957776,1550011,1,Airbag module; Seat belt; Steering wheel,False
+108,2308210,1550011,1,Cylindrical lithium-ion cell,False
+109,2899561,6206468,3,Heat sink; Connector case,False
+110,2522849,9465603,2,Lithium-ion battery separator,False
+111,3067064,9465603,2,New energy passenger vehicle,False
+112,3407265,9465603,2,Drive motor housing; Battery pack sidewall,False
+113,5171331,1550011,1,Lithium-ion battery / Lithium-ion battery pack; BMS (Battery Management System),False
+114,1437924,9465603,2,Lithium-ion battery electrolyte; LFP cathode material,False
+115,4791944,6206468,3,Gear,False
+116,8191378,9465603,2,LFP cathode material,False
+117,2897606,6206468,3,Die casting machine spare part,False
+118,2105778,9465603,2,Artificial graphite anode material; Silicon-based anode material,False
+119,2549022,1550011,1,EC rearview mirror; Streaming media mirror; AI smart cockpit system,False
+120,9454994,9465603,2,Heating tube; Electric heating element,False
+121,7813650,6206468,3,HVAC pipe; Die cast machined part,False
+122,3623869,9465603,2,NCM cathode material,False
+123,1190478,1550011,1,Seat,False
+124,3193547,9465603,2,Lithium-ion battery electrolyte,False
+125,8166527,9465603,2,Energy storage system; BMS (Battery Management System); PCS inverter,False
+126,2777413,9465603,2,New energy vehicle die cast part,False
+127,1421427,1550011,1,Electric oil pump; Vacuum pump; Water pump,False
+128,8527272,6206468,3,Aluminum die cast automotive part,False
+129,9328608,1550011,1,Electric oil pump; Vacuum pump; Water pump,False

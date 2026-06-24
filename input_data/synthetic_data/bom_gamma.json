@@ -1,0 +1,1220 @@
+{
+  "bill_of_materials": [
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 5245485,
+        "firm_name": "Firm_0036"
+      },
+      "product": "Bearing",
+      "quantity_per_vehicle": 1,
+      "unit": "set"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 3638530,
+        "firm_name": "Firm_0102"
+      },
+      "product": "Bearing",
+      "quantity_per_vehicle": 1,
+      "unit": "set"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 2372532,
+        "firm_name": "Firm_0110"
+      },
+      "product": "Brake master cylinder",
+      "quantity_per_vehicle": 1,
+      "unit": "set"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 2286399,
+        "firm_name": "Firm_0205"
+      },
+      "product": "Brake pipe",
+      "quantity_per_vehicle": 1,
+      "unit": "set"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 7822883,
+        "firm_name": "Firm_0268"
+      },
+      "product": "Bush",
+      "quantity_per_vehicle": 1,
+      "unit": "set"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 1745231,
+        "firm_name": "Firm_0214"
+      },
+      "product": "Camshaft",
+      "quantity_per_vehicle": 1,
+      "unit": "unit (SOHC)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 7007925,
+        "firm_name": "Firm_0208"
+      },
+      "product": "Camshaft",
+      "quantity_per_vehicle": 1,
+      "unit": "unit (SOHC)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 9222494,
+        "firm_name": "Firm_0100"
+      },
+      "product": "Carburetor",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 6705113,
+        "firm_name": "Firm_0089"
+      },
+      "product": "Carburetor",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 6081432,
+        "firm_name": "Firm_0313"
+      },
+      "product": "Catalytic converter",
+      "quantity_per_vehicle": 1,
+      "unit": "unit (TWC)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 1563125,
+        "firm_name": "Firm_0097"
+      },
+      "product": "Chain sprocket",
+      "quantity_per_vehicle": 1,
+      "unit": "set (chain + front + rear sprockets)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 8450020,
+        "firm_name": "Firm_0182"
+      },
+      "product": "Clutch assembly",
+      "quantity_per_vehicle": 1,
+      "unit": "set (clutch + DMF)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 3399259,
+        "firm_name": "Firm_0183"
+      },
+      "product": "Clutch disc",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 6678275,
+        "firm_name": "Firm_0185"
+      },
+      "product": "Connecting rod",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 9319056,
+        "firm_name": "Firm_0187"
+      },
+      "product": "Crankcase",
+      "quantity_per_vehicle": 1,
+      "unit": "unit (cylinder block + head + crankcase)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 1767317,
+        "firm_name": "Firm_0207"
+      },
+      "product": "Crankshaft",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 4415380,
+        "firm_name": "Firm_0180"
+      },
+      "product": "Crankshaft",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 6528072,
+        "firm_name": "Firm_0219"
+      },
+      "product": "Cylinder block",
+      "quantity_per_vehicle": 1,
+      "unit": "unit (cylinder block + head + crankcase)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 2161326,
+        "firm_name": "Firm_0212"
+      },
+      "product": "Cylinder block",
+      "quantity_per_vehicle": 1,
+      "unit": "unit (cylinder block + head + crankcase)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 5404649,
+        "firm_name": "Firm_0206"
+      },
+      "product": "Differential case",
+      "quantity_per_vehicle": 1,
+      "unit": "unit (case + ring/pinion + spider gears)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 8470716,
+        "firm_name": "Firm_0083"
+      },
+      "product": "Drive chain",
+      "quantity_per_vehicle": 1,
+      "unit": "set (chain + front + rear sprockets)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 2916291,
+        "firm_name": "Firm_0103"
+      },
+      "product": "Drive motor",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 6777032,
+        "firm_name": "Firm_0111"
+      },
+      "product": "Electric connector",
+      "quantity_per_vehicle": 1,
+      "unit": "set"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 6283079,
+        "firm_name": "Firm_0139"
+      },
+      "product": "Engine mount bracket",
+      "quantity_per_vehicle": 2,
+      "unit": "units (engine-to-frame mounts)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 4619104,
+        "firm_name": "Firm_0175"
+      },
+      "product": "Engine mount bracket",
+      "quantity_per_vehicle": 2,
+      "unit": "units (engine-to-frame mounts)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 2170980,
+        "firm_name": "Firm_0041"
+      },
+      "product": "Exhaust pipe",
+      "quantity_per_vehicle": 1,
+      "unit": "system (manifold + pipe + muffler)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 8439345,
+        "firm_name": "Firm_0223"
+      },
+      "product": "Final drive gear",
+      "quantity_per_vehicle": 1,
+      "unit": "unit (case + ring/pinion + spider gears)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 2109335,
+        "firm_name": "Firm_0065"
+      },
+      "product": "Fuel injector",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 4602371,
+        "firm_name": "Firm_0138"
+      },
+      "product": "Fuel tank",
+      "quantity_per_vehicle": 1,
+      "unit": "unit (~15 L capacity)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 6557742,
+        "firm_name": "Firm_0109"
+      },
+      "product": "Gasket",
+      "quantity_per_vehicle": 1,
+      "unit": "set"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 8525788,
+        "firm_name": "Firm_0098"
+      },
+      "product": "Headlamp",
+      "quantity_per_vehicle": 1,
+      "unit": "set (headlamp + tail lamp + turn signals)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 9678634,
+        "firm_name": "Firm_0119"
+      },
+      "product": "Headlamp",
+      "quantity_per_vehicle": 1,
+      "unit": "set (headlamp + tail lamp + turn signals)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 4159645,
+        "firm_name": "Firm_0035"
+      },
+      "product": "Headlamp bulb",
+      "quantity_per_vehicle": 1,
+      "unit": "set (headlamp + tail lamp + turn signals)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 6790596,
+        "firm_name": "Firm_0172"
+      },
+      "product": "Horn",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 4186501,
+        "firm_name": "Firm_0057"
+      },
+      "product": "Ignition coil",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 4829371,
+        "firm_name": "Firm_0174"
+      },
+      "product": "Ignition coil",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 7633573,
+        "firm_name": "Firm_0096"
+      },
+      "product": "Ignition coil",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 3020912,
+        "firm_name": "Firm_0123"
+      },
+      "product": "Instrument cluster",
+      "quantity_per_vehicle": 1,
+      "unit": "unit (speedometer + tachometer cluster)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 4807980,
+        "firm_name": "Firm_0211"
+      },
+      "product": "Instrument cluster",
+      "quantity_per_vehicle": 1,
+      "unit": "unit (speedometer + tachometer cluster)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 5463186,
+        "firm_name": "Firm_0165"
+      },
+      "product": "Intake valve",
+      "quantity_per_vehicle": 2,
+      "unit": "valves (1 intake + 1 exhaust)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 5539505,
+        "firm_name": "Firm_0170"
+      },
+      "product": "Intake valve",
+      "quantity_per_vehicle": 2,
+      "unit": "valves (1 intake + 1 exhaust)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 5341979,
+        "firm_name": "Firm_0106"
+      },
+      "product": "Key cylinder",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 4348319,
+        "firm_name": "Firm_0120"
+      },
+      "product": "Manual transmission",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 2540816,
+        "firm_name": "Firm_0177"
+      },
+      "product": "Motorcycle battery",
+      "quantity_per_vehicle": 1,
+      "unit": "unit (12 V lead-acid or small Li-ion)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 7581273,
+        "firm_name": "Firm_0039"
+      },
+      "product": "Motorcycle engine cover",
+      "quantity_per_vehicle": 1,
+      "unit": "set (L/R covers + head cover)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 2051176,
+        "firm_name": "Firm_0115"
+      },
+      "product": "Motorcycle foot peg",
+      "quantity_per_vehicle": 1,
+      "unit": "set (fairings + foot pegs + guards)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 6289784,
+        "firm_name": "Firm_0236"
+      },
+      "product": "Motorcycle frame assembly",
+      "quantity_per_vehicle": 1,
+      "unit": "unit (tubular / cradle frame)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 9190864,
+        "firm_name": "Firm_0179"
+      },
+      "product": "Motorcycle frame assembly",
+      "quantity_per_vehicle": 1,
+      "unit": "unit (tubular / cradle frame)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 3206302,
+        "firm_name": "Firm_0116"
+      },
+      "product": "Motorcycle frame assembly",
+      "quantity_per_vehicle": 1,
+      "unit": "unit (tubular / cradle frame)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 9116605,
+        "firm_name": "Firm_0169"
+      },
+      "product": "Oil pump",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 1624114,
+        "firm_name": "Firm_0042"
+      },
+      "product": "Oil seal",
+      "quantity_per_vehicle": 1,
+      "unit": "set (crankshaft + camshaft + valve stem seals)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 4239478,
+        "firm_name": "Firm_0145"
+      },
+      "product": "One-way clutch",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 9310371,
+        "firm_name": "Firm_0141"
+      },
+      "product": "One-way clutch",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 2381320,
+        "firm_name": "Firm_0046"
+      },
+      "product": "Piston",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 4788227,
+        "firm_name": "Firm_0245"
+      },
+      "product": "Piston",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 3521750,
+        "firm_name": "Firm_0166"
+      },
+      "product": "Piston ring",
+      "quantity_per_vehicle": 3,
+      "unit": "rings (3 per piston × 1 cylinder)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 1209379,
+        "firm_name": "Firm_0167"
+      },
+      "product": "Piston ring",
+      "quantity_per_vehicle": 3,
+      "unit": "rings (3 per piston × 1 cylinder)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 7705241,
+        "firm_name": "Firm_0002"
+      },
+      "product": "Piston ring",
+      "quantity_per_vehicle": 3,
+      "unit": "rings (3 per piston × 1 cylinder)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 7947017,
+        "firm_name": "Firm_0113"
+      },
+      "product": "Relay",
+      "quantity_per_vehicle": 1,
+      "unit": "set"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 1647183,
+        "firm_name": "Firm_0121"
+      },
+      "product": "Road wheel",
+      "quantity_per_vehicle": 2,
+      "unit": "wheels (front + rear)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 2969233,
+        "firm_name": "Firm_0152"
+      },
+      "product": "Road wheel",
+      "quantity_per_vehicle": 2,
+      "unit": "wheels (front + rear)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 4831565,
+        "firm_name": "Firm_0146"
+      },
+      "product": "Seal",
+      "quantity_per_vehicle": 1,
+      "unit": "set"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 7960384,
+        "firm_name": "Firm_0154"
+      },
+      "product": "Seat",
+      "quantity_per_vehicle": 1,
+      "unit": "unit (rider + pillion saddle)",
+      "inputs": [
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 8909263,
+            "firm_name": "Firm_0307"
+          },
+          "product": "Bush",
+          "quantity_per_vehicle": 1,
+          "unit": "set"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 1232929,
+            "firm_name": "Firm_0243"
+          },
+          "product": "Coil spring",
+          "quantity_per_vehicle": 1,
+          "unit": "set (various springs)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 3418175,
+            "firm_name": "Firm_0257"
+          },
+          "product": "Die casting mold",
+          "quantity_per_vehicle": null,
+          "unit": "n/a — tooling (capital, amortized)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 2379105,
+            "firm_name": "Firm_0253"
+          },
+          "product": "Engine mount bracket",
+          "quantity_per_vehicle": 2,
+          "unit": "units (engine-to-frame mounts)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 8345589,
+            "firm_name": "Firm_0288"
+          },
+          "product": "Engine mount bracket",
+          "quantity_per_vehicle": 2,
+          "unit": "units (engine-to-frame mounts)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 7224793,
+            "firm_name": "Firm_0269"
+          },
+          "product": "Seat",
+          "quantity_per_vehicle": 1,
+          "unit": "unit (rider + pillion saddle)"
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 9092287,
+            "firm_name": "Firm_0264"
+          },
+          "product": "Seat adjustor",
+          "quantity_per_vehicle": null,
+          "unit": "n/a — motorcycle seat not adjustable",
+          "inputs": [
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 9004520,
+                "firm_name": "Firm_0316"
+              },
+              "product": "CNC machined part",
+              "quantity_per_vehicle": null,
+              "unit": "n/a — CNC machining service"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 4404667,
+                "firm_name": "Firm_0311"
+              },
+              "product": "Gear",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 6859662,
+                "firm_name": "Firm_0315"
+              },
+              "product": "Heat treatment fixture",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 4585183,
+                "firm_name": "Firm_0018"
+              },
+              "product": "Ring gear",
+              "quantity_per_vehicle": 1,
+              "unit": "unit (case + ring/pinion + spider gears)",
+              "inputs": [
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 7892767,
+                    "firm_name": "Firm_0225"
+                  },
+                  "product": "Bearing",
+                  "quantity_per_vehicle": 1,
+                  "unit": "set"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 6832175,
+                    "firm_name": "Firm_0306"
+                  },
+                  "product": "CNC machined part",
+                  "quantity_per_vehicle": null,
+                  "unit": "n/a — CNC machining service"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 9171296,
+                    "firm_name": "Firm_0194"
+                  },
+                  "product": "Clutch disc",
+                  "quantity_per_vehicle": 1,
+                  "unit": "unit"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 9362984,
+                    "firm_name": "Firm_0273"
+                  },
+                  "product": "Cold forged part",
+                  "quantity_per_vehicle": 1,
+                  "unit": "set"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 5166889,
+                    "firm_name": "Firm_0019"
+                  },
+                  "product": "Crankshaft",
+                  "quantity_per_vehicle": 1,
+                  "unit": "unit"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 7992204,
+                    "firm_name": "Firm_0242"
+                  },
+                  "product": "Crankshaft",
+                  "quantity_per_vehicle": 1,
+                  "unit": "unit"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 1589409,
+                    "firm_name": "Firm_0388"
+                  },
+                  "product": "Crown gear",
+                  "quantity_per_vehicle": 1,
+                  "unit": "unit (case + ring/pinion + spider gears)"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 8163749,
+                    "firm_name": "Firm_0233"
+                  },
+                  "product": "Differential case",
+                  "quantity_per_vehicle": 1,
+                  "unit": "unit (case + ring/pinion + spider gears)"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 7685230,
+                    "firm_name": "Firm_0241"
+                  },
+                  "product": "Differential gear",
+                  "quantity_per_vehicle": 1,
+                  "unit": "unit (case + ring/pinion + spider gears)"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 6423831,
+                    "firm_name": "Firm_0052"
+                  },
+                  "product": "Flywheel",
+                  "quantity_per_vehicle": 1,
+                  "unit": "set (clutch + DMF)"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 3399387,
+                    "firm_name": "Firm_0017"
+                  },
+                  "product": "Gear",
+                  "quantity_per_vehicle": 1,
+                  "unit": "set"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 7839793,
+                    "firm_name": "Firm_0396"
+                  },
+                  "product": "Gear",
+                  "quantity_per_vehicle": 1,
+                  "unit": "set"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 1129814,
+                    "firm_name": "Firm_0259"
+                  },
+                  "product": "Gear",
+                  "quantity_per_vehicle": 1,
+                  "unit": "set"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 9910587,
+                    "firm_name": "Firm_0232"
+                  },
+                  "product": "Gear",
+                  "quantity_per_vehicle": 1,
+                  "unit": "set"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 7049846,
+                    "firm_name": "Firm_0305"
+                  },
+                  "product": "Gear",
+                  "quantity_per_vehicle": 1,
+                  "unit": "set"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 1233779,
+                    "firm_name": "Firm_0295"
+                  },
+                  "product": "Heat treatment fixture",
+                  "quantity_per_vehicle": 1,
+                  "unit": "set"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 5626901,
+                    "firm_name": "Firm_0270"
+                  },
+                  "product": "Heat treatment fixture",
+                  "quantity_per_vehicle": 1,
+                  "unit": "set"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 3490338,
+                    "firm_name": "Firm_0250"
+                  },
+                  "product": "Injection molded automotive part",
+                  "quantity_per_vehicle": 1,
+                  "unit": "set"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 7224135,
+                    "firm_name": "Firm_0198"
+                  },
+                  "product": "Rear axle shaft",
+                  "quantity_per_vehicle": 1,
+                  "unit": "shaft (output to final drive)"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 5628456,
+                    "firm_name": "Firm_0249"
+                  },
+                  "product": "Ring gear",
+                  "quantity_per_vehicle": 1,
+                  "unit": "unit (case + ring/pinion + spider gears)"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 6847587,
+                    "firm_name": "Firm_0239"
+                  },
+                  "product": "Shaft",
+                  "quantity_per_vehicle": 1,
+                  "unit": "set"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 5535353,
+                    "firm_name": "Firm_0199"
+                  },
+                  "product": "Shaft",
+                  "quantity_per_vehicle": 1,
+                  "unit": "set"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 5450899,
+                    "firm_name": "Firm_0294"
+                  },
+                  "product": "Shaft",
+                  "quantity_per_vehicle": 1,
+                  "unit": "set"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 9619867,
+                    "firm_name": "Firm_0279"
+                  },
+                  "product": "Special purpose machine",
+                  "quantity_per_vehicle": null,
+                  "unit": "n/a — capital equipment"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 3066640,
+                    "firm_name": "Firm_0287"
+                  },
+                  "product": "Steel bar",
+                  "quantity_per_vehicle": 1,
+                  "unit": "set"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 5264211,
+                    "firm_name": "Firm_0085"
+                  },
+                  "product": "Synchronizer ring",
+                  "quantity_per_vehicle": 1,
+                  "unit": "set (one per forward gear)"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 9720710,
+                    "firm_name": "Firm_0317"
+                  },
+                  "product": "Transmission gear",
+                  "quantity_per_vehicle": 1,
+                  "unit": "set (gears + shafts + shift forks)"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 1529354,
+                    "firm_name": "Firm_0196"
+                  },
+                  "product": "Transmission gear",
+                  "quantity_per_vehicle": 1,
+                  "unit": "set (gears + shafts + shift forks)"
+                },
+                {
+                  "tier": 4,
+                  "supplier": {
+                    "firm_id": 1633701,
+                    "firm_name": "Firm_0240"
+                  },
+                  "product": "Wiper blade",
+                  "quantity_per_vehicle": 1,
+                  "unit": "set"
+                }
+              ]
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 2837675,
+                "firm_name": "Firm_0262"
+              },
+              "product": "Shaft",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 6650427,
+                "firm_name": "Firm_0280"
+              },
+              "product": "Sheet metal part",
+              "quantity_per_vehicle": 1,
+              "unit": "set"
+            },
+            {
+              "tier": 3,
+              "supplier": {
+                "firm_id": 7441038,
+                "firm_name": "Firm_0228"
+              },
+              "product": "Shift fork",
+              "quantity_per_vehicle": 1,
+              "unit": "set (gears + shafts + shift forks)"
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "supplier": {
+            "firm_id": 3406578,
+            "firm_name": "Firm_0292"
+          },
+          "product": "Sheet metal part",
+          "quantity_per_vehicle": 1,
+          "unit": "set"
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 3801395,
+        "firm_name": "Firm_0339"
+      },
+      "product": "Seat cushion",
+      "quantity_per_vehicle": 1,
+      "unit": "unit (rider saddle foam)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 6766759,
+        "firm_name": "Firm_0122"
+      },
+      "product": "Shaft",
+      "quantity_per_vehicle": 1,
+      "unit": "set"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 7472756,
+        "firm_name": "Firm_0101"
+      },
+      "product": "Sheet metal part",
+      "quantity_per_vehicle": 1,
+      "unit": "set"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 3831604,
+        "firm_name": "Firm_0144"
+      },
+      "product": "Shift fork",
+      "quantity_per_vehicle": 1,
+      "unit": "set (gears + shafts + shift forks)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 3364159,
+        "firm_name": "Firm_0058"
+      },
+      "product": "Shock absorber",
+      "quantity_per_vehicle": 2,
+      "unit": "units (front fork + rear mono-shock)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 1745697,
+        "firm_name": "Firm_0171"
+      },
+      "product": "Speedometer",
+      "quantity_per_vehicle": 1,
+      "unit": "set (speedometer + fuel gauge + indicators)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 4694425,
+        "firm_name": "Firm_0127"
+      },
+      "product": "Starter motor",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 4772345,
+        "firm_name": "Firm_0140"
+      },
+      "product": "Steel pipe",
+      "quantity_per_vehicle": 1,
+      "unit": "set"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 2330211,
+        "firm_name": "Firm_0143"
+      },
+      "product": "Transmission gear",
+      "quantity_per_vehicle": 1,
+      "unit": "set (gears + shafts + shift forks)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 7818005,
+        "firm_name": "Firm_0209"
+      },
+      "product": "Transmission gear",
+      "quantity_per_vehicle": 1,
+      "unit": "set (gears + shafts + shift forks)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 6477166,
+        "firm_name": "Firm_0210"
+      },
+      "product": "Transmission gear",
+      "quantity_per_vehicle": 1,
+      "unit": "set (gears + shafts + shift forks)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 8624593,
+        "firm_name": "Firm_0051"
+      },
+      "product": "Valve spring",
+      "quantity_per_vehicle": 2,
+      "unit": "valves (1 intake + 1 exhaust)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 4127677,
+        "firm_name": "Firm_0124"
+      },
+      "product": "Various sensors",
+      "quantity_per_vehicle": 1,
+      "unit": "set (various sensors per vehicle)"
+    },
+    {
+      "tier": 1,
+      "supplier": {
+        "firm_id": 2223173,
+        "firm_name": "Firm_0176"
+      },
+      "product": "Voltage regulator",
+      "quantity_per_vehicle": 1,
+      "unit": "unit"
+    }
+  ]
+}

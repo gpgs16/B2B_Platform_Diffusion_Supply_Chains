@@ -1,0 +1,123 @@
+firm_id,firm_name,nation_name,latitude,longitude,is_top_supplier,is_oem,tier_depth,product_catalog_common,Certifications
+1233779,Firm_0295,India,28.32237,77.36006,False,False,4,Heat treatment fixture,ISO9001
+4415380,Firm_0180,China,29.618986,106.443665,False,False,1,Crankshaft; Connecting rod; Camshaft,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+6790596,Firm_0172,China,27.90871,120.6449,False,False,1,Horn,IATF16949 (Formerly ISO/TS16949)
+3490338,Firm_0250,India,12.35579,76.60562,False,False,4,Injection molded automotive part,ISO9001
+6283079,Firm_0139,China,31.035395,112.199425,False,False,1,Engine mount bracket; Transmission case; Oil pan; Die cast part,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+6777032,Firm_0111,China,27.821201,120.693825,False,False,1,Electric connector; Terminal; Relay; Various instrument switches; Fuse / Circuit braker,ISO9001
+4788227,Firm_0245,China,35.774204,116.79597,False,False,1,Piston; Fastener,IATF16949 (Formerly ISO/TS16949)
+5535353,Firm_0199,India,28.359062,77.31952,False,False,4,Shaft; Crown gear; Gear; Clutch assembly,ISO9001
+9092287,Firm_0264,India,28.989933,79.44012,False,False,2,Interior trim; Instrument panel; HVAC module; Cooling fan module; Seat adjustor,
+3801395,Firm_0339,India,12.674943,77.76782,False,False,1,Seat cushion; Seat,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+3638530,Firm_0102,China,31.726097,119.92945,False,False,1,Bearing; Clutch release bearing; One-way clutch; Synchronizer ring,"IATF16949 (Formerly ISO/TS16949), ISO9002"
+4807980,Firm_0211,China,29.718143,106.63119,False,False,1,Speedometer; Instrument cluster; Various sensors,
+4772345,Firm_0140,China,36.39188,116.017586,False,False,1,Steel pipe,ISO9001
+7992204,Firm_0242,India,28.361744,77.319305,False,False,4,Crankshaft; Connecting rod; Fastener; Various casting,ISO9001
+1633701,Firm_0240,India,19.39421,72.863365,False,False,4,Wiper blade; Washer pump; Wiper motor,ISO9001
+8470716,Firm_0083,China,31.343714,120.71369,False,False,1,Drive chain; Chain sprocket,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+4829371,Firm_0174,China,29.712147,106.455414,False,False,1,Ignition coil; Voltage regulator,ISO9001
+3831604,Firm_0144,China,29.407318,106.343605,False,False,1,Transmission gear; Shaft; Shift fork; One-way clutch,IATF16949 (Formerly ISO/TS16949)
+1767317,Firm_0207,China,29.922844,106.49164,False,False,1,Crankshaft; Connecting rod; Cylinder block; Camshaft; Shaft,
+8439345,Firm_0223,China,36.11272,116.454575,False,False,1,Transmission gear; Final drive gear; Gear; Shaft,"IATF16949 (Formerly ISO/TS16949), ISO9001, QS9000"
+4694425,Firm_0127,China,29.580423,106.54418,False,False,1,Starter motor; Various motors; Engine ECU; CNC machined part; Alternator,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+1209379,Firm_0167,China,24.526,118.12726,False,False,1,Piston ring,"IATF16949 (Formerly ISO/TS16949), QS9000"
+5628456,Firm_0249,India,30.574413,76.904274,False,False,4,Transmission gear; Shaft; Ring gear; Gear; Clutch cover,IATF16949 (Formerly ISO/TS16949)
+7818005,Firm_0209,China,29.745342,106.47448,False,False,1,Transmission gear; Gear,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+7441038,Firm_0228,India,19.851576,75.22596,False,False,3,Shaft; Shift fork; Engine mount bracket; Clutch assembly,ISO9001
+9362984,Firm_0273,India,12.969867,80.24867,False,False,4,Shift fork; Cold forged part; CNC machined part; Joint,IATF16949 (Formerly ISO/TS16949)
+2969233,Firm_0152,China,29.34172,106.34609,False,False,1,Road wheel,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+7633573,Firm_0096,China,22.4601157,113.0334173,False,False,1,Ignition coil; Voltage regulator; Relay; Various lamps,ISO9001
+6081432,Firm_0313,India,28.368155,76.93149,False,False,1,Air cleaner; Air cleaner element; Valve; Catalytic converter,
+2051176,Firm_0115,China,27.90929,120.64613,False,False,1,Motorcycle foot peg; Sheet metal part,ISO9001
+9222494,Firm_0100,China,27.83532,120.70088,False,False,1,Carburetor,
+1529354,Firm_0196,India,19.128275,72.86748,False,False,4,Transmission gear; Differential gear; Ring gear; Shaft,ISO9001
+1624114,Firm_0042,China,29.552479,106.553185,False,False,1,Seal; Oil seal; O-ring; Gasket; Shaft,ISO9001
+4239478,Firm_0145,China,29.404537,106.343185,False,False,1,One-way clutch; Clutch assembly; Bearing,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+6847587,Firm_0239,India,19.230787,72.97408,False,False,4,Shaft; Gear; Bearing; Clutch assembly; CNC machined part,ISO9001
+2330211,Firm_0143,China,29.6494,106.45363,False,False,1,Transmission gear; Gear; Shaft; Shift fork,ISO9001
+3206302,Firm_0116,China,28.88188,121.21027,False,False,1,Motorcycle frame assembly; Sheet metal part; Wire harness,ISO9001
+7822883,Firm_0268,China,31.803247,120.24957,False,False,1,Bush; Vibration / Acoustic insulator; Grommet; Weatherstrip,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+7472756,Firm_0101,China,31.541584,120.5593,False,False,1,Sheet metal part; Engine mount bracket,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+4619104,Firm_0175,China,29.757069,106.36098,False,False,1,Engine mount bracket; CNC machined part; Transmission case,ISO9001
+9190864,Firm_0179,China,29.746164,106.47313,False,False,1,Motorcycle frame assembly,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+9720710,Firm_0317,India,28.871368,77.13188,False,False,4,Transmission gear; Clutch assembly; Shaft; Synchronizer ring; Gear,ISO9001
+5245485,Firm_0036,China,31.667257,119.93526,False,False,1,Bearing,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+5341979,Firm_0106,China,27.83533,120.70813,False,False,1,Key cylinder; Seat; Keyless entry system; Various instrument switches,
+8345589,Firm_0288,India,12.9644375,80.0865,False,False,2,Engine mount bracket; Rubber engine mount; Shift fork; Transmission case; Aluminum die cast part,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+1589409,Firm_0388,India,30.870127,75.9475,False,False,4,Crown gear; Ring gear; Differential gear; Universal joint,IATF16949 (Formerly ISO/TS16949)
+9678634,Firm_0119,China,32.198097,119.43307,False,False,1,Headlamp; Turn signal lamp; Instrument cluster,
+7581273,Firm_0039,China,22.578737,113.0819,False,False,1,Motorcycle engine cover; Crankcase; Clutch assembly; Shift fork,
+4186501,Firm_0057,China,29.50608,106.45548,False,False,1,Ignition coil; Voltage regulator; Relay; Wire harness,ISO9001
+6832175,Firm_0306,India,19.1757,73.0036,False,False,4,CNC machined part; Sheet metal part; Special purpose machine,
+8450020,Firm_0182,China,29.444452,106.48968,False,False,1,Clutch assembly; Crankshaft; Transmission gear; Clutch disc; Die cast part,ISO9001
+4159645,Firm_0035,China,31.97768,120.24311,False,False,1,Headlamp bulb; Various lamps; Turn signal lamp,ISO9001
+3399387,Firm_0017,India,19.184189,72.94015,False,False,4,Crankshaft; Connecting rod; Gear; Cold forged part; Fastener,ISO9001
+7224793,Firm_0269,India,12.751583,77.84536,False,False,2,Seat; Seat frame; Motorcycle frame assembly; Sheet metal part,ISO9001
+6477166,Firm_0210,China,29.56301,106.55156,False,False,1,Transmission gear; Gear,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+5463186,Firm_0165,China,31.139502,118.61985,False,False,1,Intake valve,ISO9001
+4602371,Firm_0138,China,29.19888,105.61296,False,False,1,Fuel tank; Injection molded automotive part; Various plastic molding,ISO9001
+7685230,Firm_0241,India,19.197601,72.94043,False,False,4,Differential gear; Transmission gear; Shaft,ISO9001
+3521750,Firm_0166,China,25.36472,118.6675,False,False,1,Piston ring,"IATF16949 (Formerly ISO/TS16949), ISO14001, QS9000"
+3364159,Firm_0058,China,29.161764,103.967964,False,False,1,Shock absorber; Steering gear,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+2540816,Firm_0177,China,29.29007,106.25928,False,False,1,Motorcycle battery,"ISO14001, ISO9001"
+9319056,Firm_0187,China,29.343222,106.42765,False,False,1,Cylinder block; Crankcase; Transmission case,IATF16949 (Formerly ISO/TS16949)
+5539505,Firm_0170,China,29.581272,106.23211,False,False,1,Intake valve,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+8525788,Firm_0098,China,23.460543,116.75546,False,False,1,Headlamp; Turn signal lamp; Optical reflector; Various lamps,ISO9001
+6678275,Firm_0185,China,29.637049,106.4135,False,False,1,Crankshaft; Connecting rod; Camshaft; Shaft; Transmission gear,IATF16949 (Formerly ISO/TS16949)
+6557742,Firm_0109,China,27.821201,120.693825,False,False,1,Gasket; Oil seal,ISO9001
+1232929,Firm_0243,India,28.366686,76.91885,False,False,2,Shock absorber; Coil spring; CNC machined part; Aluminum die cast part,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+4831565,Firm_0146,China,24.603312,118.10505,False,False,1,Seal; O-ring; Gasket; Bush; Vibration / Acoustic insulator,"IATF16949 (Formerly ISO/TS16949), ISO9002, QS9000"
+7224135,Firm_0198,India,30.846571,75.93955,False,False,4,Rear axle shaft; Cold forged part; Shaft,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+5264211,Firm_0085,India,27.203545,78.08088,False,False,4,Cylinder block; Piston; Piston ring; Connecting rod; Synchronizer ring,ISO9001
+8163749,Firm_0233,India,18.63198,73.83423,False,False,4,Differential case; Transmission case; Flywheel; Fastener,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+9910587,Firm_0232,India,28.464912,77.311356,False,False,4,Bush; Valve; Various casting; Gear,IATF16949 (Formerly ISO/TS16949)
+7007925,Firm_0208,China,29.499542,106.37715,False,False,1,Camshaft,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+9310371,Firm_0141,China,31.71144,119.84075,False,False,1,Bearing; One-way clutch; Fastener,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+6859662,Firm_0315,India,19.834543,75.24281,False,False,3,Heat treatment fixture,
+5404649,Firm_0206,China,29.470295,106.23546,False,False,1,Drive motor housing; Differential case; Shift fork; Spring,IATF16949 (Formerly ISO/TS16949)
+1745697,Firm_0171,China,31.641562,120.54437,False,False,1,Speedometer; Various sensors; Instrument cluster,ISO9001
+7705241,Firm_0002,China,30.557121,117.054596,False,False,1,Piston ring,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+7947017,Firm_0113,China,30.007153,121.13031,False,False,1,Relay; Horn; Voltage regulator,IATF16949 (Formerly ISO/TS16949)
+2286399,Firm_0205,China,29.568008,106.4185,False,False,1,Brake pipe; Hose; Fuel line; Joint,IATF16949 (Formerly ISO/TS16949)
+2381320,Firm_0046,China,35.592315,117.036994,False,False,1,Piston,"IATF16949 (Formerly ISO/TS16949), ISO9001, QS9000"
+1129814,Firm_0259,India,28.358574,77.314354,False,False,4,Connecting rod; Crankshaft; Gear; Shaft; Valve; Fastener,ISO9001
+5626901,Firm_0270,India,30.87597,75.94922,False,False,4,Heat treatment fixture; Various casting,ISO9001
+3399259,Firm_0183,China,30.37676,120.00395,False,False,1,Clutch disc; Brake pad,"IATF16949 (Formerly ISO/TS16949), ISO9001, ISO9002"
+8624593,Firm_0051,China,29.401213,106.33139,False,False,1,Valve spring; Spring,IATF16949 (Formerly ISO/TS16949)
+1563125,Firm_0097,China,22.246059,112.599646,False,False,1,Chain sprocket; Brake shoe; Control cable; Motorcycle foot peg,
+2379105,Firm_0253,India,12.976554,80.08666,False,False,2,Engine mount bracket; Transmission case,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+2916291,Firm_0103,China,34.346016,117.972916,False,False,1,Drive motor; Lithium-ion battery / Lithium-ion battery pack; Integrated electric drive system,
+1745231,Firm_0214,China,29.683453,106.780304,False,False,1,Camshaft,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+7960384,Firm_0154,India,12.933123,79.9196,False,False,1,Seat cushion; Seat; Vibration / Acoustic insulator,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+3406578,Firm_0292,India,12.724472,77.86468,False,False,2,CNC machined part; Sheet metal part; Pipe,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+7839793,Firm_0396,India,28.21223,76.78446,False,False,4,Crankshaft; Connecting rod; Gear; Shaft,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+4127677,Firm_0124,Taiwan,24.888496,121.21108,False,False,1,Various sensors; Voltage regulator; Ignition coil; Relay; Horn,"ISO14001, ISO9001, QS9000"
+3020912,Firm_0123,China,29.674997,106.29599,False,False,1,Instrument cluster; Speedometer,ISO9001
+2170980,Firm_0041,China,22.602421,113.088231,False,False,1,Exhaust pipe; Fuel tank; Motorcycle frame assembly,
+4585183,Firm_0018,India,18.925388,72.82122,True,False,3,Ring gear; Transmission gear; Shaft; Differential gear; Crown gear; Flywheel; Differential case,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+2109335,Firm_0065,China,32.31318,118.81021,False,False,1,Engine ECU; Fuel injector; Ignition coil,ISO9001
+3418175,Firm_0257,India,28.42586,77.54792,False,False,2,Die casting mold; Heat treatment fixture,
+6705113,Firm_0089,China,31.938955,118.91601,False,False,1,Carburetor; Fuel injector; Fuel filter,"IATF16949 (Formerly ISO/TS16949), ISO14001"
+4404667,Firm_0311,India,19.851639,75.20743,False,False,3,Gear; Differential gear; Shaft; Final drive gear; One-way clutch,ISO9001
+9004520,Firm_0316,India,19.842955,75.233315,False,False,3,Transmission gear; Shaft; Sheet metal part; CNC machined part,ISO9001
+5166889,Firm_0019,India,30.854319,75.93104,False,False,4,Crankshaft; Differential case; Connecting rod; Suspension system,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+9171296,Firm_0194,India,28.330843,77.350204,False,False,4,Clutch disc; Clutch cover; Clutch release bearing; Flywheel; Brake lining,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001"
+6528072,Firm_0219,China,29.55789,106.21525,False,False,1,Crankshaft; Camshaft; Cylinder block; Shaft,ISO9001
+7892767,Firm_0225,India,28.382126,77.30296,False,False,4,Bearing; Bush,ISO9001
+3066640,Firm_0287,India,30.884562,75.89783,False,False,4,Steel bar; Spring; Tire,IATF16949 (Formerly ISO/TS16949)
+9619867,Firm_0279,India,28.349707,77.302216,False,False,4,Special purpose machine,
+2837675,Firm_0262,India,18.786362,74.293015,False,False,3,Connecting rod; Crankshaft; Shaft; Shift fork,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+5450899,Firm_0294,India,28.336205,77.306595,False,False,4,Shaft; Synchronizer ring; Gear; Bearing; Chain sprocket,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+2372532,Firm_0110,China,28.13593,121.231804,False,False,1,Brake master cylinder; Brake caliper; Brake disc; ABS,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+6423831,Firm_0052,India,28.330774,77.32593,False,False,4,Exhaust manifold; Flywheel; Transmission case; Shaft,"IATF16949 (Formerly ISO/TS16949), ISO14001, ISO9001, QS9000"
+4348319,Firm_0120,China,29.563814,106.2181,False,False,1,Manual transmission; Transmission gear; Shaft; Transmission case; Cylinder block,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+2223173,Firm_0176,China,29.479336,106.65382,False,False,1,Ignition coil; Voltage regulator; Relay; Starter motor,ISO9001
+9116605,Firm_0169,China,29.62536,106.64597,False,False,1,Oil pump; Brake booster; Valve; Alternator; Vacuum pump; Transmission case,"IATF16949 (Formerly ISO/TS16949), ISO9001"
+8909263,Firm_0307,India,19.109608,72.88657,False,False,2,Shaft; Gear; CNC machined part; Fastener; Bush,
+7049846,Firm_0305,India,19.090153,73.01782,False,False,4,Crankshaft; Connecting rod; Gear; Fastener; Cold forged part,
+1647183,Firm_0121,China,30.327717,107.33339,False,False,1,Road wheel,IATF16949 (Formerly ISO/TS16949)
+2161326,Firm_0212,China,29.56301,106.55156,False,False,1,Cylinder block; Transmission case; Crankcase,
+6766759,Firm_0122,China,29.722454,106.62912,False,False,1,Shaft; Gear; Bearing; Intake valve,ISO9001
+6650427,Firm_0280,India,19.840914,75.205734,False,False,3,Sheet metal part; Fastener; Terminal,ISO9001
+6289784,Firm_0236,China,29.309563,106.401276,False,False,1,Motorcycle frame assembly; Sheet metal part; Body reinforcement parts,
+8606597,Firm_0399,,,,,True,0,,

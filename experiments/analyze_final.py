@@ -2,11 +2,13 @@
 Analysis script for final report.
 Generates focused figures and summary statistics.
 
-Sensitivity experiments S1–S18 + Hypotheses H1, H2a/b, H3.
+Sensitivity experiments S1–S18 + Hypotheses H1, generalized H2, H3.
 """
 
 import json
 import os
+from collections import defaultdict
+
 import numpy as np
 import matplotlib
 matplotlib.use("Agg")
@@ -36,8 +38,11 @@ GRAY = "#9E9E9E"
 DARK = "#212121"
 LIGHT_BG = "#FAFAFA"
 PURPLE = "#7B1FA2"
+TEAL = "#00897B"
+LIGHT_BLUE = "#90CAF9"
 
 ROI_HORIZON = 12  # Matches BASELINE in run_final.py
+H1_DOMINANCE_THRESHOLD = 0.60
 
 
 def load(filename):
@@ -50,6 +55,94 @@ def savefig(name):
     plt.savefig(path, bbox_inches="tight", facecolor="white")
     plt.close()
     print(f"  Saved: {path}")
+
+
+def _local_hhi(share_a, share_b, share_bilateral):
+    return share_a ** 2 + share_b ** 2 + share_bilateral ** 2
+
+
+def _dominance_state(share_a, share_b, share_bilateral):
+    """Return the dominant state label and its share for a community."""
+    shares = {
+        "A": share_a,
+        "B": share_b,
+        "bilateral": share_bilateral,
+    }
+    dominant = max(shares, key=shares.get)
+    return dominant, shares[dominant]
+
+
+def _extract_target_share(result, target_cid):
+    shares = result["final_community_shares"].get(str(target_cid), {})
+    return shares.get("A", 0.0), shares.get("B", 0.0), shares.get("bilateral", 0.0)
+
+
+def _mean_confint(values):
+    arr = np.asarray(values, dtype=float)
+    mean = float(np.mean(arr)) if len(arr) else 0.0
+    ci = 1.96 * float(np.std(arr)) / np.sqrt(len(arr)) if len(arr) else 0.0
+    return mean, ci
+
+
+def _h1_community_stats(h1_results):
+    valid = [r for r in h1_results if "error" not in r]
+    if not valid:
+        return [], {}, {}, []
+
+    cids = sorted(int(cid) for cid in valid[0]["final_community_shares"].keys())
+    dominance_values = {
+        cid: {"A": [], "B": [], "bilateral": []}
+        for cid in cids
+    }
+    dominance_counts = {
+        cid: {"A": 0, "B": 0, "bilateral": 0}
+        for cid in cids
+    }
+    local_hhi_values = {cid: [] for cid in cids}
+    network_hhi_values = []
+
+    for result in valid:
+        network_hhi_values.append(float(result["final_hhi"]))
+        for cid in cids:
+            share_a, share_b, share_bilateral = _extract_target_share(result, cid)
+            dom, dom_share = _dominance_state(share_a, share_b, share_bilateral)
+            dominance_counts[cid][dom] += 1
+            dominance_values[cid][dom].append(dom_share)
+            local_hhi_values[cid].append(_local_hhi(share_a, share_b, share_bilateral))
+
+    return cids, dominance_values, dominance_counts, local_hhi_values, network_hhi_values
+
+
+def _h1_dominance_composition_stats(h1_results):
+    """Collect mean adoption composition conditional on dominant state."""
+    valid = [r for r in h1_results if "error" not in r]
+    if not valid:
+        return [], {}, {}
+
+    cids = sorted(int(cid) for cid in valid[0]["final_community_shares"].keys())
+    composition = {
+        cid: {
+            "A": {"A": [], "B": [], "bilateral": []},
+            "B": {"A": [], "B": [], "bilateral": []},
+            "bilateral": {"A": [], "B": [], "bilateral": []},
+        }
+        for cid in cids
+    }
+    counts = {
+        cid: {"A": 0, "B": 0, "bilateral": 0}
+        for cid in cids
+    }
+
+    for result in valid:
+        for cid in cids:
+            share_a, share_b, share_bilateral = _extract_target_share(result, cid)
+            dom, _ = _dominance_state(share_a, share_b, share_bilateral)
+            counts[cid][dom] += 1
+            composition[cid][dom]["A"].append(share_a)
+            composition[cid][dom]["B"].append(share_b)
+            composition[cid][dom]["bilateral"].append(share_bilateral)
+
+    return cids, composition, counts
 
 
 def extract_adoption(data, sort_fn):
@@ -364,61 +457,233 @@ def fig_diagnostic_cost_breakdown():
 
 
 # ══════════════════════════════════════════════════════════════════════
-# FIGURE: H1 — Coexistence Community Shares
+# FIGURE 5: H1 — Dominance-State Shares
 # ══════════════════════════════════════════════════════════════════════
 
-def fig_h1_coexistence():
-    """Stacked bar showing A/B/bilateral split by community from H1."""
+def fig_h1_dominance_shares():
+    """H1: For each community, show composition under each dominant state."""
     h1 = load("h1_coexistence.json")
-    valid = [r for r in h1 if "error" not in r]
+    cids, composition, dominance_counts = _h1_dominance_composition_stats(h1)
+    if not cids:
+        return
 
-    # Aggregate community shares across seeds
-    comm_a, comm_b = {}, {}
-    for r in valid:
-        shares = r["final_community_shares"]
-        for cid, platforms in shares.items():
-            if cid not in comm_a:
-                comm_a[cid] = []
-                comm_b[cid] = []
-            comm_a[cid].append(platforms.get("A", 0))
-            comm_b[cid].append(platforms.get("B", 0))
+    categories = [
+        ("A", BLUE, "A dominant"),
+        ("B", RED, "B dominant"),
+        ("bilateral", GRAY, "Bilateral dominant"),
+    ]
+    state_order = ["A", "B", "bilateral"]
+    bar_w = 0.34
+    gap = 0.08
+    group_step = 3 * bar_w + gap
+    freq_by_state = {
+        cid: {state: 100.0 * dominance_counts[cid][state] / max(sum(dominance_counts[cid].values()), 1)
+              for state, _, _ in categories}
+        for cid in cids
+    }
 
-    cids = sorted(comm_a.keys(), key=lambda k: int(k))
-    labels = [f"C{c}" for c in cids]
-    a_means = [np.mean(comm_a[c]) for c in cids]
-    b_means = [np.mean(comm_b[c]) for c in cids]
-    bilateral_means = [max(0, 1.0 - a - b) for a, b in zip(a_means, b_means)]
+    fig, ax = plt.subplots(figsize=(max(14, len(cids) * 1.35), 9.0))
+    state_offset = {"A": -bar_w, "B": 0.0, "bilateral": bar_w}
 
-    fig, ax = plt.subplots(figsize=(10, 5))
-    x = np.arange(len(labels))
+    for state, color, label in categories:
+        for idx, cid in enumerate(cids):
+            shares = composition[cid][state]
+            means = {
+                "A": float(np.mean(shares["A"])) if shares["A"] else 0.0,
+                "B": float(np.mean(shares["B"])) if shares["B"] else 0.0,
+                "bilateral": float(np.mean(shares["bilateral"])) if shares["bilateral"] else 0.0,
+            }
+            x = idx * group_step + state_offset[state]
+            total_freq = freq_by_state[cid][state]
+            part_colors = {"A": BLUE, "B": RED, "bilateral": GRAY}
+            ordered_parts = [state] + sorted(
+                [s for s in state_order if s != state],
+                key=lambda s: means[s],
+                reverse=True,
+            )
+            stack_bottom = 0.0
+            for part_state in ordered_parts:
+                part = means[part_state]
+                if part <= 0:
+                    continue
+                ax.bar(
+                    x,
+                    part,
+                    bottom=stack_bottom,
+                    width=bar_w * 0.86,
+                    color=part_colors[part_state],
+                    alpha=0.88,
+                    edgecolor="white",
+                )
+                if part >= 0.10:
+                    ax.text(
+                        x,
+                        stack_bottom + part / 2,
+                        f"{part:.2f}",
+                        ha="center",
+                        va="center",
+                        fontsize=11,
+                        color="white",
+                        fontweight="bold",
+                        rotation=90,
+                    )
+                stack_bottom += part
 
-    ax.bar(x, a_means, color=BLUE, alpha=0.8, label="Platform A", edgecolor="white")
-    ax.bar(x, b_means, bottom=a_means, color=RED, alpha=0.8, label="Platform B", edgecolor="white")
-    ax.bar(x, bilateral_means, bottom=[a + b for a, b in zip(a_means, b_means)],
-           color=GRAY, alpha=0.4, label="Bilateral", edgecolor="white")
+            ax.text(
+                x,
+                1.03,
+                f"{total_freq:.0f}% {state}",
+                ha="center",
+                va="bottom",
+                fontsize=12,
+                color=DARK,
+                rotation=90,
+                fontweight="bold",
+            )
 
-    # Annotate total adoption above each bar
-    for i, (a, b, bi) in enumerate(zip(a_means, b_means, bilateral_means)):
-        total_adopt = a + b
-        ax.text(i, a + b + bi + 0.02, f"{total_adopt:.0%}",
-                ha="center", va="bottom", fontsize=8, fontweight="bold", color=DARK)
-
-    ax.set_xticks(x)
-    ax.set_xticklabels(labels)
-    ax.set_ylabel("Fraction of Community Firms")
-    ax.set_title("H1: Community-Level Platform Shares (gray = bilateral retention)")
-    ax.legend(loc="upper right")
-    ax.set_ylim(0, 1.20)
+    tick_positions = [idx * group_step for idx in range(len(cids))]
+    ax.set_xticks(tick_positions)
+    ax.set_xticklabels([f"C{cid}" for cid in cids])
+    ax.set_ylabel("Mean adoption share within dominant-state subset (fraction)", fontsize=15)
+    ax.set_xlabel("Community", fontsize=15)
+    ax.tick_params(axis="both", labelsize=13)
+    ax.set_ylim(0, 1.15)
+    ax.set_xlim(min(tick_positions) - 0.5, max(tick_positions) + 0.5)
+    for boundary in range(len(cids) - 1):
+        x_sep = (tick_positions[boundary] + tick_positions[boundary + 1]) / 2
+        ax.axvline(x_sep, color=GRAY, linestyle=":", linewidth=1.0, alpha=0.6)
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
 
-    # Add HHI annotation
-    hhis = [r["final_hhi"] for r in valid]
-    ax.text(0.02, 0.95, f"Mean HHI = {np.mean(hhis):.2f} ± {np.std(hhis):.2f}",
-            transform=ax.transAxes, fontsize=10, va="top",
-            bbox=dict(boxstyle="round,pad=0.3", facecolor=LIGHT_BG, edgecolor=GRAY))
+    savefig("fig5_h1_dominance_shares.png")
 
-    savefig("fig5_h1_coexistence.png")
+
+# ══════════════════════════════════════════════════════════════════════
+# FIGURE 6: H2 — Generalized Lock-In Across Communities
+# ══════════════════════════════════════════════════════════════════════
+
+H2_EXCLUDED_COMMUNITIES = {0, 2, 12}
+H2_GENERAL_TARGET_COMMUNITIES = [cid for cid in range(13) if cid not in H2_EXCLUDED_COMMUNITIES]
+H2_GENERAL_SEEDINGS = [5, 10, 15, 20]
+H2_GENERAL_GAPS = [5]
+
+
+def _h2_generalized_stats():
+    data = load("h2_generalized.json")
+    stats = {}
+    for seed_pct in H2_GENERAL_SEEDINGS:
+        for gap_pp in H2_GENERAL_GAPS:
+            for cid in H2_GENERAL_TARGET_COMMUNITIES:
+                key = f"C{cid}_pct{seed_pct}_gap{gap_pp}pp"
+                results = data.get(key, [])
+                valid = [r for r in results if "error" not in r]
+                if not valid:
+                    continue
+                a_vals = []
+                b_vals = []
+                bilateral_vals = []
+                for r in valid:
+                    shares = r["final_community_shares"].get(str(cid), {})
+                    a_vals.append(shares.get("A", 0.0))
+                    b_vals.append(shares.get("B", 0.0))
+                    bilateral_vals.append(shares.get("bilateral", 0.0))
+                stats.setdefault((seed_pct, gap_pp), {})[cid] = {
+                    "A": float(np.mean(a_vals)),
+                    "B": float(np.mean(b_vals)),
+                    "bilateral": float(np.mean(bilateral_vals)),
+                }
+    return stats
+
+
+def fig_h2_generalized_lockin():
+    """H2: Generalized lock-in across all non-bilateral-dominant communities."""
+    stats = _h2_generalized_stats()
+    if not stats:
+        return
+
+    panels = [
+        (5, 5, "5% seeding, 5pp gap"),
+        (10, 5, "10% seeding, 5pp gap"),
+        (15, 5, "15% seeding, 5pp gap"),
+        (20, 5, "20% seeding, 5pp gap"),
+    ]
+
+    fig, axes = plt.subplots(2, 2, figsize=(18, 12), sharey=True)
+    axes = axes.flatten()
+    part_colors = {"A": BLUE, "B": RED, "bilateral": GRAY}
+    part_order = ["A", "B", "bilateral"]
+
+    for ax, (seed_pct, gap_pp, title) in zip(axes, panels):
+        panel_stats = stats.get((seed_pct, gap_pp), {})
+        bar_w = 0.68
+
+        for i, cid in enumerate(H2_GENERAL_TARGET_COMMUNITIES):
+            shares = panel_stats.get(cid, {"A": 0.0, "B": 0.0, "bilateral": 0.0})
+            bottom = 0.0
+            ordered_parts = sorted(part_order, key=lambda s: shares[s], reverse=True)
+            for part in ordered_parts:
+                val = shares[part]
+                if val <= 0:
+                    continue
+                ax.bar(
+                    i,
+                    val,
+                    bottom=bottom,
+                    width=bar_w,
+                    color=part_colors[part],
+                    alpha=0.88,
+                    edgecolor="white",
+                    label=part if i == 0 and ax is axes[0] else "_nolegend_",
+                )
+                if val >= 0.10:
+                    ax.text(
+                        i,
+                        bottom + val / 2,
+                        f"{val:.2f}",
+                        ha="center",
+                        va="center",
+                        fontsize=15,
+                        color="white",
+                        fontweight="bold",
+                        rotation=90,
+                    )
+                bottom += val
+
+            ax.text(
+                i,
+                min(1.03, bottom + 0.03),
+                f"C{cid}",
+                ha="center",
+                va="bottom",
+                fontsize=15,
+                rotation=90,
+                color=DARK,
+                fontweight="bold",
+            )
+
+        for boundary in range(len(H2_GENERAL_TARGET_COMMUNITIES) - 1):
+            ax.axvline(boundary + 0.5, color=GRAY, linestyle=":", linewidth=0.9, alpha=0.55)
+
+        ax.set_ylim(0, 1.12)
+        ax.set_xlim(-0.6, len(H2_GENERAL_TARGET_COMMUNITIES) - 0.4)
+        ax.set_xticks([])
+        ax.spines["top"].set_visible(False)
+        ax.spines["right"].set_visible(False)
+
+    axes[0].set_ylabel("Adoption share (fraction)", fontsize=18)
+    axes[2].set_ylabel("Adoption share (fraction)", fontsize=18)
+    axes[2].set_xlabel("Community", fontsize=18)
+    axes[3].set_xlabel("Community", fontsize=18)
+    for ax in axes:
+        ax.tick_params(axis="both", labelsize=16)
+    handles = [
+        plt.Rectangle((0, 0), 1, 1, color=BLUE, alpha=0.88),
+        plt.Rectangle((0, 0), 1, 1, color=RED, alpha=0.88),
+        plt.Rectangle((0, 0), 1, 1, color=GRAY, alpha=0.88),
+    ]
+    fig.legend(handles, ["A", "B", "Bilateral"], loc="upper center", ncol=3, frameon=False, fontsize=16)
+    plt.tight_layout(rect=(0, 0, 1, 0.98))
+    savefig("fig6_h2_generalized_lockin.png")
 
 
 # ══════════════════════════════════════════════════════════════════════
@@ -639,39 +904,62 @@ def compute_summary():
     # H1 summary
     h1 = load("h1_coexistence.json")
     valid = [r for r in h1 if "error" not in r]
+    cids, dominance_values, dominance_counts, local_hhi_values, network_hhi_values = _h1_community_stats(h1)
+
+    dominance_summary = {}
+    hhi_summary = {}
+    for cid in cids:
+        dominance_summary[f"C{cid}"] = {}
+        for cat in ["A", "B", "bilateral"]:
+            mean, ci = _mean_confint(dominance_values[cid][cat])
+            count = len(dominance_values[cid][cat])
+            dominance_summary[f"C{cid}"][cat] = {
+                "count": count,
+                "mean": round(mean, 3),
+                "ci": round(ci, 3),
+            }
+        mean_hhi, ci_hhi = _mean_confint(local_hhi_values[cid])
+        hhi_summary[f"C{cid}"] = {
+            "mean": round(mean_hhi, 3),
+            "ci": round(ci_hhi, 3),
+            "dominance_counts": dominance_counts[cid],
+        }
+
+    network_mean, network_ci = _mean_confint(network_hhi_values)
     summary["h1"] = {
         "n_runs": len(valid),
         "adoption_a": f"{np.mean([r['final_adoption_a'] for r in valid]):.3f} ± {np.std([r['final_adoption_a'] for r in valid]):.3f}",
         "adoption_b": f"{np.mean([r['final_adoption_b'] for r in valid]):.3f} ± {np.std([r['final_adoption_b'] for r in valid]):.3f}",
         "total_adoption": f"{np.mean([r['final_adoption_a']+r['final_adoption_b'] for r in valid]):.3f} ± {np.std([r['final_adoption_a']+r['final_adoption_b'] for r in valid]):.3f}",
-        "hhi": f"{np.mean([r['final_hhi'] for r in valid]):.3f} ± {np.std([r['final_hhi'] for r in valid]):.3f}",
+        "dominance_conditioned_shares": dominance_summary,
+        "community_hhi": hhi_summary,
+        "network_hhi": {
+            "mean": round(network_mean, 3),
+            "ci": round(network_ci, 3),
+        },
     }
 
-    # H2a summary
-    h2a = load("h2a_seeding_sweep.json")
-    h2a_summary = {}
-    for key, results in h2a.items():
+    # H2 generalized summary
+    h2 = load("h2_generalized.json")
+    h2_summary = {}
+    for key, results in h2.items():
         valid = [r for r in results if "error" not in r]
         if valid:
-            h2a_summary[key] = {
-                "adoption_a": round(np.mean([r["final_adoption_a"] for r in valid]), 3),
-                "adoption_b": round(np.mean([r["final_adoption_b"] for r in valid]), 3),
-                "hhi": round(np.mean([r["final_hhi"] for r in valid]), 3),
+            target_cid = int(key.split("_")[0][1:])
+            a_target = []
+            b_target = []
+            bilateral_target = []
+            for r in valid:
+                shares = r["final_community_shares"].get(str(target_cid), {})
+                a_target.append(shares.get("A", 0.0))
+                b_target.append(shares.get("B", 0.0))
+                bilateral_target.append(shares.get("bilateral", 0.0))
+            h2_summary[key] = {
+                "adoption_a": round(float(np.mean(a_target)), 3),
+                "adoption_b": round(float(np.mean(b_target)), 3),
+                "bilateral": round(float(np.mean(bilateral_target)), 3),
             }
-    summary["h2a_seeding_sweep"] = h2a_summary
-
-    # H2b summary
-    h2b = load("h2b_cost_gap_sweep.json")
-    h2b_summary = {}
-    for key, results in h2b.items():
-        valid = [r for r in results if "error" not in r]
-        if valid:
-            h2b_summary[key] = {
-                "adoption_a": round(np.mean([r["final_adoption_a"] for r in valid]), 3),
-                "adoption_b": round(np.mean([r["final_adoption_b"] for r in valid]), 3),
-                "hhi": round(np.mean([r["final_hhi"] for r in valid]), 3),
-            }
-    summary["h2b_cost_gap_sweep"] = h2b_summary
+    summary["h2_generalized"] = h2_summary
 
     # H3 summary
     h3 = load("h3_disruption.json")
@@ -709,9 +997,8 @@ if __name__ == "__main__":
     fig_sa_group_d()
     fig_sa_group_e()
     fig_diagnostic_cost_breakdown()
-    fig_h1_coexistence()
-    fig_h2a_seeding_sweep()
-    fig_h2b_cost_gap_sweep()
+    fig_h1_dominance_shares()
+    fig_h2_generalized_lockin()
     fig_h3_disruption()
     print("\nComputing summary statistics...")
     compute_summary()

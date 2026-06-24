@@ -17,7 +17,9 @@ venv/
 
 # Local outputs and large artifacts (excluded by request)
 abm_output/
-input_data/
+input_data/*
+!input_data/synthetic_data/
+!input_data/synthetic_data/**
 papers/
 experiments/FINAL_REPORT.md
 experiments/figures/
